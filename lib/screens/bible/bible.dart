@@ -2,14 +2,14 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 
-class BiblePage extends StatefulWidget {
+class KjvBible extends StatefulWidget {
   //const BiblePage({Key key}) : super(key: key);
 
   @override
-  _BiblePageState createState() => _BiblePageState();
+  _KjvBibleState createState() => _KjvBibleState();
 }
 
-class _BiblePageState extends State<BiblePage> {
+class _KjvBibleState extends State<KjvBible> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,7 +18,7 @@ class _BiblePageState extends State<BiblePage> {
         ),
         body: Center(
           child: FutureBuilder(
-            
+
             future: DefaultAssetBundle.of(context)
                 .loadString('assets/bible.json'),
             builder: (context, snapshot) {
