@@ -10,6 +10,8 @@ class KjvBible extends StatefulWidget {
 }
 
 class _KjvBibleState extends State<KjvBible> {
+  List data;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

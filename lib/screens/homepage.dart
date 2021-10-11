@@ -50,7 +50,7 @@ class _HomepageState extends State<Homepage> {
                           //Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
                           Image.asset(
                             'assets/moder2.jpeg',
-                            height: 130,
+                            height: 100,
                             width: 130,
                             fit: BoxFit.contain,
                           ),
@@ -82,7 +82,7 @@ class _HomepageState extends State<Homepage> {
                           //Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
                           Image.asset(
                             'assets/ajah.jpg',
-                            height: 130,
+                            height: 100,
                             width: 130,
                             fit: BoxFit.contain,
                           ),

@@ -1,4 +1,4 @@
-package com.example.rchmain
+package com.pcn_erp.main
 
 import io.flutter.embedding.android.FlutterActivity
 
