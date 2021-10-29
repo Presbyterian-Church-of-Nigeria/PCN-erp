@@ -47,8 +47,8 @@ class _KjvBibleState extends State<KjvBible> {
                                 //          builder: (_) => Welcome()));
                                 //},
                                 child: Text(
-                                  newData[index]['Book'],
-                                  //'Note Title',
+                                  //newData[index]['Book'],
+                                  'Coming Soon',
                                   style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 22),

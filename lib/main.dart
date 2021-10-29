@@ -67,6 +67,7 @@ void main() async {
         bodyText2: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),
       ),
     ),
+    debugShowCheckedModeBanner: false,
     home: Homepage(),
   ));
 }

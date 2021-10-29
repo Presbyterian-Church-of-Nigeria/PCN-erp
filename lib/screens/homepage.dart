@@ -5,7 +5,9 @@ import 'package:pcn_erp/nav/nav.dart';
 import 'package:pcn_erp/screens/almanc.dart';
 import 'package:pcn_erp/screens/bible/bible.dart';
 import 'package:pcn_erp/screens/blue_book.dart';
-import 'package:pcn_erp/screens/moderator.dart';
+import 'package:pcn_erp/screens/book_of_service.dart';
+import 'package:pcn_erp/screens/church_leadership.dart';
+//import 'package:pcn_erp/screens/moderator.dart';
 import 'package:pcn_erp/screens/pnp.dart';
 //import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
@@ -38,7 +40,7 @@ class _HomepageState extends State<Homepage> {
                   InkWell(
                     onTap: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => Mod()));
+                          MaterialPageRoute(builder: (context) => church_leaders()));
                     },
                     child: Container(
                       decoration: BoxDecoration(
@@ -50,51 +52,19 @@ class _HomepageState extends State<Homepage> {
                           //Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
                           Image.asset(
                             'assets/moder2.jpeg',
-                            height: 100,
+                         //   height: 100,
                             width: 130,
                             fit: BoxFit.contain,
                           ),
                           Text(
-                            "Moderator",
+                            "Church Leadership",
                             style: TextStyle(color: Colors.white, fontSize: 20),
                           )
                         ],
                       ),
                     ),
                   ),
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => PcGa()));
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.lime),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          //decoration: BoxDecoration(
-                          //  color: Colors.white,
-                          //image: DecorationImage(
-                          //Image(semanticLabel: "assets/pcnlogo1.jpg"),
-                          //fit: BoxFit.cover)),
-                          //Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
-                          Image.asset(
-                            'assets/ajah.jpg',
-                            height: 100,
-                            width: 130,
-                            fit: BoxFit.contain,
-                          ),
 
-                          Text(
-                            "PC of GA",
-                            style: TextStyle(color: Colors.white, fontSize: 20),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
                   InkWell(
                     onTap: () {
                       Navigator.push(context,
@@ -103,7 +73,7 @@ class _HomepageState extends State<Homepage> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Colors.lightGreen),
+                          color: Colors.cyanAccent),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -128,7 +98,7 @@ class _HomepageState extends State<Homepage> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Colors.blue),
+                          color: Colors.black26),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -148,12 +118,37 @@ class _HomepageState extends State<Homepage> {
                   InkWell(
                     onTap: () {
                       Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => BookService()));
+                    },
+                    child: Container(
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Colors.yellow),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(
+                            Icons.import_contacts_outlined,
+                            size: 40,
+                            color: Colors.white,
+                          ),
+                          Text(
+                            "Book of Service",
+                            style: TextStyle(color: Colors.white, fontSize: 20),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                  InkWell(
+                    onTap: () {
+                      Navigator.push(context,
                           MaterialPageRoute(builder: (context) => Bluebook()));
                     },
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Colors.black26),
+                          color: Colors.blue),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -178,7 +173,7 @@ class _HomepageState extends State<Homepage> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Colors.cyanAccent),
+                          color: Colors.lightGreen),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -228,7 +223,7 @@ class _HomepageState extends State<Homepage> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Colors.blue),
+                          color: Colors.lightBlueAccent),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [

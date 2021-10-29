@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:pcn_erp/screens/almanc.dart';
+import 'package:pcn_erp/screens/bible/bible.dart';
+import 'package:pcn_erp/screens/blue_book.dart';
+import 'package:pcn_erp/screens/church_leadership.dart';
 import 'package:pcn_erp/screens/homepage.dart';
 import 'package:pcn_erp/screens/hymnal/hymn_home.dart';
-import 'package:pcn_erp/screens/moderator.dart';
+//import 'package:pcn_erp/screens/moderator.dart';
 import 'package:pcn_erp/screens/pc_ga.dart';
+import 'package:pcn_erp/screens/pnp.dart';
 
  class Navbar extends StatefulWidget {
    const Navbar({ key }) : super(key: key);
@@ -34,10 +39,10 @@ import 'package:pcn_erp/screens/pc_ga.dart';
                   Navigator.push(context, MaterialPageRoute(builder: (context)=> Homepage()));
                 }),
             ListTile(
-              title: Text("Moderator of General Assembly"),
+              title: Text("Church Leadership"),
               leading: Icon(Icons.person),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> Mod()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> church_leaders()));
                 // _displayFavoritesPage(context);
               },
             ),
@@ -59,28 +64,28 @@ import 'package:pcn_erp/screens/pc_ga.dart';
                 title: Text("Bible"),
                 leading: Icon(Icons.auto_stories),
                 onTap: () {
-                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> Homepage()));
+                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> KjvBible()));
                   // _displayLanguagesPage(context);
                 }),
             ListTile(
                 title: Text("Practice & Procedure"),
                 leading: Icon(Icons.bookmark),
                 onTap: () {
-                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> Homepage()));
+                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> Pnp()));
                   // _displayLanguagesPage(context);
                 }),
             ListTile(
                 title: Text("The Blue Book"),
                 leading: Icon(Icons.bookmark),
                 onTap: () {
-                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> Homepage()));
+                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> Bluebook()));
                   // _displayLanguagesPage(context);
                 }),
             ListTile(
                 title: Text("Approved Dates 2021"),
                 leading: Icon(Icons.calendar_today),
                 onTap: () {
-                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> Homepage()));
+                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> Almanc()));
                   // _displayLanguagesPage(context);
                 }),
           
