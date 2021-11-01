@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:pcn_erp/screens/moderator.dart';
 import 'package:pcn_erp/screens/pc_ga.dart';
@@ -6,12 +7,12 @@ import 'package:pcn_erp/screens/pc_ga.dart';
 
 
 /// Represents Homepage for Navigation
-class church_leaders extends StatefulWidget {
+class ChurchLeaders extends StatefulWidget {
   @override
-  _church_leaders createState() => _church_leaders();
+  _ChurchLeaders createState() => _ChurchLeaders();
 }
 
-class _church_leaders extends State<church_leaders> {
+class _ChurchLeaders extends State<ChurchLeaders> {
   //final GlobalKey<SfPdfViewerState> _pdfViewerKey = GlobalKey();
 
   @override
@@ -50,7 +51,7 @@ class _church_leaders extends State<church_leaders> {
                             fit: BoxFit.contain,
                           ),
                           Text(
-                            "The Prelate & Moderator",
+                            "Prelate & Moderator", textAlign: TextAlign.center,
                             style: TextStyle(color: Colors.white, fontSize: 20),
                           )
                         ],
@@ -110,13 +111,13 @@ class _church_leaders extends State<church_leaders> {
                           //Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
                           Image.asset(
                             'assets/rev_s_okoro.jpeg',
-                            height: 120,
+                            height: 100,
                             width: 130,
                             fit: BoxFit.contain,
                           ),
 
                           Text(
-                            "Deputy Principal Clerk",
+                            "Deputy Principal Clerk", textAlign: TextAlign.center,
                             style: TextStyle(color: Colors.white, fontSize: 20),
                           )
                         ],

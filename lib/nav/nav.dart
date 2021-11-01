@@ -7,7 +7,7 @@ import 'package:pcn_erp/screens/church_leadership.dart';
 import 'package:pcn_erp/screens/homepage.dart';
 import 'package:pcn_erp/screens/hymnal/hymn_home.dart';
 //import 'package:pcn_erp/screens/moderator.dart';
-import 'package:pcn_erp/screens/pc_ga.dart';
+//import 'package:pcn_erp/screens/pc_ga.dart';
 import 'package:pcn_erp/screens/pnp.dart';
 
  class Navbar extends StatefulWidget {
@@ -42,17 +42,17 @@ import 'package:pcn_erp/screens/pnp.dart';
               title: Text("Church Leadership"),
               leading: Icon(Icons.person),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> church_leaders()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> ChurchLeaders()));
                 // _displayFavoritesPage(context);
               },
             ),
-            ListTile(
-                title: Text("PC of General Assembly"),
-                leading: Icon(Icons.person),
-                onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> PcGa()));
+          //  ListTile(
+            //    title: Text("PC of General Assembly"),
+            //    leading: Icon(Icons.person),
+            //    onTap: () {
+           //       Navigator.push(context, MaterialPageRoute(builder: (context)=> PcGa()));
                   // _displayLanguagesPage(context);
-                }),
+            //    }),
             ListTile(
                 title: Text("Hymnal"),
                 leading: Icon(Icons.menu_book),

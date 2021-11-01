@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 //import 'package:pcn_erp/routes/routes.dart';
@@ -15,7 +17,7 @@ import '../nav/nav.dart';
 import 'bible/bible.dart';
 import 'hymnal/hymn_home.dart';
 import 'mychurch.dart';
-import 'pc_ga.dart';
+//import 'pc_ga.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({Key key}) : super(key: key);
@@ -40,7 +42,7 @@ class _HomepageState extends State<Homepage> {
                   InkWell(
                     onTap: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => church_leaders()));
+                          MaterialPageRoute(builder: (context) => ChurchLeaders()));
                     },
                     child: Container(
                       decoration: BoxDecoration(
@@ -57,7 +59,7 @@ class _HomepageState extends State<Homepage> {
                             fit: BoxFit.contain,
                           ),
                           Text(
-                            "Church Leadership",
+                            "Church Leadership", textAlign: TextAlign.center,
                             style: TextStyle(color: Colors.white, fontSize: 20),
                           )
                         ],
