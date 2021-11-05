@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:freebible/models/dao/db_helper.dart';
-import 'package:freebible/models/entity.dart';
+import 'package:pcn_erp/bible/models/dao/db_helper.dart';
+import 'package:pcn_erp/bible/models/entity.dart';
 import 'package:sqflite/sqflite.dart';
 
 // Data Access Object (by R. Lecheta - https://github.com/rlechetaudemy)

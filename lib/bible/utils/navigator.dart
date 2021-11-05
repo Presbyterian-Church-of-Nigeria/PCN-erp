@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:freebible/models/book.dart';
-import 'package:freebible/pages/chapter_page.dart';
-import 'package:freebible/services/books_bloc.dart';
-import 'package:freebible/utils/widgets.dart';
+
+import 'package:pcn_erp/bible/models/book.dart';
+import 'package:pcn_erp/bible/pages/chapter_page.dart';
+import 'package:pcn_erp/bible/services/books_bloc.dart';
+import 'package:pcn_erp/bible/utils/widgets.dart';
 
 Future push(BuildContext context, Widget page) {
   return Navigator.push(context,
@@ -29,6 +30,6 @@ goChapter(context, verse) async {
       ChapterPage(verse.chapter, 0, books, verse.verseTxt),
     );
   } catch (e) {
-    return centerText("Erro ao exibir o capítulo.");
+    return centerText("Error displaying chapter.");
   }
 }

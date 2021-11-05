@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:freebible/models/book.dart';
-import 'package:freebible/models/favorite.dart';
-import 'package:freebible/models/verse.dart';
-import 'package:freebible/services/favorites_bloc.dart';
-import 'package:freebible/services/verse_bloc.dart';
-import 'package:freebible/utils/constants.dart';
-import 'package:freebible/utils/dialogs.dart';
-import 'package:freebible/utils/navigator.dart';
-import 'package:freebible/utils/text_utils.dart';
-import 'package:freebible/utils/widgets.dart';
+import 'package:pcn_erp/bible/models/book.dart';
+import 'package:pcn_erp/bible/models/favorite.dart';
+import 'package:pcn_erp/bible/models/verse.dart';
+import 'package:pcn_erp/bible/services/favorites_bloc.dart';
+import 'package:pcn_erp/bible/services/verse_bloc.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
+import 'package:pcn_erp/bible/utils/dialogs.dart';
+import 'package:pcn_erp/bible/utils/navigator.dart';
+import 'package:pcn_erp/bible/utils/text_utils.dart';
+import 'package:pcn_erp/bible/utils/widgets.dart';
 
+// ignore: must_be_immutable
 class ChapterPage extends StatefulWidget {
   List<Book> books;
   String verseText;
@@ -73,7 +74,7 @@ class _ChapterPageState extends State<ChapterPage> {
         stream: _bloc.stream,
         builder: (context, snapshot) {
           if (snapshot.hasError)
-            return centerText("Erro lendo a lista de versículos.");
+            return centerText("Error Loading Chapter.");
 
           if (!snapshot.hasData)
             return Center(child: CircularProgressIndicator());

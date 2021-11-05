@@ -1,8 +1,8 @@
-import 'package:freebible/models/book.dart';
-import 'package:freebible/models/dao/books_dao.dart';
-import 'package:freebible/models/favorite.dart';
-import 'package:freebible/services/base_bloc.dart';
-import 'package:freebible/utils/constants.dart';
+import 'package:pcn_erp/bible/models/favorite.dart';
+import 'package:pcn_erp/bible/services/base_bloc.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
+import 'package:pcn_erp/bible/models/book.dart';
+import 'package:pcn_erp/bible/models/dao/books_dao.dart';
 
 class BooksBloc  extends BaseBloc<List<Book>>{
 

@@ -1,8 +1,8 @@
-import 'package:freebible/models/book.dart';
-import 'package:freebible/models/dao/base_dao.dart';
-import 'package:freebible/models/dao/favorites_dao.dart';
-import 'package:freebible/models/favorite.dart';
-import 'package:freebible/utils/constants.dart';
+import 'package:pcn_erp/bible/models/book.dart';
+import 'package:pcn_erp/bible/models/dao/base_dao.dart';
+import 'package:pcn_erp/bible/models/dao/favorites_dao.dart';
+import 'package:pcn_erp/bible/models/favorite.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
 
 class BooksDao extends BaseDAO<Book> {
   @override

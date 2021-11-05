@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:freebible/models/favorite.dart';
-import 'package:freebible/models/verse.dart';
-import 'package:freebible/services/books_bloc.dart';
-import 'package:freebible/services/favorites_bloc.dart';
-import 'package:freebible/utils/constants.dart';
-import 'package:freebible/utils/dialogs.dart';
-import 'package:freebible/utils/navigator.dart';
-import 'package:freebible/utils/widgets.dart';
+import 'package:pcn_erp/bible/models/favorite.dart';
+import 'package:pcn_erp/bible/models/verse.dart';
+import 'package:pcn_erp/bible/services/books_bloc.dart';
+import 'package:pcn_erp/bible/services/favorites_bloc.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
+import 'package:pcn_erp/bible/utils/dialogs.dart';
+import 'package:pcn_erp/bible/utils/navigator.dart';
+import 'package:pcn_erp/bible/utils/widgets.dart';
 
 class FavoritesPage extends StatefulWidget {
   final FavoriteType favoriteType;
@@ -34,7 +34,7 @@ class _FavoritesPageState extends State<FavoritesPage> {
 
   @override
   Widget build(BuildContext context) {
-    String title = _isRemovable ? "Meus Favoritos" : "Mais conhecidos";
+    String title = _isRemovable ? "My favorites" : "Known";
 
     return Scaffold(
       backgroundColor: background,
@@ -52,7 +52,7 @@ class _FavoritesPageState extends State<FavoritesPage> {
       stream: _favBloc.stream,
       builder: (context, snapshot) {
         if (snapshot.hasError)
-          return centerText("Erro lendo a lista de versículos.");
+          return centerText("Error reading verse list.");
 
         if (!snapshot.hasData)
           return Center(child: CircularProgressIndicator());

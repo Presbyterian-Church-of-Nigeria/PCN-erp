@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
-import 'package:freebible/utils/text_utils.dart';
+import 'package:pcn_erp/bible/utils/text_utils.dart';
 
 Widget centerText(String msg, {color: Colors.redAccent, size: 14.0}) {
   return Center(

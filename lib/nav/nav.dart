@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:pcn_erp/bible/main.dart';
 import 'package:pcn_erp/screens/almanc.dart';
-import 'package:pcn_erp/screens/bible/bible.dart';
 import 'package:pcn_erp/screens/blue_book.dart';
 import 'package:pcn_erp/screens/church_leadership.dart';
 import 'package:pcn_erp/screens/homepage.dart';
 import 'package:pcn_erp/screens/hymnal/hymn_home.dart';
-//import 'package:pcn_erp/screens/moderator.dart';
-//import 'package:pcn_erp/screens/pc_ga.dart';
 import 'package:pcn_erp/screens/pnp.dart';
+import 'package:share/share.dart';
+import 'package:pcn_erp/bible/utils/navigator.dart';
+
 
  class Navbar extends StatefulWidget {
    const Navbar({ key }) : super(key: key);
@@ -28,7 +29,7 @@ import 'package:pcn_erp/screens/pnp.dart';
               decoration: BoxDecoration(
                   color: Colors.white,
                   image: DecorationImage(
-                      image: AssetImage("assets/pcnlogo1.jpg"),
+                      image: AssetImage("assets/pcnGlogo.png"),
                       fit: BoxFit.cover)),
               child: Container(),
             ),
@@ -46,16 +47,11 @@ import 'package:pcn_erp/screens/pnp.dart';
                 // _displayFavoritesPage(context);
               },
             ),
-          //  ListTile(
-            //    title: Text("PC of General Assembly"),
-            //    leading: Icon(Icons.person),
-            //    onTap: () {
-           //       Navigator.push(context, MaterialPageRoute(builder: (context)=> PcGa()));
-                  // _displayLanguagesPage(context);
-            //    }),
+
             ListTile(
                 title: Text("Hymnal"),
                 leading: Icon(Icons.menu_book),
+
                 onTap: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context)=> HymnPage()));
                   // _displayLanguagesPage(context);
@@ -63,42 +59,57 @@ import 'package:pcn_erp/screens/pnp.dart';
             ListTile(
                 title: Text("Bible"),
                 leading: Icon(Icons.auto_stories),
-                onTap: () {
-                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> KjvBible()));
+                onTap: (() {
+                  Navigator.pop(context);
+                  push(context, MyBible());
+                })),
+                //onTap: () {
+                 // Navigator.pop(context, MaterialPageRoute(builder: (context)=> MyBible()));
                   // _displayLanguagesPage(context);
-                }),
+                //}),
             ListTile(
                 title: Text("Practice & Procedure"),
                 leading: Icon(Icons.bookmark),
-                onTap: () {
-                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> Pnp()));
+                onTap: (() {
+                  Navigator.pop(context);
+                      push(context, Pnp());
                   // _displayLanguagesPage(context);
-                }),
+                })),
             ListTile(
                 title: Text("The Blue Book"),
-                leading: Icon(Icons.bookmark),
-                onTap: () {
-                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> Bluebook()));
+                leading: Icon(Icons.history_edu_outlined),
+                onTap: (() {
+                  Navigator.pop(context);
+                      push(context ,Bluebook());
                   // _displayLanguagesPage(context);
-                }),
+                })),
             ListTile(
                 title: Text("Approved Dates 2021"),
                 leading: Icon(Icons.calendar_today),
-                onTap: () {
-                  Navigator.pop(context, MaterialPageRoute(builder: (context)=> Almanc()));
+                onTap: (() {
+                  Navigator.pop(context);
+                          push(context, Almanc());
                   // _displayLanguagesPage(context);
-                }),
-          
+                })),
+
             ListTile(
-              title: Text("Settings"),
-              leading: Icon(Icons.settings),
-              onTap: () {
-                Navigator.pop(context);
-                //_displaySettingsPage(context);
-              },
+              leading: Icon(Icons.share),
+              title: Text("Share"),
+              subtitle: Text("Share with family and friends"),
+              onTap: () => _onShareClick(context),
             ),
           ],
         ));
    }
  }
- 
+_onShareClick(BuildContext context) {
+  Navigator.pop(context);
+  final text = "I am Using PCN erp app "
+      "Download it !\n"
+      "https://play.google.com/store/apps/details?id=com.pcn_erp.main";
+  final RenderBox box = context.findRenderObject();
+  Share.share(
+    text,
+    sharePositionOrigin: box.localToGlobal(Offset.zero) & box.size,
+  );
+}

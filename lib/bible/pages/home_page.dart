@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:freebible/models/verse.dart';
-import 'package:freebible/pages/books_list_page.dart';
-import 'package:freebible/pages/menu_page.dart';
-import 'package:freebible/services/favorites_bloc.dart';
-import 'package:freebible/utils/constants.dart';
-import 'package:freebible/utils/navigator.dart';
-import 'package:freebible/utils/text_utils.dart';
+import 'package:pcn_erp/bible/models/verse.dart';
+import 'package:pcn_erp/bible/pages/books_list_page.dart';
+import 'package:pcn_erp/bible/pages/menu_page.dart';
+import 'package:pcn_erp/bible/services/favorites_bloc.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
+import 'package:pcn_erp/bible/utils/navigator.dart';
+import 'package:pcn_erp/bible/utils/text_utils.dart';
 
-class HomePage extends StatelessWidget {
+class BiblePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
       alignment: Alignment.topRight,
       width: double.infinity,
       child: Icon(
-        Icons.local_library,
+        Icons.wb_sunny_sharp,
         color: background,
         size: 80,
       ),
@@ -97,7 +97,7 @@ class HomePage extends StatelessWidget {
                 push(context, BooksListPage(Testament.AT));
               },
               child: Icon(
-                Icons.cloud_queue,
+                Icons.auto_stories,
                 color: background,
                 size: iconSize,
               ),
@@ -107,7 +107,7 @@ class HomePage extends StatelessWidget {
                 push(context, BooksListPage(Testament.NT));
               },
               child: Icon(
-                Icons.flare,
+                Icons.menu_book,
                 color: background,
                 size: iconSize,
               ),

@@ -3,15 +3,15 @@ import 'dart:ui';
 import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:freebible/models/book.dart';
-import 'package:freebible/models/verse.dart';
-import 'package:freebible/pages/chapter_page.dart';
-import 'package:freebible/services/books_bloc.dart';
-import 'package:freebible/services/verse_bloc.dart';
-import 'package:freebible/utils/constants.dart';
-import 'package:freebible/utils/dialogs.dart';
-import 'package:freebible/utils/navigator.dart';
-import 'package:freebible/utils/widgets.dart';
+import 'package:pcn_erp/bible/models/book.dart';
+import 'package:pcn_erp/bible/models/verse.dart';
+import 'package:pcn_erp/bible/pages/chapter_page.dart';
+import 'package:pcn_erp/bible/services/books_bloc.dart';
+import 'package:pcn_erp/bible/services/verse_bloc.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
+import 'package:pcn_erp/bible/utils/dialogs.dart';
+import 'package:pcn_erp/bible/utils/navigator.dart';
+import 'package:pcn_erp/bible/utils/widgets.dart';
 
 class SearchPage extends StatefulWidget {
   final Testament testament;

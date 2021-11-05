@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:freebible/models/book.dart';
-import 'package:freebible/pages/chapters_list_page.dart';
-import 'package:freebible/pages/search_page.dart';
-import 'package:freebible/services/books_bloc.dart';
-import 'package:freebible/utils/constants.dart';
-import 'package:freebible/utils/navigator.dart';
-import 'package:freebible/utils/widgets.dart';
+import 'package:pcn_erp/bible/models/book.dart';
+import 'package:pcn_erp/bible/pages/chapters_list_page.dart';
+import 'package:pcn_erp/bible/pages/search_page.dart';
+import 'package:pcn_erp/bible/services/books_bloc.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
+import 'package:pcn_erp/bible/utils/navigator.dart';
+import 'package:pcn_erp/bible/utils/widgets.dart';
 
 class BooksListPage extends StatefulWidget {
   final Testament testament;

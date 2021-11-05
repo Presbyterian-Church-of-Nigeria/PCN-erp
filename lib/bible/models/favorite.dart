@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:freebible/models/verse.dart';
-import 'package:freebible/utils/constants.dart';
+import 'package:pcn_erp/bible/models/verse.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
 
 Favorite favoritesFromJson(String str) => Favorite.fromMap(json.decode(str));
 

@@ -1,5 +1,5 @@
-import 'package:freebible/models/favorite.dart';
-import 'package:freebible/models/verse.dart';
+import 'package:pcn_erp/bible/models/favorite.dart';
+import 'package:pcn_erp/bible/models/verse.dart';
 import 'base_dao.dart';
 
 class FavoriteDao extends BaseDAO<Favorite> {

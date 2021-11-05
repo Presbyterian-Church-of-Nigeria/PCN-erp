@@ -1,11 +1,12 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:freebible/models/dao/favorites_dao.dart';
-import 'package:freebible/models/favorite.dart';
-import 'package:freebible/models/verse.dart';
-import 'package:freebible/services/base_bloc.dart';
-import 'package:freebible/utils/constants.dart';
+
+import 'package:pcn_erp/bible/models/dao/favorites_dao.dart';
+import 'package:pcn_erp/bible/models/favorite.dart';
+import 'package:pcn_erp/bible/models/verse.dart';
+import 'package:pcn_erp/bible/services/base_bloc.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
 
 class FavoritesBloc extends BaseBloc<List<Favorite>> {
   final FavoriteDao _dao = FavoriteDao();

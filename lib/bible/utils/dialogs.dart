@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:freebible/main.dart';
-import 'package:freebible/models/book.dart';
-import 'package:freebible/models/favorite.dart';
-import 'package:freebible/models/verse.dart';
-import 'package:freebible/services/favorites_bloc.dart';
-import 'package:freebible/utils/text_utils.dart';
+import 'package:pcn_erp/bible/main.dart';
+
+//import 'package:pcn_erp/bible/main.dart';
+import 'package:pcn_erp/bible/models/book.dart';
+import 'package:pcn_erp/bible/models/favorite.dart';
+import 'package:pcn_erp/bible/models/verse.dart';
+import 'package:pcn_erp/bible/services/favorites_bloc.dart';
+import 'package:pcn_erp/bible/utils/text_utils.dart';
 import 'package:share/share.dart';
 
 import 'constants.dart';

@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:freebible/models/book.dart';
-import 'package:freebible/models/favorite.dart';
-import 'package:freebible/pages/about_page.dart';
-import 'package:freebible/pages/chapter_page.dart';
-import 'package:freebible/pages/favorites_page.dart';
-import 'package:freebible/services/books_bloc.dart';
-import 'package:freebible/services/favorites_bloc.dart';
-import 'package:freebible/utils/constants.dart';
-import 'package:freebible/utils/navigator.dart';
+import 'package:pcn_erp/bible/models/book.dart';
+import 'package:pcn_erp/bible/models/favorite.dart';
+//import 'package:pcn_erp/bible/pages/about_page.dart';
+import 'package:pcn_erp/bible/pages/chapter_page.dart';
+import 'package:pcn_erp/bible/pages/favorites_page.dart';
+import 'package:pcn_erp/bible/services/books_bloc.dart';
+import 'package:pcn_erp/bible/services/favorites_bloc.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
+import 'package:pcn_erp/bible/utils/navigator.dart';
+import 'package:pcn_erp/screens/homepage.dart';
 import 'package:share/share.dart';
+
 
 import 'books_list_page.dart';
 
@@ -19,17 +21,23 @@ class DrawerMenu extends StatelessWidget {
       child: Drawer(
         child: ListView(
           children: <Widget>[
-            UserAccountsDrawerHeader(
-              currentAccountPicture: CircleAvatar(
-                  backgroundColor: primary,
-                  backgroundImage:
-                      AssetImage("assets/images/biblia_livre.png")),
-              accountName: Text("PCN Bible"),
-              //accountEmail: Text("biblia@izaias.dev"),
+            DrawerHeader(
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  image: DecorationImage(
+                      image: AssetImage("assets/pcnGlogo.png"),
+                      fit: BoxFit.cover)),
+              child: Container(),
             ),
             ListTile(
+                title: Text("PCN Home"),
+                leading: Icon(Icons.home),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Homepage()));
+                }),
+            ListTile(
               dense: true,
-              leading: Icon(Icons.cloud_queue),
+              leading: Icon(Icons.auto_stories),
               title: Text("Old Testment"),
               onTap: (() {
                 Navigator.pop(context);
@@ -38,7 +46,7 @@ class DrawerMenu extends StatelessWidget {
             ),
             ListTile(
               dense: true,
-              leading: Icon(Icons.flare),
+              leading: Icon(Icons.menu_book),
               title: Text("New Testment"),
               onTap: (() {
                 Navigator.pop(context);
@@ -53,14 +61,14 @@ class DrawerMenu extends StatelessWidget {
            // ),
             ListTile(
               leading: Icon(Icons.favorite_border),
-              title: Text("Favoritos"),
-              subtitle: Text("Versículos preferidos"),
+              title: Text("Favorite"),
+              subtitle: Text("Favorite verses"),
               onTap: () => _onFavoritesClick(context),
             ),
             ListTile(
               leading: Icon(Icons.language),
-              title: Text("Versículos mais citados"),
-              subtitle: Text("Os 200 versículos mais citados"),
+              title: Text("Most quoted verses"),
+              subtitle: Text("The 200 most quoted verses"),
               onTap: () => _onOthersFavoritesClick(context),
             ),
             Divider(
@@ -68,8 +76,8 @@ class DrawerMenu extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.share),
-              title: Text("Compartilhe a Palavra"),
-              subtitle: Text("Envie este aplicativo e abençoe outras vidas"),
+              title: Text("Share"),
+              subtitle: Text("Share with family and friends"),
               onTap: () => _onShareClick(context),
             ),
            // ListTile(
@@ -83,10 +91,10 @@ class DrawerMenu extends StatelessWidget {
     );
   }
 
-  _onAboutClick(context) {
-    Navigator.pop(context);
-    push(context, AboutPage());
-  }
+  //_onAboutClick(context) {
+  //  Navigator.pop(context);
+  //  push(context, AboutPage());
+ // }
 
   _onFavoritesClick(context) {
     Navigator.pop(context);
@@ -98,6 +106,7 @@ class DrawerMenu extends StatelessWidget {
     push(context, FavoritesPage(FavoriteType.OTHERS));
   }
 
+  // ignore: unused_element
   _onHistoryClick(BuildContext context) {
     Navigator.pop(context);
     _showChapter(context);

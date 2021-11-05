@@ -1,7 +1,4 @@
-/**
- * Devolve o texto informado, retirando os trechos entre colchetes [],
- * ou seja, as observações, referências e traduções alteranativas.
- */
+
 String cleanVerse(String verseText) {
   if (verseText == null) return "";
 

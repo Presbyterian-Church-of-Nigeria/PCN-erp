@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:freebible/main.dart';
-import 'package:freebible/models/book.dart';
-import 'package:freebible/pages/chapter_page.dart';
-import 'package:freebible/pages/search_page.dart';
-import 'package:freebible/utils/constants.dart';
-import 'package:freebible/utils/navigator.dart';
-import 'package:freebible/utils/widgets.dart';
+import 'package:pcn_erp/bible/main.dart';
+import 'package:pcn_erp/bible/models/book.dart';
+import 'package:pcn_erp/bible/pages/chapter_page.dart';
+import 'package:pcn_erp/bible/pages/search_page.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
+import 'package:pcn_erp/bible/utils/navigator.dart';
+import 'package:pcn_erp/bible/utils/widgets.dart';
 
 class ChaptersListPage extends StatefulWidget {
   final idxBook;
@@ -66,7 +66,7 @@ class _ChaptersListPageState extends State<ChaptersListPage> {
         stream: booksBloc.stream, // ,
         builder: (context, snapshot) {
           if (snapshot.hasError)
-            return centerText("Erro lendo a lista de capítulos.");
+            return centerText("Error reading chapter list.");
 
           if (!snapshot.hasData)
             return Center(child: CircularProgressIndicator());

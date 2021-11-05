@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:freebible/models/entity.dart';
+import 'package:pcn_erp/bible/models/entity.dart';
 
 Book booksFromJson(String str) => Book.fromMap(json.decode(str));
 

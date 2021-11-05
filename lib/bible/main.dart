@@ -1,22 +1,25 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:freebible/pages/home_page.dart';
-import 'package:freebible/services/books_bloc.dart';
-import 'package:freebible/utils/constants.dart';
+
+import 'package:pcn_erp/bible/pages/home_page.dart';
+import 'package:pcn_erp/bible/services/books_bloc.dart';
+import 'package:pcn_erp/bible/utils/constants.dart';
 
 final BooksBloc booksBloc = BooksBloc();
 
-void main() => runApp(MyApp());
+void main() => runApp(MyBible());
 
-class MyApp extends StatefulWidget {
+class MyBible extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _MyBibleState createState() => _MyBibleState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _MyBibleState extends State<MyBible> {
   @override
   Widget build(BuildContext context) {
+
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
@@ -25,7 +28,7 @@ class _MyAppState extends State<MyApp> {
         backgroundColor: background,
         accentColor: accent,
       ),
-      home: HomePage(),
+      home: BiblePage(),
     );
   }
 }

@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:freebible/models/entity.dart';
+import 'package:pcn_erp/bible/models/entity.dart';
 
 Verse verseFromJson(String str) => Verse.fromMap(json.decode(str));
 

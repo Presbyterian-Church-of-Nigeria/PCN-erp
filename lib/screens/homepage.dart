@@ -2,10 +2,10 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:pcn_erp/bible/main.dart';
 //import 'package:pcn_erp/routes/routes.dart';
 import 'package:pcn_erp/nav/nav.dart';
 import 'package:pcn_erp/screens/almanc.dart';
-import 'package:pcn_erp/screens/bible/bible.dart';
 import 'package:pcn_erp/screens/blue_book.dart';
 import 'package:pcn_erp/screens/book_of_service.dart';
 import 'package:pcn_erp/screens/church_leadership.dart';
@@ -14,7 +14,6 @@ import 'package:pcn_erp/screens/pnp.dart';
 //import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 import '../nav/nav.dart';
-import 'bible/bible.dart';
 import 'hymnal/hymn_home.dart';
 import 'mychurch.dart';
 //import 'pc_ga.dart';
@@ -95,7 +94,7 @@ class _HomepageState extends State<Homepage> {
                   InkWell(
                     onTap: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => KjvBible()));
+                          MaterialPageRoute(builder: (context) => MyBible()));
                     },
                     child: Container(
                       decoration: BoxDecoration(
