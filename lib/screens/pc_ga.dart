@@ -601,7 +601,7 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(2) Membership of Learned Societies  ",
+              "(d) Articles that have already appeared in Learned Journals  ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -610,11 +610,21 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
+            "10. *Ajah, M. (2006). “Tithing in Ugarit and the Pentateuch – Possible implications for  Africa”. Scriptura, Vol. 91, pp. 31-42. (Department of Old & New Testament,  University of Stellenbosch, South Africa). \n" 
+"11. *Ajah, M. (2011). “An Assessment of the Priestly Emolument in Numbers 18: 8-32”.  Scriptura 103, 107-125. (Department of Old & New Testament, University of  Stellenbosch, South Africa). \n" 
+"12. *Ajah, M. (2012). “The Purpose for Tithe in the Old Testament”. International Journal  of Theology and Reformed Tradition,Vol. 4, pp. 24-32. (University of Nigeria, Nsukka). \n"
+"13. *Ajah, M. (2012). “Religious Groups and Distance education in Nigeria”.Prof. Bassey  Andah Journal of Cultural Studies, Vol. 5, pp. 67- 80. (University of Calabar). \n" 
+"14. *Ajah, M. (2013). “The Significance of Pentateuchal Tithing as a Legal Instruction for  the 21st Century Reader”. The Asbury Journal, Vol. 68: No. 2: 106-119. (Graduate  School of Theology, Asbury, USA). \n" 
+"15. *Ajah, M. (2014). “Reprisal Attacks: A Theological Reflection of Genesis 34 on  Reactions to Evil and Human Wickedness in Nigeria”.Scriptura Journal for Contextual  hermeneutics in Southern Africa,Vol. 113, No. 1: 1-13. (University of Stellenbosch,  South Africa). \n" 
+"16. *Ajah, M. (2015). “Love for the stranger in Deuteronomy 10:19 and its socio-cultural  implications for economic development in Nigeria”. Africa Journal of Biblical  Research, Vol. 2, Nos. 1 & 2: 97-111. (Biblical Research Forum of Nigeria,  BRESFON).\n"
+"17. *Ajah, M. (2015) “Religious Education and Nation Building in Nigeria”, Stellenbosch  Theology Journal (STJ), Vol. 1, No. 2: 263-282 (University of Stellenbosch, South  Africa). http://ojs.reformedjournals.co.za/index.php/stj/article/view/1260. \n" 
+"18. **Ajah, M. (2019) “Cancelation or Suspension of Debts in Deuteronomy 15 – A Literary Assessment of הָּ טִ מְׁ ש) shemittah)”, African Journal of Local Societies Initiative  (LOSI), Vol.8, No. 1, 1-15 (Makurdi: Benue State University). \n" 
+"19. **Ajah, M. (2018) “Reverse Mentoring in Biblical Scholarship in the light of 1 Kings  5:1-14”, African Journal of Biblical Research Vol. 5. 141-174, (Biblical Research  Forum of Nigeria, BRESFON). \n" 
+"20. **Ajah, M. (2018) “Deuteronomic Tithe Laws and their Humanitarian Implications for  Christian Communities in Africa”, Stellenbosch Theological Journal, Vol. 4, No 2, 335– 358. (University of Stellenbosch, South Africa). DOI:  
+http://dx.doi.org/10.17570/stj.2018.v4n2.a16. Online ISSN 2413-9467 | Print ISSN  2413-9459. \n"
+"21. **Ajah, M. (2018). “The Land as a Grant in Deuteronomy and Its Economic  
+Implications for Africa”, African Journal of Local Societies Initiative (LOSI), Vol.7, No.  1, 48-73 (Makurdi: Benue State University). \n" 
+"22. **Ajah, M. (2019) “Narratives of Violence in Numbers 25: Between Text and  Reception”, Insight: Journal of Religious Studies, Vol. 15, 17-31 (Babcock University,  Ilishan-Remo, Ogun State)."  ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -625,7 +635,7 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(2) Membership of Learned Societies  ",
+              "(e) Articles that have already been accepted for publication  ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -634,11 +644,7 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
+             "23. **Ajah M (2019). “Socio-Political Readings for Cult Centralization in Deuteronomy:  Lessons for Africa”, African Journal of Biblical Studies (AJBS), A Journal of Nigeria  Association of Biblical Studies; c/o: Department of Religious Studies, University of  Ibadan, Nigeria (Accepted for publication)." ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -649,7 +655,7 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(2) Membership of Learned Societies  ",
+              "MAJOR CONFERENCES ATTENDED WITH PAPERS READ   ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -658,11 +664,20 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
+             "(a) Ajah, M (2020). “The Concept of Cult Centralization in Deuteronomy and its Socio-Political  Implications for Africa Today”, Deuteronomy-Today e-Conference, South African Theological  Conference, 2-3 April 2020. \n" 
+"(b) Ajah, M (2019).“David Adamo and Communal Reading as an Interpretive Method in African  Biblical Hermeneutics”, 2019 Annual Meeting of the Society of Biblical Literature, Convention  Centre, San Diego, CA, United States of America, November 23 – 26, 2019. \n" 
+"(c) Ajah, M (2018). “Narratives of Violence in Numbers 25: Between Text and Reception”, Joint  Conference of Old Testament Societies hosted by the Oudtestamentisch Werkgezelschap in  Nederland en België (OTW) and Old Testament Society of South Africa (OTSSA), at the  Faculty of Theology and Religious Studies, University of Groningen, the Netherlands, 22nd– 24th August 2018. \n" 
+"(d) Ajah, M (2018). “Globalisation and Religious Fundamentalism in Nigeria: Problems and  Prospects” authored by Akper, G. & Ajah, M. at the 15th General Assembly of the Council for the Development of Social Science Research in Africa (CODESRIA), December 17th– 21st December 2018 at King Fahd Hotel in Dakar, SENEGAL.  \n"
+"(e) Ajah, M (2016). “Conflicting Prophecies in 1 Kings 22 and 2015 Nigeria Election”, Annual  Conference of Biblical Research Forum of Nigeria (BRESFON), held at Methodist Theological  Institute, Umuahia, 1-3 November 2016 (Sponsored by NOUN). \n" 
+"(f) Ajah, M (2016). “Reverse Mentoring in Biblical Scholarship in the light of 1 Kings 5:1-14”,  Triennial Congress of International Organization for the Study of Old Testament (IOSOT),  Stellenbosch University, 4-9 September, 2016 (Sponsored by Stellenbosch University, South  Africa). \n" 
+"(g) Ajah, M& Okoronkwo, M. E. (2015). “Christian Theology Curriculum in National Open  University of Nigeria: Issues of Pedagogy and Assessment”, The 26th ICDE World Conference,  (UNISA 2015), University of South Africa, Sun-City, 14-16 October, 2015 (Self Registration). \n" 
+"(h) Ajah, M (2014). “Promoting Open Educational Resources(OER) forTheological/Religious  Education in Nigeria”, 2nd International Conference on Open and Distance e-Learning  (ICOLDE 2014), 18-19 December, 2014 at Bangkok, Thailand (Sponsored by NOUN). \n" 
+"(i) Ajah, M (2013). “Religious Education and Government Takeover/Return of Mission Schools in  Nigeria”, RE21- Religious Education in Global-Local World, University College Cork (UCC),  Ireland, 29-30 August, 2013 (Sponsored by University College Cork, Ireland). \n" 
+"(j) Ajah, M (2013). “Love for the Stranger in Deuteronomy 10: 19 and It’s Socio-Cultural  Implications for Development in Nigeria”, Second Annual International Conference on:  Challenges of Development in Africa, Catholic University of Eastern Africa,Nairobi Kenya, 25- 29 June, 2013 (Sponsored by NOUN). \n" 
+"(k) Ajah, M (2013). “A Theological Interpretation of Land as a Grant in Deuteronomy and its Implications for Stewardship in Nigeria”, OTSSA Conference, University of the Free State,  Bloemfontein, SA, 11-13 September, 2013 (Sponsored by Stellenbosch University, South  Africa). \n"
+"(l) Ajah, M (2013). “Mi Yodea: A Theological Reflection on the Book of Jonah in the Face of  National Insecurity”, Bi-Annual International Religious Studies, Conference, University Of  Ibadan, 14-17 April, 2013 Self sponsorship). \n" 
+"(m) Ajah, M (2013). “Theological Interpretations Of Social Justice in the Book Of Deuteronomy  And their Implications For Nigeria”, 26th Conference of Nigerian Association of Biblical  Studies (NABIS), Life Theological Seminary, Ikorodu Lagos, 16-19 July, 2013 (Self  sponsorship). \n" 
+"(n) Ajah, M (2013). “The role of religion in fostering social justice through distance education in  Nigeria”, UNED-ICDE (Universidad Nacional de Education a Distancia & International  Council for Open and Distance Education) International Conference, 7-9 March, 2013 (Self  Registration)." ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -673,7 +688,8 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(2) Membership of Learned Societies  ",
+              "REFEREES /n"
+              "1. Prof. David Adamo ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -682,11 +698,8 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
+            " Department of Religious Studies  \n"
+"Kogi State University, Ayingba",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -697,7 +710,7 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(2) Membership of Learned Societies  ",
+              "2. Prof. Emele Mba Uka  ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -706,22 +719,19 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
+             "Department of Religious Studies \n" 
+"University of Calabar" ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
           ),
           //End of Topic and Body 
-             // Begining of Topic and Body
+            // Begining of Topic and Body
           //Topic
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(2) Membership of Learned Societies  ",
+              "3. Prof. Hendrik L. Bosman ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -730,22 +740,19 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
+             "Department Old and New Testament  \n" 
+"Faculty of Theology, Stellenbosch University, South Africa " ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
           ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
+          //End of Topic and Body   
+            // Begining of Topic and Body
           //Topic
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(2) Membership of Learned Societies  ",
+              "SIGNATURE AND DATE",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -754,568 +761,12 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
+             "Signature:__________ Date:24th August 2021 " ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
           ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
-             // Begining of Topic and Body
-          //Topic
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-              "(2) Membership of Learned Societies  ",
-              textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
-            ),
-          ),
-          // Body
-          Container(
-            padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
-              textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: size),
-            ),
-          ),
-          //End of Topic and Body 
+          //End of Topic and Body   
             
           ),
         ],
