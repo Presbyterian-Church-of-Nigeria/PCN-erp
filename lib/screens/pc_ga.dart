@@ -176,6 +176,8 @@ class _PcGa extends State<PcGa> {
               //overflow: TextOverflow.ellipsis,
             ),
           ),
+          // Begining of Topic and Body
+          //Topic
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
@@ -184,6 +186,7 @@ class _PcGa extends State<PcGa> {
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
           ),
+          // Body
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
@@ -198,6 +201,7 @@ class _PcGa extends State<PcGa> {
               style: TextStyle(fontSize: size),
             ),
           ),
+          //End of Topic and Body
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
@@ -245,6 +249,93 @@ class _PcGa extends State<PcGa> {
               maxLines: 6,
              // overflow: ,
             ),
+               // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "LEADERSHIP POSITIONS HELD",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "(a) Coordinator, BTCLP Abuja Centre (2018 – Till Date)\n"  
+"(b) National President, Abia-Ohafia for Christ Association (2018 – 2020).\n"  
+"(c) National Coordinator, Biblical Scholars’ Translation Engagement Programme (BiSTEP),  Nigeria – (2017 – till date). \n" 
+(d) National Coordinator, NOUN Christian Fellowship, National Open University of Nigeria,  Headquarters, Abuja (2014 – 2018).  
+(e) Rector, Hugh Goldie Lay/Theological Training Institution, Arochukwu – (2010 – 2012).  (f) Director for Lay Training, Hugh Goldie Lay/Theological Training Institution, Arochukwu,  2007 – 2010).  
+(g) Special Assistant on Inter-Religious Matters to the Abia State Governor, Chief T. A. Orji – (2007-2008).  
+(h) Member, Abia State Pilgrim’s Welfare Board – (2002-2005).  
+(i) Vice Chairman, Abia State Christain Council of Nigeria (CCN) – (2002-2005).  (j) Clerk, South Central Synod – (2002-2005).  
+(k) Moderator, Umuahia Presbytery – (2001-2002).  
+(l) Registrar, Trinity Union Theological College, Umuahia – (2000-2001).  
+(m)First Moderator of Synod of the West – (1996-1999).  
+(n) Moderator, Lagos Presbytery – (1995-1996). 
+3 
+"(o) President of the Students’ Union (Chief) at Trinity Union Theological College Umuahia – (1985-1986)."  
+
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "ACADEMIC QUALIFICATIONS",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "(a) Proficiency Certificate on Biblical Hebrew Grammar (Hebrew University, Jerusalem) – (2015).\n "
+                  "(b) (Doctor of Philosophy (PhD Old Testament – Stellenbosch University, South Africa) – (2006). \n "
+                  "(c) Master of Arts (MA Biblical Studies – Austin Presbyterian Theological Seminary, Texas, USA) – (2001).\n"
+                   "(d) Bachelor of Arts (BA Religion - University of Nigeria, Nsukka) – (1995).\n"
+        "(e) Diploma in Theology (Dip. Theo - Trinity Union Theological College Umuahia) – (1986). \n"
+        "(f) West African School Certificate (WASC & GCE) - (1982 & 1989).\n"
+          "(g) First School Leaving Certificate (FSLC) - (1977)\n",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body 
+            //End of Topic and Body
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "ACADEMIC QUALIFICATIONS",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "(a) Proficiency Certificate on Biblical Hebrew Grammar (Hebrew University, Jerusalem) – (2015).\n "
+                  "(b) (Doctor of Philosophy (PhD Old Testament – Stellenbosch University, South Africa) – (2006). \n "
+                  "(c) Master of Arts (MA Biblical Studies – Austin Presbyterian Theological Seminary, Texas, USA) – (2001).\n"
+                   "(d) Bachelor of Arts (BA Religion - University of Nigeria, Nsukka) – (1995).\n"
+        "(e) Diploma in Theology (Dip. Theo - Trinity Union Theological College Umuahia) – (1986). \n"
+        "(f) West African School Certificate (WASC & GCE) - (1982 & 1989).\n"
+          "(g) First School Leaving Certificate (FSLC) - (1977)\n",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body 
           ),
         ],
       ),
