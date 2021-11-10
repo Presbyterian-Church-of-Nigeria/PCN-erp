@@ -517,7 +517,21 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "The Minister shall then say to the parents:\n",
+             "The Minister shall then say to the parents:\n"
+               "Do you personally own and confess the Apostolic faith which we have just recited?  \n" 
+"(Parents’ response :) I DO  \n \n"  
+"In bringing forward your child (children) FOR BAPTISM, DO YOU ANEW PROFESS YOUR FAITH  IN God as your heavenly Father, in Jesus Christ as your Lord and Saviour, and in the Holy Spirit  as your guide and upholder throughout life? 
+\n"  
+"(Parents’ response :) I DO \n \n"  
+"Do you promise so to believe that your child (children) will have in you a good example of  Christian living?  \n"  
+"(Parents’ response :) I DO \n  \n"  
+"Do you undertake to bring up your child (children) in the knowledge and love of Jesus Christ  as the Lord of life? \n"  
+"(Parents’ response :) I DO \n \n"  
+"The congregation stands, and the Minister addresses them saying:  \n"  
+   "Do you, the members of this congregation, promise to receive this child (these children) in  love as fellow members of the Church and to pray for him (her, them) and help him (her, them)  by your examples in the Christian life? \n "
+              "(Congregational response :) WE DO \n \n" 
+              "The Lord bless you and your child(ren), and give you grace to fulfil these promise. \n"
+              "The congregation may be seated.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -528,7 +542,8 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(a) Books already published  ",
+              "THE PRAYER OF SANCTIFICATION \n" 
+"One of the following prayers may be said:",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -537,7 +552,11 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "1. *Ajah, M. (2016). Biblical Hebrew: An Introductory Grammar. Jos: African Christian  Textbooks (ACTS). 171 pp. ISBN 978-978-905-278-3. (Nigeria) " ,
+            "Let us pray: \n \n"
+               "Heavenly Father, almighty and everlasting God, who has not left us as strangers without the  covenant of promise, grant unto these Your servants the grace to perform the things which  they have promised to you that they will do. We bring this child (these children) to You with  the assurance that it is not Your will that one of these little ones should perish. We humbly  ask You to bless this Your ordinance which is now to be administered, and to sanctify this  water to the spiritual use to which You have appointed it. Heavenly Father, grant that this  child (these children) may obtain, through the inward baptism of Your Spirit, the remission of  sin, and be born again of water and the Holy Spirit, that being planted into the likeness of the  death and resurrection of Christ, and receiving of the fullness of Your grace, he (she, they)  may ever remain in the number of Your faithful children; through Jesus Christ our Lord. AMEN.  \n  \n" 
+"Or,  \n \n"  
+"Most merciful and loving Father, we thank You for the Church of Your Son our Saviour, the  ministry of Your Word, and the sacraments of grace. Especially do we praise You now for the  institution of this sacrament of holy baptism wherein You gives such gracious promises for  our children, and do seal them in Christ for Your own. Sanctify this water to the spiritual use  to which You have ordained it, and grant that this child (these children) now to be baptized  with it may one day also be born again of water and the Holy Spirit, and ever remain in the  number of Your faithful children, through Jesus Christ our Lord. AMEN.\n"  
+"Almighty and everlasting God, who of Your infinite mercy and goodness has promised to us  that You will be not only our God but also the God and Father of our children, we ask that as  You have been pleased to call us into the fellowship of faith, that it may also please You to  sanctify with Your Spirit, and to receive into Your family this child (these children) whom we  now bring before You. Grant, we pray, that when he (she, they) may confess You as the only  True God, and Jesus Christ whom You have sent, and so serve You that when his (her) life is  (their lives are) ended, he (she, they) may be brought as a living member of Christ’s Body unto  the full fruition of Your joys in heaven, where Your Son our Saviour reigns with You and the  Holy Spirit, ever one God, world without end. AMEN." ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -548,7 +567,7 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(b) Chapters in Books already published  ",
+              "THE ACT OF BAPTISM ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -557,8 +576,14 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-            " 2. *Ajah M. (2016). “Examples of Women leaders in the Presbyterian Church of Nigeria”,  in K. J. Hyun and D. C. Chemorion (Eds), The Quest for Gender Equity in  Leadership.Eugene, Oregon: Wipf& Stock Publishers (Anchored by St. Paul’s  University, Limuru, Kenya). 162 – 179 pp. ISBN 978-1-4982-9333-4 (USA). \n" 
-"3. **Ajah M. (2017). “A Tradition Historical Analysis of Numbers 18 and its Implication  for Stewardship in Africa”, in J. D. Gwamna, A. O. Dada & Hope Amolo (Eds), The  Present State and the Future of Biblical Studies in Africa: Essays in Honour of Samuel  Oyinloye Abogunrin. Ibadan: Nigerian Association for Biblical Studies (NABIS). 174 – 196 pp. ISBN 978-978-960-214-8. " ,
+            " As the parents present their children, the father of the child shall hand the infant (or  child) to the Minister. If the father cannot be present, an Elder or a guardian may  present the child. An Elder (Clerk of Session) may assist the Minister by lining up the  children with their parents and announcing the full name of the child to the Minister  in turn. Or alternatively, the Ministry may directly ask the parents the child’s name  by saying “what is this child’s name?” \n \n" 
+"The Minister calls each child by name, sprinkles or pours water on the child’s head  and saying during each baptism:  \n " 
+"N…… I baptize you in the name of the Father, and of the Son, and of the Holy Spirit.\n \n " 
+              "Then the Minister may add if he or she so desires:  \n " 
+              "The blessing of God almighty, Father, Son and Holy Spirit descend upon you, and dwell in your  heart for ever. AMEN.   \n " 
+              "The Minister then hands the child back to the mother.    \n " 
+              "After all have been baptized, the Minister says: \n \n " 
+              "According to Christ’s commandment this child is (these children are) now received into the  membership of the holy universal church, and is (are) engaged to confess the faith of Christ  crucified, and to courageously fight under His banner against sin, the flesh, the world and the  devil. May he (she, they) continue as Christ’s faithful soldiers and servants to his (her, their)  life’s end. \n ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -569,7 +594,7 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(c) Articles that have already appeared in Refereed Conference Proceedings  ",
+              "THE BLESSING",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -578,12 +603,12 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "4. *Ajah, M. (2015). “A Theological Reflection on the Book of Jonah in the Face of  National Insecurity”, in J. K. Ayantayo and S. A. Fatokun (Eds), Religious and Security  Issues: Proceedings of 2013 Biennial International Religious Studies Conference,  Religious Studies Series, Vol 5. Ibadan: Department of Religious Studies, University of  Ibadan; 232 – 247 pp (Nigeria). \n" 
-"5. *Ajah, M. (2014). “Promoting Open Educational Resources(OER) for Theological/Religious Education in Nigeria”, International Science Index, Vol 8, No.  12, Proceedings of the XII International Conference on Open Learning and Distance  Education (ICOLDE), 18-19 December 2014, Bangkok, Thailand, 3423 – 3426pp  (Thailand) (Participation sponsored by National Open University of Nigeria). \n"
-"6. *Ajah, M. (2013). “The role of religion in fostering social justice through distance  education in Nigeria”, in UNED-ICDE (Universidad Nacional de Education a Distancia & International Council for Open and Distance Education), Mobilizing Distance  Education for Social Justice and Innovation: Proceedings of the International  Conference, 7-9 March 2013. Madrid, Spain: UNED-ICDE. 278-291pp (Spain). \n" 
-"7. **Ajah, M (2018). “The Critical Role of Religion in Nigeria Elections in the Light of 1  Kings 22”, in 30th Annual Conference of the Nigerian Association for Biblical Studies,  held at Benue State University, Makurdi, Benue State, 4-7 July 207 (Ibadan: Nigerian  Association for Biblical Studies), 201-214pp. \n" 
-"8. **Ajah, M & Akper, G (2018). “Globalisation and Religious Fundamentalism in  Nigeria: Problems and Prospects”, Dakar, Senegal: 15th General Assembly of the  Council for the Development of Social Science Research in Africa (CODESRIA), 17 – 21 December 2018 at King Fahd Hotel in Dakar, SENEGAL. https://codesria.org/generalassembly15/ga-full-papers/.  \n"
-"9. **Ajah, M (2019). “David Adamo and Communal Reading as an Interpretive Method in  African Biblical Hermeneutics”, in the Annual Meeting of the Society for Biblical  Literature (SBL), 23 – 26 November 2019 at the International Convention Centre, San  Diego, Califonia, USA. https://www.sblcentral.org/conferencePaperDetails/52576"  ,
+             "After all of the baptism have been completed, the congregation stands and the Aaronic blessing is  sung or said: \n" 
+"The Lord bless you and keep you.\n"
+"The Lord make his face to shine upon you, and be gracious unto you: \n \n" 
+"The Lord lift His countenance upon you and give you peace. Amen. 
+(Num. 6:24-26)  \n" 
+"The congregation shall be seated, and the Minister shall say:",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -594,7 +619,7 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(d) Articles that have already appeared in Learned Journals  ",
+              "The prayer of Blessing ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -603,21 +628,14 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-            "10. *Ajah, M. (2006). “Tithing in Ugarit and the Pentateuch – Possible implications for  Africa”. Scriptura, Vol. 91, pp. 31-42. (Department of Old & New Testament,  University of Stellenbosch, South Africa). \n" 
-"11. *Ajah, M. (2011). “An Assessment of the Priestly Emolument in Numbers 18: 8-32”.  Scriptura 103, 107-125. (Department of Old & New Testament, University of  Stellenbosch, South Africa). \n" 
-"12. *Ajah, M. (2012). “The Purpose for Tithe in the Old Testament”. International Journal  of Theology and Reformed Tradition,Vol. 4, pp. 24-32. (University of Nigeria, Nsukka). \n"
-"13. *Ajah, M. (2012). “Religious Groups and Distance education in Nigeria”.Prof. Bassey  Andah Journal of Cultural Studies, Vol. 5, pp. 67- 80. (University of Calabar). \n" 
-"14. *Ajah, M. (2013). “The Significance of Pentateuchal Tithing as a Legal Instruction for  the 21st Century Reader”. The Asbury Journal, Vol. 68: No. 2: 106-119. (Graduate  School of Theology, Asbury, USA). \n" 
-"15. *Ajah, M. (2014). “Reprisal Attacks: A Theological Reflection of Genesis 34 on  Reactions to Evil and Human Wickedness in Nigeria”.Scriptura Journal for Contextual  hermeneutics in Southern Africa,Vol. 113, No. 1: 1-13. (University of Stellenbosch,  South Africa). \n" 
-"16. *Ajah, M. (2015). “Love for the stranger in Deuteronomy 10:19 and its socio-cultural  implications for economic development in Nigeria”. Africa Journal of Biblical  Research, Vol. 2, Nos. 1 & 2: 97-111. (Biblical Research Forum of Nigeria,  BRESFON).\n"
-"17. *Ajah, M. (2015) “Religious Education and Nation Building in Nigeria”, Stellenbosch  Theology Journal (STJ), Vol. 1, No. 2: 263-282 (University of Stellenbosch, South  Africa). http://ojs.reformedjournals.co.za/index.php/stj/article/view/1260. \n" 
-"18. **Ajah, M. (2019) “Cancelation or Suspension of Debts in Deuteronomy 15 – A Literary Assessment of הָּ טִ מְׁ ש) shemittah)”, African Journal of Local Societies Initiative  (LOSI), Vol.8, No. 1, 1-15 (Makurdi: Benue State University). \n" 
-"19. **Ajah, M. (2018) “Reverse Mentoring in Biblical Scholarship in the light of 1 Kings  5:1-14”, African Journal of Biblical Research Vol. 5. 141-174, (Biblical Research  Forum of Nigeria, BRESFON). \n" 
-"20. **Ajah, M. (2018) “Deuteronomic Tithe Laws and their Humanitarian Implications for  Christian Communities in Africa”, Stellenbosch Theological Journal, Vol. 4, No 2, 335– 358. (University of Stellenbosch, South Africa). DOI:  
-http://dx.doi.org/10.17570/stj.2018.v4n2.a16. Online ISSN 2413-9467 | Print ISSN  2413-9459. \n"
-"21. **Ajah, M. (2018). “The Land as a Grant in Deuteronomy and Its Economic  
-Implications for Africa”, African Journal of Local Societies Initiative (LOSI), Vol.7, No.  1, 48-73 (Makurdi: Benue State University). \n" 
-"22. **Ajah, M. (2019) “Narratives of Violence in Numbers 25: Between Text and  Reception”, Insight: Journal of Religious Studies, Vol. 15, 17-31 (Babcock University,  Ilishan-Remo, Ogun State)."  ,
+            "Let us pray. \n \n" 
+"We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -628,7 +646,7 @@ Implications for Africa”, African Journal of Local Societies Initiative (LOSI)
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(e) Articles that have already been accepted for publication  ",
+              "ORDER FOR THE ADMINISTRATION OF THE SACRAMENTS OF BAPTISM TO  ADULTS",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -637,7 +655,8 @@ Implications for Africa”, African Journal of Local Societies Initiative (LOSI)
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "23. **Ajah M (2019). “Socio-Political Readings for Cult Centralization in Deuteronomy:  Lessons for Africa”, African Journal of Biblical Studies (AJBS), A Journal of Nigeria  Association of Biblical Studies; c/o: Department of Religious Studies, University of  Ibadan, Nigeria (Accepted for publication)." ,
+             "Before an adult is baptized, he or she must have received some general instruction in the  Christian faith and especially the meaning of baptism. The candidate will also have met with  the Session. \n \n" 
+              "After the sermon and the Apostle’s Creed, a baptismal hymn should be sung: the Minister  shall then call for those to be baptized to come to the front of the sanctuary and stand before  the Ministry at the baptismal font.\n"  ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -648,7 +667,7 @@ Implications for Africa”, African Journal of Local Societies Initiative (LOSI)
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "MAJOR CONFERENCES ATTENDED WITH PAPERS READ   ",
+              "PREAMBLE",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -657,20 +676,10 @@ Implications for Africa”, African Journal of Local Societies Initiative (LOSI)
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "(a) Ajah, M (2020). “The Concept of Cult Centralization in Deuteronomy and its Socio-Political  Implications for Africa Today”, Deuteronomy-Today e-Conference, South African Theological  Conference, 2-3 April 2020. \n" 
-"(b) Ajah, M (2019).“David Adamo and Communal Reading as an Interpretive Method in African  Biblical Hermeneutics”, 2019 Annual Meeting of the Society of Biblical Literature, Convention  Centre, San Diego, CA, United States of America, November 23 – 26, 2019. \n" 
-"(c) Ajah, M (2018). “Narratives of Violence in Numbers 25: Between Text and Reception”, Joint  Conference of Old Testament Societies hosted by the Oudtestamentisch Werkgezelschap in  Nederland en België (OTW) and Old Testament Society of South Africa (OTSSA), at the  Faculty of Theology and Religious Studies, University of Groningen, the Netherlands, 22nd– 24th August 2018. \n" 
-"(d) Ajah, M (2018). “Globalisation and Religious Fundamentalism in Nigeria: Problems and  Prospects” authored by Akper, G. & Ajah, M. at the 15th General Assembly of the Council for the Development of Social Science Research in Africa (CODESRIA), December 17th– 21st December 2018 at King Fahd Hotel in Dakar, SENEGAL.  \n"
-"(e) Ajah, M (2016). “Conflicting Prophecies in 1 Kings 22 and 2015 Nigeria Election”, Annual  Conference of Biblical Research Forum of Nigeria (BRESFON), held at Methodist Theological  Institute, Umuahia, 1-3 November 2016 (Sponsored by NOUN). \n" 
-"(f) Ajah, M (2016). “Reverse Mentoring in Biblical Scholarship in the light of 1 Kings 5:1-14”,  Triennial Congress of International Organization for the Study of Old Testament (IOSOT),  Stellenbosch University, 4-9 September, 2016 (Sponsored by Stellenbosch University, South  Africa). \n" 
-"(g) Ajah, M& Okoronkwo, M. E. (2015). “Christian Theology Curriculum in National Open  University of Nigeria: Issues of Pedagogy and Assessment”, The 26th ICDE World Conference,  (UNISA 2015), University of South Africa, Sun-City, 14-16 October, 2015 (Self Registration). \n" 
-"(h) Ajah, M (2014). “Promoting Open Educational Resources(OER) forTheological/Religious  Education in Nigeria”, 2nd International Conference on Open and Distance e-Learning  (ICOLDE 2014), 18-19 December, 2014 at Bangkok, Thailand (Sponsored by NOUN). \n" 
-"(i) Ajah, M (2013). “Religious Education and Government Takeover/Return of Mission Schools in  Nigeria”, RE21- Religious Education in Global-Local World, University College Cork (UCC),  Ireland, 29-30 August, 2013 (Sponsored by University College Cork, Ireland). \n" 
-"(j) Ajah, M (2013). “Love for the Stranger in Deuteronomy 10: 19 and It’s Socio-Cultural  Implications for Development in Nigeria”, Second Annual International Conference on:  Challenges of Development in Africa, Catholic University of Eastern Africa,Nairobi Kenya, 25- 29 June, 2013 (Sponsored by NOUN). \n" 
-"(k) Ajah, M (2013). “A Theological Interpretation of Land as a Grant in Deuteronomy and its Implications for Stewardship in Nigeria”, OTSSA Conference, University of the Free State,  Bloemfontein, SA, 11-13 September, 2013 (Sponsored by Stellenbosch University, South  Africa). \n"
-"(l) Ajah, M (2013). “Mi Yodea: A Theological Reflection on the Book of Jonah in the Face of  National Insecurity”, Bi-Annual International Religious Studies, Conference, University Of  Ibadan, 14-17 April, 2013 Self sponsorship). \n" 
-"(m) Ajah, M (2013). “Theological Interpretations Of Social Justice in the Book Of Deuteronomy  And their Implications For Nigeria”, 26th Conference of Nigerian Association of Biblical  Studies (NABIS), Life Theological Seminary, Ikorodu Lagos, 16-19 July, 2013 (Self  sponsorship). \n" 
-"(n) Ajah, M (2013). “The role of religion in fostering social justice through distance education in  Nigeria”, UNED-ICDE (Universidad Nacional de Education a Distancia & International  Council for Open and Distance Education) International Conference, 7-9 March, 2013 (Self  Registration)." ,
+             "Dearly Beloved: The sacraments of baptism is an institution which our Lord Jesus Christ  commanded His disciples to do when He said to them: \n" 
+"All authority in heaven and on earth has been given to me. Go therefore and make disciples  of all nations, baptizing them in the name of the Father and of the Son and of the Holy  Spirit, teaching them to observe all that I have commanded you, and lo, I am with you  always to the close of age. (Matt. 28: 18-20) \n \n" 
+"St. Peter also on the Day of Pentecost, called the people, saying, Repent, and be baptized  every one of you in the name of Jesus Christ for the forgiveness of your sins; and you  shall receive the gift of the Holy spirit. For the promise is to you and to your children  and to all that are far off, every one whom the Lord our God calls to him. (Acts 2:38-39) \n \n" 
+"This call to repentance and faith in Jesus Christ and to confession in this sacrament, is  addressed to you. Make sure that you truly profess your faith and are baptized into His name, that this sacrament shall be to you the sign and seal of the washing away of your sins, of your  ingrafting into Christ, of your regeneration by the Holy Spirit, and of your engagement to be  the Lord’s in the fellowship of His Church." ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -682,7 +691,7 @@ Implications for Africa”, African Journal of Local Societies Initiative (LOSI)
             padding: EdgeInsets.only(top: spacer),
             child: Text(
               "REFEREES /n"
-              "1. Prof. David Adamo ",
+              "THE VOWS",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
