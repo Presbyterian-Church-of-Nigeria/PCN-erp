@@ -690,7 +690,7 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "REFEREES /n"
+           
               "THE VOWS",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
@@ -700,8 +700,16 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-            " Department of Religious Studies  \n"
-"Kogi State University, Ayingba",
+             "The minister shall then say to the candidate(s): \n" 
+"For as much as you present yourself for baptism, it is necessary that you sincerely give answer  before God and His church to the questions which I now put to you.  \n \n" 
+"Do you confess your faith in God as your heavenly Father, in Jesus Christ as your Saviour and  Lord, and in the Holy Spirit as your Sanctifier and guide?\n"
+"(Candidates’ response :) I DO \n \n" 
+"Do you repent of your sins with a humble and contrite heart, and put your trust in the mercy  of God which is in Jesus Christ? \n" 
+"(Candidates’ response :) I DO   \n" 
+"The Minister ask the congregation to stand, and addresses them saying: \n \n"
+"Do you promise to receive these friends in love as fellow members of the Church, and to pray  for them and help them in their service for the Lord Jesus Christ? If so, please respond by  saying “WE DO.” \n"
+              "(Congregation’s response :) WE DO \n" 
+"The congregation may be seated.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
