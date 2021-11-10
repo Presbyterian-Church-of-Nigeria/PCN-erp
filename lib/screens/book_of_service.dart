@@ -109,7 +109,8 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "APPOINTMENT/EMPLOYMENT STATUS:",
+              "THE ADMINISTRATION OF THE SACRAMENTS OF BAPTISM AND THE LORDS SUPPER \n"
+              "ON THE ADMINISTRATION OF BAPTISM GENERAL ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
 
@@ -120,9 +121,14 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(a) Principal Clerk of General Assembly, the Presbyterian Church of Nigeria (September 2020 till Date).\n"
-              "(b) Associate Professor of Old Testament, National Open University of Nigeria, Abuja (On Leave ofAbsence).\n"
-              "(c) Minister of Word and Sacrament, PCN – (August 1986 till date"),
+              "∙ Baptisms, both infant and adult, are always service conducted in the presence of the  congregation.  \n" 
+"∙ Baptism must be administered with water, and in the name of the Father, Son and  Holy Spirit (Matt. 28:19).  \n" 
+"∙ THE PRESBYTERIAN CHURCH OF NIGERIA recognizes as valid all three modes of  baptism – sprinkling, pouring, immersion. Sprinkling is the usual mode, particularly for  infants, but no Minister may deny baptism by pouring or immersion when requested  to do so. \n"  
+"∙ Every baptism must have prior approval of the parish session, who must interview the  parents of infants, as well as all those age eight and above who are receiving baptism  as adults. No one may be coerced into baptism. \n"  
+"∙ The proper location for the baptismal font is at the front of the sanctuary, preferably  to the congregation’s right. \n" 
+"∙ It is usual to have the Clerk of session assist the Minister by uncovering the font, calling  and arranging those being baptized, caring for baptismal certificates, etc. ∙ While baptism is an event to which photographers are often invited, it must be  remembered that baptism is first of all a spiritual event, done with primary reference  to God. Photographers must respect the sanctuary as the house of God, the service as  worship, and the baptism as a divine contract. \n"  
+"∙ Godparents: THE PRESBYTERIAN CHURCH OF NIGERIA follows the traditional  Presbyterian and Reformed practice of the congregation being responsible for the  Christian nurture of those being baptized – i.e. no god parents. Hence, it is very  important that the congregation actually witness (see) the baptismal act to which they  are giving their support. \n" 
+"∙ Photographers and video camerapersons* must be kept to the side so as not to block the congregation’s view. If it is desired that relatives and/or other supporters witness  the baptism at close range, adequate seating should be provided at the front of the  sanctuary and they shall sit when the congregation sits, or they may stand behind the  Minister so as not to block the view of the congregation. " ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size -1),
             ),
@@ -130,7 +136,7 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "UNIVERSITY/TERTIARY EDUCATION:",
+              "INFANT BAPTISM ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -139,10 +145,9 @@ class _BookService extends State<BookService> {
             padding: EdgeInsets.only(top: spacer),
 
             child: Text(
-              "(a) Hebrew University, Jerusalem, Israel (Summer 2015)\n (b) University of Stellenbosch, South Africa (2004 – 2006).\n"
-              "(c) Austin Presbyterian Theological Seminary, Texas, USA (1999 – 2001).\n"
-              "(d) University of Nigeria, Nsukka (1991 – 1995).\n"
-               "(e) Trinity Union Theological College, Umuahia (1983 – 1986)",
+             "∙ Infant baptism should preferably be administered during the first or second month  after birth. Children who are eight years of age or older, should receive adult baptism. ∙ Parents (or guardians) who are themselves not baptised, may not take vows on behalf  of their children. Parents (or guardians) must be members in full communicant  standing. \n"  
+"∙ Before infants are baptised, the parents (or guardians) must understand well the  meaning of baptism and the implications of the vows which they take. ∙ Great care must be taken that the congregation does not confuse Thanksgiving for  safe Delivery and Child Blessing with infant baptism."  
+,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
               //maxLines: 5,
@@ -152,7 +157,7 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "PRIMARY & SECONDARY EDUCATION",
+              "ADULT BAPTISM",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -161,8 +166,7 @@ class _BookService extends State<BookService> {
             padding: EdgeInsets.only(top: spacer),
 
             child: Text(
-            "(a) Okamu Secondary Commercial School, Okon Ohafia (1977 – 1982) \n"
-              "(b) Community Primary School, Abia Ohafia (1972 – 1977)",
+            "∙ Children of age eight and all adults take baptismal vows on their own behalf. ∙ Candidates for baptism must understand the implications of their baptism.  ∙ Since candidates kneel for their baptism, it is usual that kneeling cushions or mats be  provided. ",
 
 
 
@@ -177,7 +181,7 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "ACADEMIC QUALIFICATIONS",
+              "BAPTISM BY SPRINKLING",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -186,13 +190,8 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(a) Proficiency Certificate on Biblical Hebrew Grammar (Hebrew University, Jerusalem) – (2015).\n "
-                  "(b) (Doctor of Philosophy (PhD Old Testament – Stellenbosch University, South Africa) – (2006). \n "
-                  "(c) Master of Arts (MA Biblical Studies – Austin Presbyterian Theological Seminary, Texas, USA) – (2001).\n"
-                   "(d) Bachelor of Arts (BA Religion - University of Nigeria, Nsukka) – (1995).\n"
-        "(e) Diploma in Theology (Dip. Theo - Trinity Union Theological College Umuahia) – (1986). \n"
-        "(f) West African School Certificate (WASC & GCE) - (1982 & 1989).\n"
-          "(g) First School Leaving Certificate (FSLC) - (1977)\n",
+              "∙ It is not necessary to touch the forehead three times, or to make the sign of the cross,  for the baptism to be valid. \n" 
+"∙ In order that the congregation may see the water, the use of ample water cupped in  the hand is preferably to a few drops on the fingertip. Sprinkling means real sprinkling,  not merely the laying on of a wet finger.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -201,7 +200,7 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              " DETAILS OF PASTORAL EXPERIENCE:",
+              " BAPTISM BY POURING ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -209,15 +208,7 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(a) Interim Minister (Volunteer Service), PCN Lugbe Across Out-Post, Lugbe Parish –(October 2019 – Till Date).\n"
-                "(b) Interim Minister (Volunteer Service), PCN Ibafo Mission – (May 2015 – December 2016).\n"
-                 "(c) Minister In-Charge, Umuahia Parish – (2002 – 2005).\n"
-                 "(d) Minister In-Charge, Ikeja Parish – (1994 – 1999).\n"
-                 "(e) Minister In-Charge, Ani Parish Uyo – (June 1990 – December 1990).\n"
-                  "(f) Associate Minister at Enugu Parish (Ezzagu and Nsukka Congregations) – (1987 – 1989 and 1989 – 1990) respectively.\n"
-                  "(g) Probationer at Enugu Parish (Ezzagu Congregation) – (1986 – 1987).\n"
-                  "(h) Ordained as Minister of Word and Sacrament at St. Andrews PCN Uwani Enugu, Enugu Parish – (September 1987).\n"
-                  "(i) Licensed as Minister of Word, the Presbyterian Church of Nigeria at Hope Waddell Chapel Calabar – (August 1986).",
+              "∙ Baptism by pouring follows the same pattern as baptism by sprinkling, except that the  Minister pours water on the candidate’s head from a pitcher.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -225,7 +216,7 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-                " DETAILS OF ECUMENICAL EXPERIENCE:",
+                " BAPTISM BY IMMERSION ",
                 textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -233,13 +224,17 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-                "(a) Leader, Ministerial Team, NOUN Christian Fellowship, National Open University of Nigeria, Headquarters, Abuja (2018 – 2020).\n"
-                 "(b) National Coordinator, Biblical Scholars’ Translation Engagement Programme (BiSTEP), Nigeria – (2017 – till date).\n"
-                "(c) National President, Abia-Ohafia for Christ Association (2018 – 2020).\n"
-                 "(d) National Coordinator, NOUN Christian Fellowship, National Open University of Nigeria, Headquarters, Abuja (2014 – 2018).\n"
-                 "(e) Vice Chairman, Abia State Christain Council of Nigeria (CCN), 2002-2005. \n"
-                    "(f) Chaplain, All Saints Chapel, National Roots Crops Research Institution, Umudike – (2000 – 2002).\n"
-                   " (g) Assistant Chaplain at Christ Church Chapel, University of Nigeria, Nsukka, (1991-1995).",
+                "∙ Were baptism by immersion is practiced, the entire congregation goes to a nearby  stream or river, as did Jesus in the Jordan River (Matt. 3:13). Lacking a convenient  stream or river, a borrow pit or other pool may be used, or the Church might ask to  use the facilities of a nearby Church which practices immersion. Rivers, streams, pit  and pools must be safe to enter, and at a place where the water is about one metre  deep. Infants may not be immersed.  
+.\n \n"
+                 "∙ Adequate preparations must be made, including…\n"
+                "∙ Candidates should be instructed to come with light-weight cloths to wear in  the water (even when a baptismal gown is used), a towel with which to dry  after the baptism, a change of dry clothes, a container in which to carry home  their wet clothes, etc.  
+\n"
+                 "∙ If the baptismal site is a natural outdoor location, it should be cleared of any  debris, both in the water and out. \n"
+              "∙ A protected place at the baptismal site must be provided for candidates to  change clothes, leave watches, glasses, and others valuables, etc. \n"  
+"∙ If there is any difficulty in getting in or out of the water, there must be persons  of the same sex as the one being baptised to assist. \n"  
+"∙ To avoid anyone catching cool, blankets or other clothes should be promptly  available. \n"  
+"∙ The technique of immersion. The Minister enters the water first. Candidates, brought  one at a time, stand with hands clasped together over the chest before the Minister,  facing the Minister’s right or left. The Minister says the baptismal formula, “N…., I  baptise you in the name of the Father, and of the Son, and of the Holy Spirit,” then  puts one hand behind the shoulders of the candidate, holds the candidates’ hands (or  nose and mouth) with the other, “lays” the candidate backwards into the water until  completely immersed, and quickly lifts him or her to a standing position again. For  those fearing they may inhale water, the Minister may use a folded handkerchief to  cover the candidate’s nose and mouth, instead of holding the hands. It is advisably to  have a second person standing near the Minister, ready to give a steadying hand if  needed. /n"
+"∙ THE PRESBYTERIAN CHURCH OF NIGERIA discourages the practice of adults –re baptism by immersion to replace one’s baptism as an infant. The value of baptism lies  not in what a human being brings to the act, but what God does through the act.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
               maxLines: 6,
@@ -250,7 +245,7 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "LEADERSHIP POSITIONS HELD",
+              "SUITABLE TEXTS FOR SERMONS ON BAPTISM",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -258,21 +253,10 @@ class _BookService extends State<BookService> {
           // Body
           Container(
             padding: EdgeInsets.only(top: spacer),
-            child: Text(
-             "(a) Coordinator, BTCLP Abuja Centre (2018 – Till Date)\n"  
-"(b) National President, Abia-Ohafia for Christ Association (2018 – 2020).\n"  
-"(c) National Coordinator, Biblical Scholars’ Translation Engagement Programme (BiSTEP),  Nigeria – (2017 – till date). \n" 
-"(d) National Coordinator, NOUN Christian Fellowship, National Open University of Nigeria,  Headquarters, Abuja (2014 – 2018). \n"  
-"(e) Rector, Hugh Goldie Lay/Theological Training Institution, Arochukwu – (2010 – 2012).  (f) Director for Lay Training, Hugh Goldie Lay/Theological Training Institution, Arochukwu,  2007 – 2010). \n"  
-"(g) Special Assistant on Inter-Religious Matters to the Abia State Governor, Chief T. A. Orji – (2007-2008). \n"  
-"(h) Member, Abia State Pilgrim’s Welfare Board – (2002-2005). \n"  
-"(i) Vice Chairman, Abia State Christain Council of Nigeria (CCN) – (2002-2005).  (j) Clerk, South Central Synod – (2002-2005). \n"  
-"(k) Moderator, Umuahia Presbytery – (2001-2002). \n"  
-"(l) Registrar, Trinity Union Theological College, Umuahia – (2000-2001). \n"  
-"(m)First Moderator of Synod of the West – (1996-1999). \n"  
-"(n) Moderator, Lagos Presbytery – (1995-1996). \n" 
-
-"(o) President of the Students’ Union (Chief) at Trinity Union Theological College Umuahia – (1985-1986).",  
+            child: Text(  
+"Old Testament: Genesis 6:9-22; Exodus 14:19-31; 2 Kings 5:9-14; Jeremiah 31: 27-34;  or Ezekiel 36: 25-28. \n" 
+"Epistle: Romans 6:3-14; 1 Corinthians 10: 1-13; Ephesians 4: 1-7; or Hebrews 9: 11- 14. \n"
+"Gospel: Matthew 3:13-17; Mark 10: 35-40; Luke 12: 49-53; or John 3:1-6.",  
 
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
@@ -284,7 +268,7 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "SELECTED CONTRIBUTIONS TO THE PRESBYTERIAN CHURCH OF NIGERIA  (1) Churches Planted ",
+              "AN ORDER FOR THE ADMINISTRATION OF THE SACRAMENT OF  BAPTISM TO INFANTS",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -293,18 +277,9 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "a. PCN Ibafo Mega Mission with BTCLP graduates 2nd Batch, Lagos Centre and  Presbytery Evangelism Committee, Lagos East Presbytery – 2015. \n" 
-"b. PCN Apo Resettlement Estate with First Abuja Parish and Hugh Goldie Institution (over  60 students) – 2012. \n" 
-"c. PCN Pegi, Abuja (Revived) with First Abuja Parish and Hugh Goldie Institution (over  60 students) – 2012. \n" 
-"d. PCN City Model Church, Azikiwe Road, Umuahia with Hugh Goldie Institution (over  100 students) – 2011. \n" 
-"e. PCN City Model Church, Tenant Road, Aba with BTCLP Students, Aba Centre (27 Students), Hugh Goldie Institution – 2010. \n" 
-"f. PCN Isieke Model Church, Umuahia with BTCLP Students, Umuahia Centre (36  students) & Goldie Students – 2009. \n" 
-"g. PCN Victory Outreach, Amuzukwu Umuahia with Umuahia Parish – 2004 \n" 
-"h. PCN Solid Rock Outreach, Bende Road, Umuahia with Umuahia Parish - 2003 i. PCN Iju, Lagos (Pilot Work) with Ikeja Parish – 1999. \n" 
-"j. PCN Oshodi, Lagos; General Assembly Crusade led by His Eminence James U. Ukaegbu, and handed over to Ikeja Parish for Follow-up and Nurture, hosted by Lagos  Presbytery with Synodical Power – 1995. \n" 
-"k. PCN Obollo Afor with PSF UNN, and Nsukka Parish – 1993/94. \n" 
-"l. PCN Edem Ani with PSF UNN, and Nsukka Parish – 1992/93. \n" 
-"m. PCN Aguegede Outreach with PCN Ezzagu Congregation, Enugu Parish - 1988 n. PCN Aguonwenkeya Outreach with PCN Ezzagu Congregation, Enugu Parish - 1987. \n", 
+              "The children should be brought by the parents or guardians for baptism at the earliest opportunity  after birth. Parents or guardians should be carefully instructed on the meaning of the sacrament and  their responsibility in it. Children eight years old and above should be encouraged to attend catechism  class and to take the baptismal vow themselves. \n"  
+"Parents or guardians who are not baptized must not take any vows on behalf of the child(ren). The  sacraments of baptism is administered in the presence of the congregation at a full service of worship.  The service should lead up to the baptism and the sermon should contain a careful instruction on the  meaning of the sacrament. \n"  
+"After the sermon and after the recitation of the Apostle’s Creed, a baptismal hymn may be sung. The  Minister shall explain that in the Presbyterian tradition the “godparents” are the congregation, and  therefore the entire congregation is asked to make its own promise. The Minister shall then call for  those to be baptised, along with their parents (or guardians) to come to the front of the sanctuary  and stand before the Minister at the baptismal font.", 
 
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
@@ -317,7 +292,7 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(2) Construction of Sanctuary and Manse ",
+              "PREAMBLE ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -326,10 +301,10 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "a. Built the Twin Flat Manse at PCN Umuagu, Umuahia Parish – 2004. \n"  
-"b. Built and dedicated the Church Building at at PCN Ogbodiukwu, Umuahia Parish – 2003. \n" 
-"c. Built the Main Sanctuary at PCN Ojodu, Ikeja Parish – 1998. \n"
-"d. Purchased the Land and built the First Sanctuary at PCN Okoba Congregation, Ikeja  Parish, Charity Road, Okoba - 1996. \n" ,
+              "The Minister shall then say:  \n"  
+"All authority in heaven and on earth has been given to me. Go therefore and make  disciples of all nations, baptizing them in the name of the Father and of the Son and of the  Holy Spirit, teaching them to observe all that I have commanded you, and lo, I am with you  always to the close of age. (Matt. 28: 18-20)  \n" 
+"And they were bringing children to him, that he might touch them; and the disciples rebuked  them. But when Jesus saw it he was indignant, and said to them. “Let the children come to  me, do not hinder them; for to such belongs the kingdom of God.” And he took them in his  arms and blessed them, laying his hands upon them. (Mark 10: 13-14, 16) \n"
+"By this sacrament of baptism, God brings His children into the family and household of faith,  and makes them members of Christ and citizens of the kingdom of heaven. Though little  children do not understand these things, yet is the promise also to them. It is the duty of those  who present their children for holy baptism to confess anew the faith wherein they are to be  baptised, and to promise to bring their children up in that faith and in the way of Christ and  His church. " ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -340,7 +315,7 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(3) Other Landmark Contributions   ",
+              "THE VOWS ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -349,12 +324,19 @@ class _BookService extends State<BookService> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "a. Founding Partner, Basic Training for Commissioned Lay Preachers (BTCLP), 2008 – 2010. \n"  
-"b. Founding Partner, Lagos Miracle Night - 1997. \n"  
-"c. Co-Initiator for the recruitment of current generation of Yoruba Ministers to PCN  (1995-1999). \n"  
-"d. As the last Moderator of Lagos Presbytery with Synodical Power, led in the creation of  Synod of the West through a radical decision/action tagged “Abeokuta Declaration” of  3rd February 1996, where it was decided to create 7 new Parishes and split the  
-Presbytery to 3 Presbyteries within the space of 2 months – (Actualized June-July  1996). \n"  
-"e. Founding Partner Presbyterian Students’ Fellowship (PSF), former Campus PYPAN – (1991 -1995). \n" ,
+              "The Minister shall then say to the parents: \n"  
+"In bringing forward your child(ren) for baptism, do you anew profess your faith in God as your  heavenly Father, in Jesus Christ as your Lord and Saviour, and in the Holy Spirit as your guide  and upholder throughout life?  \n"  
+"(Parents’ response :) I DO \n"  
+"Do you promise to behave that your child(ren) will have in you a good example of Christian  living? \n"  
+"(Parents’ response :) I DO  \n"
+ "Do you undertake to bring up your child(ren) in the knowledge and love of Jesus Christ as the  Lord of life? \n"
+              "(Parents’ response :) I DO \n"
+              "The congregation is asked to stand, and the Minister address them saying:  \n"
+              "Do you, the members of this congregation, promise to receive this child (these children) in  love as fellow members of the Church and to pray for him (her, them), and help him (her,  them) by your example of Christian living?  \n"
+              "(Congregational response :) WE DO.  \n"
+              "The congregation is asked to stand, and the Minister addresses them saying   \n"
+              "The Lord bless you and your child(ren), and give you grace to fulfil these promises.  \n"
+              "The congregation may be seated.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -365,7 +347,7 @@ Presbytery to 3 Presbyteries within the space of 2 months – (Actualized June-J
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "SCHOLARSHIPS, FELLOWSHIP AND PRIZES (with dates in respect of Undergraduate  and Postgraduate work only) ",
+              "THE PRAYER OF SANCTIFICATION ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -374,14 +356,10 @@ Presbytery to 3 Presbyteries within the space of 2 months – (Actualized June-J
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(a) Full Scholarship for Bachelor of Arts in Religion at University of Nigeria Nsukka by the  Presbyterian Church of Nigeria, 1990 – 1995. \n" 
-"(b) Presidential Scholarship for Master of Arts Studies at Austin Presbyterian, Theological  Seminary, Austin Texas,1999 -2001, by the World Alliance of Reformed Churches, Geneva. \n" "(c) Full Scholarship for Doctoral Research at Stellenbosch University, South Africa by His  
-Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji Uzor Kalu, 2004 – 2006. \n" 
-"(d) Travel/ResearchGrant for the paper: “Religious Education and Government Takeover/Return of  Mission Schools in Nigeria”, RE21- Religious Education in Global-Local World, August 29-30,  2013, University College Cork (UCC), Ireland by the Department of Religions, University  College Cork (UCC). \n" 
-"(e) Travel/Study Grant for Summer Proficiency Course on Biblical Hebrew at Hebrew University,  Jerusalem, Israel, June 18th– July 22nd 2015, by the Vice Chancellor, Prof. Vincent Tenebe,  National Open University of Nigeria. \n" 
-"(f) Travel Grant for the paper: “Narratives of Violence in Numbers 25: Between Text and  Reception”, Joint Conference of Old Testament Societies hosted by the Oudtestamentisch  Werkgezelschap in Nederland en België (OTW) and Old Testament Society of South Africa  (OTSSA), at the Faculty of Theology and Religious Studies, University of Groningen, the  Netherlands, 22nd– 24th August 2018. \n" 
-"(g) Travel Grant for the paper: “Globalisation and Religious Fundamentalism in Nigeria: Problems  and Prospects” authored by Akper, G. & Ajah, M. at the 15th General Assembly of the Council  for the Development of Social Science Research in Africa (CODESRIA), December 17th– 21st December 2018 at King Fahd Hotel in Dakar, SENEGAL. \n" 
-"(h) Travel Grant for the paper: “David Adamo and Communal Reading as an Interpretive Method  in African Biblical Hermeneutics”, 2019 Annual Meeting of the Society of Biblical Literature (SBL), San Diego, CA, United States of America, November 23 – 26, 2019. \n" ,
+              "Let us pray:  \n" 
+"Almighty and everlasting God, whose Son, Jesus Christ our Lord, Ordained this holy  sacrament, mercifully look upon us, we pray, and ratify in heaven that which by His  appointment we do upon the earth.   \n"
+ "Sanctify this water to the spiritual use to which You ordained it, and grant that this child (these  children) now to be baptized may be born of water and of the Holy Spirit, and ever remain in  the number of Your faithful children through Jesus Christ our Lord. AMEN  \n" 
+"O blessed saviour, who took little children into Your arms and blessed them, take this child  (these children) and seal him (her, them) for Your own: in the name of Him who lives and  reigns with the Father and the Holy Spirit, one God, world without end. AMEN. " ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -392,7 +370,7 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "HONOURS, DISTINCTIONS AND MEMBERSHIP OF LEARNED SOCIETIES (1) Honours and Distinctions ",
+              "THE ACT OF BAPTISM",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -401,12 +379,14 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(a) Thirty (30) years of Long Service Award in the Presbyterian Church of Nigeria by the General  Assembly, PCN at Lagos Presbyterian Church, Yaba, August 2016. \n"  
-"(b) Twenty five (25) years of Long Service Award in the Presbyterian Church of Nigeria by the  General Assembly, PCN at Uyo, August 2012. \n"  
-"(c) Research Associate at Old and New Testament Discipline Group, Faculty of Theology,  University of Stellenbosch, South Africa (2007 till date). \n"  
-"(d) PCN Minister of the year 2004 by Hugh Goldie Lay/Theological Training Institution,  Arochukwu, 2004. \n"  
-"(e) Jerusalem Pilgrim (JP), By Emmanuel Tours, Jerusalem, 2002, 2003 & 2004.  (f) Fifteen (15) years of Long Service Award by the General Assembly, The Presbyterian Church  of Nigeria at Calabar, 2001. \n"  
-"(g) Best Graduating Student in Old Testament Studies from University of Nigeria Nsukka. 1995.  (h) President of the Students Union (the Chief) at Trinity Union Theological College, Umuahia,  1985 - 1986. \n" ,
+              "As the parents present their children, the father of the child shall hand the infant (or child) to the  Minister. If the father cannot be present, an Elder or a guardian may present the child. An elder (Clerk  of Session) may assist the Minister by lining up the children with their parents and announcing the  full names of the child to the Minister in turn. Or alternatively, the Minister may directly ask the  parents the child’s name by saying “what is this child’s name?” 
+The Minister calls each child by name, sprinkles or pours water on the child’s head and saying during  each baptism: 
+ \n"  
+"N…... I baptize you in the name of the Father, and of the Son, and of the Holy Spirit.  \n"  
+"Then the Minister may add if he or she so desires: \n"  
+"The blessing of God Almighty, Father, Son, and Holy Spirit descend upon you, and dwell in  your heart forever. AMEN. \n"  
+"The Minister then hands the child to the mother. After all have been baptized, the Minister says: \n"  
+"According to Christ’s commandment this child is (these children are) now received into the  membership of the holy universal church, and is (are) engaged to confess the faith of Christ  crucified, and to courageously fight under His banner against sin, the flesh, the world and the  devil. May he (she, they) continue as Christ’s faithful soldiers and servants to his (her, their)  life’s end. " ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -417,7 +397,7 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "(2) Membership of Learned Societies  ",
+              "THE BLESSINGS",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -426,11 +406,12 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "(a) Member, The Nigerian Association for Biblical Studies (NABIS). \n"
-"(b) Member, Society for Biblical Literature (SBL). \n" 
-"(c) Member, Council for the Development of Social Science Research in Africa (CODESRIA) (d) Old Testament Society of South Africa (OTSSA). \n" 
-"(e) Member, Biblical Research Forum of Nigeria (BRESFON). \n" 
-"(f) Member, International Council on Distance Education (ICDE). \n" ,
+             "After all of the baptisms have been completed, the congregation stands and the following  Aaronic blessing is sung or said: \n"
+"The Lord bless you and keep you. \n" 
+"The Lord make his face to shine upon you and be gracious unto you \n" 
+"The Lord lift His countenance upon you and give you peace. Amen. 
+(Num. 6:24-26) \n" 
+"The congregation shall then be seated, and the Minister shall say: " ,
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -441,7 +422,7 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "DETAILS OF TEACHING EXPERIENCE  ",
+              "The prayer of Blessing",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -450,15 +431,19 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "(a) Associate Professor of Old Testament, Department of Religious Studies, National Open  University of Nigeria (January 2020 – Till Date). \n" 
-"(b) Part-Time Lecturer at Redeemed Christian Bible College, Abuja Centre (April 2019 – 2020). \n"  "(c) Senior Lecturer at National Open University of Nigeria, Department of Christian Theology  (2017 – 2019). \n"  
-"(d) Lecturer I at National Open University of Nigeria, Department of Christian Theology (2012 - 2016). \n"  
-"(e) Research Associate at Old and New Testament Discipline Group, Faculty of Theology,  University of Stellenbosch, South Africa (2007 till date). \n"  
-"(f) Rector at Hugh Goldie Lay/Theological Training Institution, Arochukwu, in affiliation with  Abia State Univeristy (September 2010 – August 2012). \n"  
-"(g) Senior Lecturer (Part-Time) at Abia State University (2011 – 2012). \n"  
-"(h) Senior Lecturer at Hugh Goldie Lay/Theological Training Institution, Arochukwu, in affiliation  with Abia State Univeristy, Uturu (January 2007 – June 2012). \n"  
-"(i) Lecturer (Adjunct) at Africa Theological College, Khayelisha, South Africa (2005 – 2006). \n"  "(j) Lecturer at Essien Ukpabio Presbyterian Theological Institution, Itu, in affiliation with  University of Calabar (2001 – 2003). \n"  
-"(k) Registrar and Lecturer at Trinity Union Theological College, Umuahia, in affilliation with University of Nigeria, Nsukka (2000 – 2001). \n"  ,
+             "Let us pray \n \n" 
+"Almighty and everlasting God, who has promised to be not only our God, but also the God  and Father of our children; we give You thanks for this child (these children) now received into  Your church. May Your Spirit be upon them. Help them to grow in wisdom and in stature and  in favour with God and their fellow men and women.  
+ \n \n"  
+"Grant that someday they may confirm the vows which have been made for them today, and  to witness their own faith in You. Make them Yours forever, for Your name’s sake. AMEN. \n \n"  
+"O God our Father, we pray You to bless this congregation and every home from which these  children come. Help us to bear the responsibility of bringing our children into the faith of  Christ. Bless the parents and the guardians of the children and their homes, and make them  aware that You have given them a special responsibility. Help them always to show by word  and by example how to bring the children up in Your knowledge, in Your love and in Your fear,  through Jesus Christ our Lord. AMEN. 
+\n \n"  
+"The Lord’s Prayer:  
+OUR FATHER…… \n \n"  
+"The Minister then pronounces one of the following benedictions: \n"  
+"The grace of the Lord Jesus Christ, and love of God, and the communion of the Holy Spirit be  with you all. AMEN. \n"  
+"Or \n"  
+"The peace of God, which passeth all understanding, keep your heart and minds in the  knowledge and love of God and of His Son Jesus Christ our Lord; and the blessing of God  Almighty, the Father, the Son, and the Holy Spirit, be among you, and remain with you always.  AMEN.  \n"  
+   "The children and their parents return to their seats, and the service continues.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -469,7 +454,7 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "COMPUTER SOFTWARE SKILLS ",
+              "AN ALTERNATE ORDER FOR THE ADMINISTRATION OF THE SACRAMENT OF  BAPTISM TO INFANTS  ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -478,9 +463,10 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "(a) Computer Appreciation Skill (MS Word, Excel, PowerPoint, etc). \n" 
-"(b) Use of Internet (Browsing for Research, Email, Social Media, etc)"
- ,
+             "This order differs from the preceding order in that immediately after the sermon, which should focus  on the meaning of baptism, that the baptism(s) occur and the Apostle’s creed is said as part of the  baptism rite. 
+\n \n" 
+"The children should be brought by the parents or guardian for baptism at the earliest opportunity  after birth. Parents or guardians should be carefully instructed on the meaning of the sacraments and  their responsibility in it. Children eight years old and above should be encouraged to take the  baptismal vow themselves. Parents or guardians who are not baptized must not take any vows on  behalf of the child(ren).\n \n"
+             "mediately after the preaching of the word, the parents and their infants are called forward, taking  their place before the minister at the baptismal font in the congregation. Or, if the parent and infants  are seated together, they may come as a group during the singing of the baptismal hymn. All of the  scriptures in the preamble are to be read.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -491,7 +477,8 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "RESEARCH ",
+              "A Baptismal Hymn \n \n"
+              "REAMBLE ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -500,7 +487,15 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-            " Project, Dissertation and Thesis: (Doctoral Dissertation 2006) Theological Perspectives on Tithing  in the Old Testament, and their implications for believing communities in Africa, Stellenbosch:  Stellenbosch University (http://scholar.sun.ac.za/handle/10019.1/1366)" ,
+            " Our help is in the name of the Lord who made heaven and the earth. (Psalm 124:8) It is written: then Jesus came from Galilee to John at the Jordan to be baptized by him. John  would have prevented him, saying “I need to be baptized by you and do you come to me” But  Jesus answered him “Let it be so now; for it is proper for us in this way to fulfil all  righteousness” then he consented. And when Jesus had been baptised, just as he came up  from the water, suddenly the heavens were opened to him. And a voice from heaven said,  “This is my Son, the Beloved, with whom I am well pleased.” (Matt. 3:13-17) \n \n"
+              "“I am come to bring fire to the earth, and how I wish it were already kindled! I have a baptism  with which to be baptized, and what stress I am under until it is completed”! (Luke 12:49-50) 
+) \n \n"
+              "It is also written: Then the soldier came and broke the legs of the first and of the other who  had been crucified with him. But when they came to Jesus and saw that he was already dead,  they did not break his legs. Instead one of the soldiers pierced his side with a spear, and at  once blood and water came out. (John 19:32-34)  \n \n"
+              " As the risen Lord was about to ascend He said: “All authority in heaven and on earth has been  given to me. Go therefore and make disciples of all nations, baptizing them in the name of  the Father and of the Son and of the Holy Spirit and teaching them to obey everything that I  have commanded you. And remember, I am with you always, to the end of age” (Matt.  26:18b-20)  \n \n"
+              "People were bringing little children to him, in order that he might touch them; and the  disciples spoke sternly to them. But when Jesus saw this he was indignant, and said to them,  Let the little children come to me; do not stop them; for it is to such as these that the kingdom  of God belongs. Truly I tell you, whoever does not receive the kingdom of God as a little child will never enter it. And he took them up in his arms, laid his hands upon them, and blessed  them. (Mark 10:13-16)  \n \n"
+              " Dearly beloved, God our Father calls us and our children, into His covenant of grace made  with our fathers. Having yourselves, by nurture and faith entered into this covenant, you do  now by this act claim its benefits for your child(ren). God renews His covenant of grace in this  sacrament as a sign and seal of our dying and rising with Christ, of our ingrafting into Him, of  remission of sin through His blood, of regeneration by His Spirit, of adoption into the  household of faith and resurrection to everlasting life. Through it also we are incorporated by  Christ’s appointment into His Church and entered upon an engagement to be the Lord’s. Do not doubt, but earnestly believe that God will favourably receive this child (these children), that He will embrace him (her, them) within the arms of His mercy; that He will give to him  (her, them) the blessing of eternal life, and make him (her, them) partaker(s) of His everlasting  Kingdom 
+ \n \n"
+              " Let us now confess the faith into which this child (these children are) is to be baptized."
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -511,7 +506,9 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "PUBLICATIONS   ",
+              "The Apostle’s Creed (Standing)\n" 
+              " BELIEVE … \n \n"
+              "VOWS",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -520,7 +517,7 @@ Excellency, the Executive Governor of Abia State (1999 – 2007), Chief Dr. Orji
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "Google Scholar Profile: https://scholar.google.com/citations?user=jf3QYD8AAAAJ&hl=en&oi=ao"  ,
+             "The Minister shall then say to the parents:\n",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
