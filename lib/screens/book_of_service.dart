@@ -478,7 +478,7 @@ OUR FATHER…… \n \n"
             padding: EdgeInsets.only(top: spacer),
             child: Text(
               "A Baptismal Hymn \n \n"
-              "REAMBLE ",
+              "PREAMBLE ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -720,7 +720,7 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "2. Prof. Emele Mba Uka  ",
+              "THE PRAYER OF CONSECRATION",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -729,8 +729,11 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "Department of Religious Studies \n" 
-"University of Calabar" ,
+             "Let us pray.  \n \n" 
+"Almighty and everlasting God, whose blessed Son, Jesus Christ our Lord, has ordained this  holy sacrament; mercifully look, we pray, upon us who are gathered together in His name,  and ratify in heaven that which, by His appointment, we do upon earth.   
+Graciously, accept these Your servants, we pray, that they, coming to You in baptism may  receive forgiveness of sins and being born anew of water and of the Holy Spirit, may die to sin  and live to righteousness.  
+ \n \n"
+"Sanctify this water to its appointed spiritual use to which You ordained it, and grant that these  Your servants to be baptized may receive the fullness of Your grace, and ever remain in the  number of Your faithful people; through Jesus Christ our Lord. AMEN. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -741,7 +744,7 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "3. Prof. Hendrik L. Bosman ",
+              "THE ACT OF BAPTISM",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -750,14 +753,278 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "Department Old and New Testament  \n" 
-"Faculty of Theology, Stellenbosch University, South Africa " ,
+             "The Minister indicates for the candidates, each in turn, to kneel. Calling the candidate’s name, the Minister  sprinkles or pours water on the candidate’s head, and saying during each baptism:  \n \n" 
+"N….. I baptize you in the name of the Father, and of the Son, and of the Holy Spirit.  \n"
+"The Minister may add, if he or she so desires: \n" 
+"The blessing of God Almighty, Father, Son, and Holy Spirit descend upon you, and dwell in  your heart forever. \n \n" 
+"The Minister indicates for the candidates to stand. When all of the adult baptisms have been  completed, the Minister shall say to the congregation.  
+ \n \n" 
+"According to Christ’s commandment, N… is now received into the membership of the  Church, and is engaged to confess the faith of Christ crucified, and to be His faithful soldier  and servant unto his (her, their) life’s end.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
           ),
           //End of Topic and Body   
             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "THE BLESSING",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "After all of the baptism have been completed, the congregation stands and the Aaronic blessing is  sung or said: \n" 
+"The Lord bless you and keep you. 
+The Lord make his face to shine upon you and be gracious unto you  \n \n"
+"The Lord lift His countenance upon you and give you peace. Amen. 
+(Num. 6:24-26)   \n" 
+"The congregation shall be seated, and the Minister shall say: ",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "The Prayer of Blessing ",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "Let us pray. \n \n" 
+"Almighty and most merciful God, we thank You for Your great goodness in receiving this  (these) Your servants into Your Church in this holy sacraments. Bless him (her, them) and pour out upon him (her, them) Your Holy Spirit. Bestow upon him (her, them) the manifold gifts of  Your grace; and that he (she, they) being now ingrafted into Christ, may receive out of His  fullness and may evermore abide in Him. Defend him (her, them) against temptation, and arm  him (her, them) to fight the good fight of faith. Grant that Your strength may be made perfect  in his (her, their) weakness, and keep him (her, them) steadfast in Your love and service to the  end.  \n \n"
+"Sanctify to us all the blessing and comfort of this holy sacrament. Forgive us wherein we have  come short of the grace of our own baptism by wandering from Your ways, and bring us back  with a perfect repentance; through Jesus Christ our Lord. AMEN. \n \n" 
+"The grace of the Lord Jesus Christ, and love of God, and the communion of the Holy Spirit be  with you all. AMEN. (2 Cor. 13:13) Certificates may be presented now or later. The service continues.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "AN ALTERNATIVE ORDER FOR THE ADMINISTRATION OF THE SACRAMENT OF  BAPTISM TO ADULTS ",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "This order is for insertion after the sermon in the regular order of worship. \n \n" 
+"The candidates shall be well instructed in the faith of the church and in the Christian way of life and  shall be examined and approved by the Minister and the Session before being accepted for Baptism.  Care should be taken to see that the candidate has not been previously baptised. The sacrament of  baptism should be administered in the presence of the congregation at a public service of worship,  and preferably not be combined with the sacraments of the Lord’s Supper, nor with confirmation. The  whole service should lead up to the baptism, and the sermon should contain a careful instruction on  the meaning of the sacraments. \n \n"
+"After the sermon, and after a baptismal hymn has been sung, the persons to be baptised shall be  called forward, and shall stand before the Minister at the font. In case of baptism by immersion, the  appropriate additional preparations shall have been made.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "PREAMBLE ",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "Jesus said, “All authority in heaven and on earth has been given to me. Go therefore and make  disciples of all nations, baptizing them in the name of the Father and of the Son and of the  Holy Spirit, teaching them to observe all that I have commanded you, and lo, I am with you  always to the close of age.” (Matt. 28: 18-20) \n \n" 
+"St. Peter also on the Day of Pentecost, called the people, saying, Repent, and be baptized  every one of you in the name of Jesus Christ for the forgiveness of your sins; and you shall  receive the gift of the Holy spirit. For the promise is to you and to your children and to all that  are far off, every one whom the Lord our God calls to him. (Acts 2:38-39) \n \n"
+"This call to repentance and faith in Jesus Christ, and to confession thereof in this sacrament,  is addressed to you. Be assured that as you truly profess your faith and are baptized into His  name, this sacrament will be the sign and seal of your dying and rising with Christ, of the  washing away of your sins, of your ingafting into Him, of your regeneration by the Holy Spirit,  and of your engagement to be the Lord’s in the fellowship of His Church. \n \n" 
+"If not already said, the Minister and Congregation shall repeat the Apostle’s creed, saying, “Let us  reaffirm our faith in the words of the Apostle’s Creed, saying together, I BELIEVE….” ",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "THE PROMISES ",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "The minister, addressing the candidate(s) for baptism, shall say:  \n" 
+"For as much as you present yourself for baptism, it is necessary that you sincerely give answer  before God and His Church to the questions which I now put to you.  \n \n"
+"Do you own and confess the faith as affirmed in the Apostle’s Creed?  \n" 
+"I DO \n \n" 
+"Do you repent of your sins with a humble and contrite heart, and put your trust in the mercy  of God in Christ Jesus?  \n" 
+"I DO \n \n"
+"Do you promise to give regular attendance at public worship, to be regular in daily prayers  and the reading of the scriptures, and to be a faithful member of the Church of God? I DO ",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "THE PROMISE BY THE CONGREGATION",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "The congregation shall stand, and the Minister shall ask them:\n" 
+"Do you promise to receive this friend (these friends) in love as fellow members(s) of the  Church, and to pray for him (her, them) and help him (her, them) to be (a) faithful  member(s) of the Church of God? \n"
+"(Congregation’s response :) WE DO  \n" 
+"The congregation is seated, and the Minister says: ",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "PRAYER OF SANCTIFICATION",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "Almighty and Everlasting God whose blessed Son, Jesus Christ our Lord ordained this holy  sacrament, look mercifully, we pray, upon us who are met together in His name, and ratify  in heaven that which, by His appointment we do upon earth. \n \n" 
+"Graciously, accept Your servant(s), we pray, that he (she, they), coming to You in baptism,  may receive remission of sins, and being born again of water and of the Holy Spirit may die  unto sin and live unto righteousness.  \n \n"
+"Sanctify this water to the spiritual use to which you ordained it, and grant that Your  servant(s), now to be baptized with it, may receive the fullness of Your grace, and ever  remain in the number of Your faithful people; through Jesus Christ our Lord. AMEN.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "THE BAPTISM  ",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "The person to be baptized shall kneel and the Minister shall call his or her name and sprinkle or poor  water on his or her head and say (or, in cases of baptism by immersion, the Minister enters the water  with the candidate, and says the following sentence, after which the Minister immerses the person): \n \n" 
+"N…. I baptize you in the name of the Father, and of the Son, and of the Holy Spirit. \n"
+"The Minister may add the following blessing, if he or she desires: \n" 
+"The blessing of God Almighty, Father, Son and Holy Spirit descend upon you, and dwell in your  heart forever. AMEN. \n \n" 
+"After the candidates have been baptised, those kneeling down remain kneeling while those immersed  remain standing in the water, the Minister shall say: \n" 
+"According to Christ’s commandment this person (these persons) are now received into the  membership of the universal holy Church and is (are) engaged to confess the faith of Christ  crucified, and to courageously fight under His banner against sin, the flesh, the world, and the  devil. May he (she, they) continue as Christ’s faithful soldier(s) and servant(s) to his (her, their)  life’s end.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "THE AARONIC BLESSING",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "Sung or said while those baptized are still kneeling or standing in the water.\n \n" 
+"The Lord bless you and keep you.\n"
+"The Lord make his face to shine upon you and be gracious unto you \n" 
+"The Lord lift His countenance upon you and give you peace. Amen. 
+(Num. 6:24-26)",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "PRAYER OF DEDICATION",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "Baptised persons still kneeling, or standing in the water:\n" 
+"Almighty and most merciful God, we thank You for Your great goodness in receiving this  (these) Your servants(s) into Your Church in this holy sacrament. Bless him (her, them) and  pour out upon him (her, them) Your Holy Spirit. Bestow upon him (her, them) the numberless  gifts of Your grace; and grant that he (she, they) being now ingrafted into Christ may receive  out of His fullness, and may evermore abide in Him. Defend him (her, them) against  temptation, and arm him (her, them) to fight the good fight of faith. Grant that Your strength  may be made perfect in his (her, their) weakness, and keep him (her, them) steadfast in Your  love and service to the end. \n \n"
+"Sanctify to us all, O Lord the meaning of this holy sacrament Forgive us wherein we have come  short of the grace of our own baptism, by wandering from Your ways, and bring us back with  true repentance. Quicken us anew by the power of Your Holy Spirit that we may walk in  charity, humility, and godliness, as those who have been baptized by the same Spirit into one  body; through Jesus Christ our Lord. AMEN. \n \n" 
+"The Lord’s Prayer:   \n" 
+"If adult baptism is the only ordinance being celebrated at this service the Lord’s Prayer may now be  said \n" 
+"OUR FATHER…. ",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "THE GRACE ",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "The grace of the Lord Jesus Christ, and love of God, and the communion of the Holy Spirit  be with you all. AMEN. (2 Cor. 13:13)  \n \n" 
+"Those baptised may now return to their seats; those immersed leave the water and change into dry  clothing. The regular order of service continues. \n ",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
           //Topic
           Container(
             padding: EdgeInsets.only(top: spacer),
@@ -771,7 +1038,611 @@ OUR FATHER…… \n \n"
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "Signature:__________ Date:24th August 2021 " ,
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: size),
+            ),
+          ),
+          //End of Topic and Body   
+             // Begining of Topic and Body
+          //Topic
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+              "SIGNATURE AND DATE",
+              textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
+            ),
+          ),
+          // Body
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: Text(
+             "We bless Your name, O merciful God, that You have now given this child (these children) a  place in Your Church. We earnestly pray that he (she, they) being ingrafted into Christ, may  grow in His Grace and in due time may put his (her, their) faith in You, and continue therein  till death takes him (her, them) to be eternally at home with You. \n \n" 
+"For Christian homes and families, we praise You, O God. For Your mercy to this (these)  mother(s) in childbirth, we give You thanks. Bless, we pray, the home(s) of this (these) little  one(s), the parents and all who have the care of him (her, them) that they may be enabled by  Your grace and led by Your wisdom to train him (her, them) by percept and example in the  love and fear of Your name. \n \n"
+"Make real to us all, O God, the meaning of this sacrament. Forgive us where we have failed in  the grace of our own baptism, and bring us back with a hearty repentance. May we also from  this time forward, walk more humbly in obedience to You and in love toward one another as  those who have been baptised by one spirit into one body: through Jesus Christ our Lord.   \n" 
+"The Lord’s Prayer:   \n" 
+"OUR FATHER…… \n \n" 
+"The Minister then pronounces one of the following benedictions:  \n"
+"The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit  be with you all. AMEN. (1 Cor. 13:14) The children and their parents return to their seats and the service continues. The Apostle’s creed and  the Lord’s Prayer are not used again in the service.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
