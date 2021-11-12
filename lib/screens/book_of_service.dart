@@ -1872,16 +1872,16 @@ heaven, And sitteth on the right hand of the Father, And He shall come again wit
             padding: EdgeInsets.only(top: spacer),
             child: Text(
              "Blessed is He that comes in the name of the Lord \n" 
-HOSANNA \n"
-Hosanna in the highest. \n \n"
-THANKSGIVING FOR REDEMPTION \n " 
-O Holy, Almighty, and Merciful God: You gave Your Son for the life of the world, who being  very and eternal God, in perfect love became man for us men and for our salvation. Not as  we ought, but as we are able, we bless You for His life on earth, for His precious sufferings  and death upon the cross, for His resurrection from the dead, for His glorious ascension to  Your right hand, and that He fulfilled Your will and finished the work which You gave Him to  do, Until He returns in great glory.\n \n"  
-COMMEMORATION \n " 
-We humbly beseech You to receive this memorial of the most blessed sacrifice of Your Son  which He has commanded us to set before You. 
-EPICLESIS  \n" 
-…and so to sanctify with Your Word and spirit these Your own gifts of bread and wine, that  the bread which we break may be to us the communion of the Body of Christ, and the cup of  wine which we bless the communion of the blood of Christ. \n \n" 
-OBLATION \n "
-…in union with whom, and with the whole Church in heaven and earth, we present ourselves  unto You, soul and body, to be a reasonable, holy, and living sacrifice, through Jesus Christ  our Lord, by whom, and with whom, in the unity of the Holy Spirit, all honour and glory be  unto you, O Father Almighty, world without end. AMEN. ",
+"HOSANNA \n"
+"Hosanna in the highest. \n \n"
+"THANKSGIVING FOR REDEMPTION \n " 
+"O Holy, Almighty, and Merciful God: You gave Your Son for the life of the world, who being  very and eternal God, in perfect love became man for us men and for our salvation. Not as  we ought, but as we are able, we bless You for His life on earth, for His precious sufferings  and death upon the cross, for His resurrection from the dead, for His glorious ascension to  Your right hand, and that He fulfilled Your will and finished the work which "You gave Him to  do, Until He returns in great glory.\n \n"  
+"COMMEMORATION \n " 
+"We humbly beseech You to receive this memorial of the most blessed sacrifice of Your Son  which He has commanded us to set before You. 
+"EPICLESIS  \n" 
+"…and so to sanctify with Your Word and spirit these Your own gifts of bread and wine, that  the bread which we break may be to us the communion of the Body of Christ, and the cup of  wine which we bless the communion of the blood of Christ. \n \n" 
+"OBLATION \n "
+"…in union with whom, and with the whole Church in heaven and earth, we present ourselves  unto You, soul and body, to be a reasonable, holy, and living sacrifice, through Jesus Christ  our Lord, by whom, and with whom, in the unity of the Holy Spirit, all honour and glory be  unto you, O Father Almighty, world without end. AMEN. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -1892,7 +1892,9 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE LORD’S PRAYER \n"
+"OUR FATHER…\n \n" 
+"THE FRACTION ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -1901,8 +1903,23 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "According to the holy institution, example, and command of our Lord Jesus Christ, and for a  memorial of Him, we do this: who, the night in which He was betrayed TOOK A LOAF OF  BREAD… \n \n"
+"(Here the Minister shall take the bread into his or her hands, and continue saying:) …and when He had giving thanks HE BROKE IT… \n \n"
+"Here the Minister shall break the bread in the sight of all.\n \n" 
+"…and said, TAKE, EAT; THIS IS MY BODY, THAT IS FOR YOU. DO THIS IN REMEMBRANCE OF  ME. \n \n"
+"Here the Minister returns the broken pieces to the table \n \n" 
+"After the same manner also HE TOOK THE CUP… \n \n" 
+"Here the Minister shall raise the cup so as to be seen by all. \n \n"
+"…saying: THIS CUP IS THE NEW COVENANT IN MY BLOOD; THIS DO AS OFTEN AS YOU DRINK IT, IN REMEMBRANCE OF ME.\n \n" 
+"Here the Minister returns the cup to the table \n \n" 
+"For as often as you eat this bread and drink the cup, you proclaim the Lord’s death until he  comes.\n \n" 
+"THE AGNUS DEI \n"
+"Lamb of God, who takes away the sins of the world \n"
+"HAVE MERCY ON US.\n" 
+"Lamb of God, who takes away the sins of the world, \n"
+"HAVE MERCY ON US.\n" 
+"Lamb of God, who takes away the sins of the world, \n" 
+"GRANT US YOUR PEACE.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -1913,7 +1930,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "DISTRIBUTION",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -1922,8 +1939,28 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "The Minister partakes of both elements, then serves any Assisting Minister, then serves the Assisting  elders after which the Assisting elders distribute to the congregation. Or, alternatively following  Jesus’s example of humility in John 13:12-15, the Assisting Elders may serve the congregation first,  then the Minister servers the Assisting Elders, and finally one of the Assisting Elders serves the  Minister. \n \n"
+"In presenting the elements to those assisting and to the congregation, the Minister shall say: \n \n"
+"Take eat, this is the body of Christ which is broken for you. Do this in remembrance of Him. AND, This cup is the new covenant in the blood of Christ which is shed for many unto remission of  sins: drink of it, all of you. \n \n" 
+"During the distribution of the elements appropriate communion hymns may be softly sung or  hummed, or the organ may play quietly. When all have been served and the remaining elements  retuned, the Table is covered.\n \n"  
+"THE PAX \n \n"
+"The peace of the Lord Jesus Christ be with you all. \n \n"
+"AND WITH YOUR SPIRIT \n \n"
+"If so desired, it is appropriate for members of the congregation to briefly greet one another.\n \n"  
+"Prayer of Thanksgiving and intercession \n \n" 
+"Prayer of Thanksgiving \n \n"
+"We bless you, most gracious Lord, for You have received from our hand, unworthy as we are,  this our sacrifice of praise and thanksgiving, and have incorporated us by Your Holy Spirit into  the mystical Body of Your Son. Help us to abide steadfastly in this most blessed fellowship,  and to bring forth rich fruit to your praise, through the merits of Jesus Christ our Lord, we  pray. AMEN  \n \n"
+"Prayer of intercession \n \n"
+"O Lord, save Your people, and Your heritage; feed them also and lift them up forever. Pour  out Your Spirit upon Your congregation, and let Your saints be joyful. Show Your mercy to  those who remain afar off, and gather the lost into Your house, for the sake of Your Son, Jesus  Christ our Lord. AMEN.\n \n"  
+"Bring peace to all nations Lord. As new wonders, new powers, and new dangers rise before  us in the world of men, may the majesty of Christ subdue all hearts to Your kingdom. Guide  Your servants, the leaders of all nations, and especially the leaders of our great nation Nigeria.  May they have true wisdom and only such power as is dedicated to Your rule and productivity  for the good of mankind, for the sake of Jesus Christ, the King of Kings and Lord of Lords  AMEN.\n \n"  
+"O God, FATHER OF ALL CREATION, WE IMPLORE Your mercy on behalf of all classes and  conditions of men and women. Visit them with Your compassionate help, each according to  their varied necessities. Satisfy longing souls who have desired to be with us at this Table, but  who have been hindered by infirmity or other lawful occasion. May they rejoice to be  numbered through our prayers in the company of the blessed, through Jesus Christ our Lord.  AMEN. \n \n"
+"Prayer of Commemoration of the departed \n \n" 
+"O Lord, who gave us at this Table a mystic, sweet communion with those whose rest is won,  we praise You for our loved ones who have departed this life, through whom we are more  nearly united with You, and for all the glorified who surround Your throne with Joy. Prepare us more and more to join this holy company, until at last with them we share the full vision  of your glory, who being Father, Son, and Holy Spirit, one God are blessed for evermore.  AMEN.\n \n"  
+"Announcement \n \n"
+"To maintain the attitude of communion, announcements should be as brief as possible \n \n"
+"A Hymn  \n \n"
+"The Benediction and Choral “Three-fold AMEN”.  \n \n"
+"The Recessional ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -1934,7 +1971,8 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "A FULL ORDER FOR THE ADMINISTRATION OF \n" 
+"THE SACRAMENT OF THE LORD’S SUPPER ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -1943,8 +1981,8 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Vestry Prayer \n" 
+"Processional ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -1955,7 +1993,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE APPROACH",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -1964,8 +2002,47 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "A Prelude Hymn  \n \n "
+"The Call to Worship \n \n "
+"Let us worship God\n \n " 
+"A Hymn  \n \n " 
+"The Call to Prayer \n \n " 
+"What shall I return to the LORD for all his bounty to me? I will lift up the cup of salvation and  call on the name of the LORD. I will pay my vows to the LORD in the presence of all his people.  (Psalm 116:12-14) \n \n "
+"Or, \n \n "
+"Christ, our paschal lamb, has been sacrificed. Let us, therefore, celebrate the festival. O taste  and see that the LORD is good! Happy are those who take refuge in him! (1 Cor. 5:7b, 8a; Psalm 43:8) \n \n " 
+"Prayer of Adoration, Confession, and Supplication \n \n " 
+"Let us pray\n \n "  
+"Prayer of Adoration \n "
+"Almighty God, unto whom all hearts are open, all desires know, and from whom no secrets  are hid; cleanse the thoughts of our heart by the inspiration of Your Holy Spirit, that we may  perfectly love You, and worthily magnify Your holy name, through Christ our Lord. AMEN.\n \n " 
+"Prayer of Confession\n " 
+"Eternal God, our heavenly Father: You admit Your Children into such wonderful communion,  that by partaking in the divine mystery of the body and blood of your dear son, we – your  people-should dwell in Christ and Christ in us. We are unworthy sinners. Approaching Your  presence and beholding 'Your glory, we repent of our transgressions. We have sinned, we have  grievously sinned against You, in thought, word, and deed. We have broken our past vows,  and have dishonoured Your holy name.\n \n " 
+"Prayer of Supplication \n "
+"Yet now, most merciful Father, have mercy upon us for the sake of Jesus Christ, forgive us all  sins. Deliver us, by Your Holy Spirit, form all uncleanliness in spirit and in flesh; and enable us heartily to forgive others, as we plead for you to forgive us, that we may serve You afresh in  newness of life, to the glory of Your holy name. AMEN.\n \n "
+ 
+"O God, who has prepared for them that love You such good things as pass man’s  understanding; pour into our hearts such love toward You, that we loving You above all things;  may obtain Your promises, which exceed all that we can desire; through Jesus Christ our Lord,  to whom with You and the Holy Spirit, be all honour and glory, world without end. AMEN. \n \n " 
+"An Anthem  \n \n "
+"The Old Testament Lesson  \n \n "
+"A Psalm,\n \n "
+              "or\n \n "
+              "Hymn  \n "
+"A psalm such as 116 in the prose version of the Psalter, may be sung or read ending with Gloria Pati;  or a metrical Psalm (such as 116:13-19) shall be sung. \n \n "
+"The New Testament Lesson(s) \n "
+"The Nicene Creed  \n "
+"The Nicene Creed maybe said here or after the elements have been brought in and put on the  communion table. The congregation stands.  \n \n "
+"The Nicene Creed maybe found on RCH 725 and elsewhere. \n \n "
+"Let us repeat Nicene Creed, as found in ….. \n \n "
+"I believe in one God, the Father Almighty, Maker of heaven and earth, And of all things visible  and invisible: \n \n "
+"And in one Lord Jesus Christ, the only-begotten Son of God, Begotten of His Father  before all worlds, God of God, light of light, very God of very God Begotten, not made, Being  of one substance with the Father, by whom all things were made: who for us men, and for  our salvation, came down from heaven, and was incarnate by the Holy Ghost of the Virgin  Mary, and was made man, and was crucified also for us under Pontius Pilate. He suffered and  was buried, and the third day he rose again according to the Scriptures, And ascended into  heaven, And sitteth on the right hand of the Father, And He shall come again with glory to  judge both the quick and the dead: whose kingdom shall have no end. \n \n " 
+"And I believe in the Holy Ghost, the Lord and Giver of life, who proceedeth from the  Father and the Son, who with the Father and the Son together is worshipped and glorified,  who spake by the Prophets. And I believe one Holy Catholic and Apostolic Church. I  acknowledge one Baptism for the remission of sins. And I look for the Resurrection of the  dead, And the life of the World to come. AMEN.  \n \n "
+"Prayer of Intercession \n \n " 
+"Let us pray. \n "
+"Almighty God, the Father of our Lord Jesus Christ, of whom the whole family in heaven and  earth is named; we Your children, gathered at Your Holy Table remember before You all with whom we have part in the communion of Your saints, and we beseech You to hear our humble  intercession  
+We pray for Your Church, holy, catholic, and apostolic. Increase and sanctify her more and  more and hasten the victory of Your eternal kingdom.  \n \n "
+"We pray for our country, for Your servants the president of the Federal Republic of Nigeria,  for all federal ministers, state governors and commissioners, and all traditional rulers, and the  people. Guide and sustain those who rule and defend us, and establish our nation.  \n \n "
+"Give, and preserve to our use, the kindly fruit of the earth; and keep us from war, pestilence,  and famine.  \n \n "
+"Remember in Your mercy, O Lord, the sick and the suffering, the aged and the dying, all who  are in trouble and bereavement, especially those known to us, whom we now name in our  hearts before you… (Pause) … visit them with Your Love and consolation, and grant them Your  peace. \n \n " 
+"We pray for our loved ones, whether at home or absent from us upon the sea, in the air, or  in far-off lands that Your presence maybe their strength and stay. Bless them and keep them,  and cause Your face to shine upon them. In the name of our saviour we ask. Amen.  \n \n "
+"A Hymn ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -1976,7 +2053,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE WORD ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -1985,8 +2062,17 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "The Prayer of Illumination \n" 
+"From the pulpit, the following (or similar) prayer shall be offered by the Minister (or preacher).  \n \n"
+"Let us pray.  \n"
+"Almighty God, with whom are hid all the treasures of wisdom and knowledge; open our eyes,  that we may behold wondrous things out of Your Law; and draw us to Yourself with the cords  of everlasting love; through Jesus Christ our Lord. AMEN. \n \n" 
+"The Sermon  \n"
+"An ascription of Glory   \n"
+"To be said by the minister (or the Preacher) from the pulpit.  \n \n"
+"To him who loves us and has freed us from our sins by His blood and made us to be a kingdom,  priest serving his God and Father, to Him be glory and dominion forever and ever. AMEN.  (Rev. 1:5, 6)  \n \n"
+"The Offerings  \n"
+"The dedication of the Offerings  \n" 
+"After the dedication of the offerings, the Minister takes his (her) place at the holy table ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -1997,7 +2083,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE SACRAMENT OF THE LORD’S SUPPER ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2006,8 +2092,8 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "AN ECUMENICAL INVITATION \n" 
+"This invitation is primarily for those who are visitors. It is usual for the Minister to publicly invite such  person in words such as “This is the Lord’s Table. If you are a visitor here this morning, a  follower of Christ and a member in good standing in your own Church, and there is nothing in  your conscience that would hinder you from partaking of his holy sacrament, we invite you to  join us at the Lord’s Table” Lord’s Supper cards for visitors should not be distributed at this point because  it detracts from focusing attention on the sacrament; if Lord’s Supper cards are used at all, they must have  been distributed prior to the service. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2018,7 +2104,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "OUR LORD’S INVITATION ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2027,8 +2113,9 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Beloved in the lord, draw near to the Holy Table, and hear the gracious words of the Lord  Jesus Christ, who said: “Come to me, all you that are weary and are carrying heavy burdens,  and I will give you rest. Take my yoke upon you, and learn from me; for I am gentle and humble  in heart, and you will find rest for your souls” (Matt. 11:28, 29) \n \n"
+"Jesus said to them “I am the bread of life; whoever comes to me shall never be hungry, and  whoever believes in me will never be thirsty. Everything that the Father gives me will come  to me; and anyone who comes to me I will never drive away” (John 6:35, 37) 
+Blessed are those who hunger and thirst for righteousness, for they will be filled. (Matt. 5:6) ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2039,7 +2126,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE TABLE PREPARED ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2048,8 +2135,9 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "A Hymn \n"
+"The hymn shall be suitable to the celebration of the Lord’s Supper, such as “And Now, O Father,  mindful of the love…” if not already on the Communion Table, then during the hymn, the element of  bread and wine shall be brought into the church and laid on the Communion Table, the Minister  leading the way and Elders assisting. The congregation stands while the elements are carried in and  placed on the Table. \n \n"
+"If the Creed has not already been used, it may now be said, after which the Minister shall unveil the  element, and may offer the following prayer: ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2060,7 +2148,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE PRAYER OF THE VEIL",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2069,8 +2157,9 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Let us pray  \n"
+"O God, who by the blood of Your dear Son has consecrated for us a new and living way into  the holiest of all; grant unto us, we pray, the assurance of Your mercy, and sanctify us by Your  heavenly grace, that we, approaching You with a pure heart and cleansed conscience, may  offer unto You a sacrifice in righteousness; through Jesus Christ our Lord. Amen.\n \n"  
+"Almighty and most merciful Father, we offer unto You this Bread and this Cup; for all things  come of You, and of your own do we give you. Blessed be Your holy name for ever; through  Jesus Christ our Lord, to whom, with You and the Holy Spirit, be all glory, world without end.  AMEN.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2081,7 +2170,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE GRACE",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2090,8 +2179,8 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "The grace of the Lord Jesus Christ be with you all \n" 
+"The congregation may be seated.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2102,7 +2191,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE WARRANT (THE WORDS OF THE INSTITUTION)",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2111,8 +2200,9 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Beloved in the Lord, attend to the words of the institution of the Holy Supper, of our Lord  Jesus Christ, as they are delivered by St. Paul. \n" 
+"For I received from the Lord what I also handed on to you, that the Lord Jesus on the night  when he was betrayed took a loaf of bread, and when he had given thanks, he broke it, and  said, “This is my body that is for you. Do this in remembrance of me.” In the same way he took  the cup also, after supper saying, “This cup is the new covenant in my blood. Do this, as often  as you drink it, in remembrance of me.” For as often as you eat this bread and drink the cup,  you proclaim the Lord’s death until he comes. (1 Cor. 11:23-26 NRSV) \n \n"
+"Therefore, that we may fulfil His institution in righteousness and joy, let us follow His blessed  example in word and action, in the name of the Father, and of the Son, and of the Holy Spirit.  ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2123,7 +2213,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE PRELIMINARY EPICLESIS (SETTING APART)  ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2132,8 +2222,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "As the Lord Jesus, the same night in which He was betrayed, took bread, I take these elements  of bread and wine to be set apart from all common uses to this holy use and mystery; and as  He gave thanks and blessed it, let us also draw near unto God and present unto Him our  prayers and thanksgiving ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2144,7 +2233,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE INTRODUCTORY DIALOGUE ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2153,8 +2242,12 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "The Lord be with you, \n"
+"AND WITH YOUR SPIRIT.  \n"
+"Lift up your hearts.  \n"
+"WE LIFT THEM UP TO THE LORD. \n" 
+"Let us give thanks unto our Lord God. \n" 
+"IT IS MEET AND RIGHT SO TO DO. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2165,7 +2258,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE PREFACE ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2174,8 +2267,8 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "It is verily meet, right, and our bounden duty, that we should at all times and in all places, give  thanks unto You, O Holy Lord, Father Almighty, Everlasting God; who created the heavens and  the earth and all things that is therein; and who created men and women in Your own image,  and whose tender mercies are over all Your works. \n \n" 
+"Mighty God, heavenly King, We magnify and praise You with angels and archangels and with  all the company of heaven, we worship and adore Your glorious name, evermore praising You  and saying:  ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2186,7 +2279,9 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE SANCTUS 
+HOLY, HOLY, HOLY LORD GOD OF HOST, HEAVEN AND EARTH ARE FULL OF YOUR  GLORY: GLORY BE TO YOU, O LORD MOST HIGH.\n \n"
+"THE BENEDICTUS ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2195,8 +2290,9 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Blessed is the one who comes in the name of the Lord! \n"
+"HOSANNA" 
+"Hosanna in the highest heaven. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2207,7 +2303,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE THANKSGIVING FOR REDEMPTION",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2216,8 +2312,8 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Verily holy, verily blessed are You, Almighty and Merciful God, who did so love the world that You gave Your only Son that whosoever believes in Him should not perish but have eternal  life. \n \n" 
+"Not as we ought, but as we are able, do we bless You for His precious sufferings and death  upon the cross, for His glorious resurrection and ascension, for His continual intercession and  rule at Your right hand, for the promise of His coming again and for His gift of the Holy Spirit. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2228,7 +2324,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE ANAMNESIS [REMEMBERING CHRIST WHO IS PRESENT] ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2237,8 +2333,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Wherefore, having in remembrance the work and passion of our Saviour Christ, and pleading  His eternal sacrifice, we Your servants do set forth this memorial, which He has commanded  us to make…  ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2249,7 +2344,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE EPICLESIS [PRAYER CONSECRATING THE ELEMENTS AND OURSELVES] ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2258,8 +2353,11 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Symbolically, the Minister now puts a hand on or over the elements. \n"
+"…and we most humbly beseech You to send down Your Holy Spirit to sanctify both us and  these Your own gifts of bread and wine which we set before You, that the bread which we  break may be the communion of the Body of Christ, and the cup of blessing which we bless  the communion of the blood of Christ; that we, receiving them, may by faith be made  partakers of His body and blood with all His benefits, to our spiritual nourishment and growth  in grace, and to the glory of Your most Holy name. \n \n"  
+"And here we offer and present unto You ourselves, our souls and bodies, to be a reasonable,  holy, and living sacrifice; and we beseech You mercifully to accept this our sacrifice of praise  and thanksgiving, as, in fellowship with all the faithful in heaven and on earth, we ask You to  fulfil in us, and in all people, the purpose of Your redeeming love; through Jesus Christ our  Lord, by whom, and with whom, in the unity of the Holy Spirit, all honour and glory be unto  You, O Father Almighty, world without end. AMEN. \n \n" 
+"And now, as our saviour Christ has taught us, we humbly pray, saying: \n"
+"OUR FATHER…  ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2270,7 +2368,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE FRACTION [CEREMONIAL BREAKING OF BREAD] ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2279,8 +2377,25 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "According to the holy institution, example, and command of our Lord Jesus Christ, and for a  memorial of Him, we do this: who, the night in which He was betrayed TOOK A LOAF OF  BREAD… \n \n"
+"(Here the Minister shall take the bread into his or her hands, and continue saying :)\n \n"
+
+"…and when He had giving thanks HE BROKE IT… \n"
+"Here the Minister shall break the bread in the sight of all.\n \n" 
+"…and said, TAKE, EAT; THIS IS MY BODY, THAT IS FOR YOU. DO THIS IN REMEMBRANCE OF  ME. \n"
+"Here the Minister returns the broken pieces to the table \n \n" 
+"After the same manner also HE TOOK THE CUP… \n"
+"Here the Minister shall raise the cup so as to be seen by all.\n \n"  
+"…saying: THIS CUP IS THE NEW COVENANT IN MY BLOOD; THIS DO AS OFTEN AS YOU DRINK,  IN REMEMBRANCE OF ME. \n"
+"Here the Minister returns the cup to the table \n \n" 
+"For as often as you eat this bread and drink the cup, you proclaim the Lord’s death until he  comes.\n \n" 
+"THE AGNUS DEI [“LAMB OF GOD”] \n"
+"Lamb of God, who takes away the sins of the world, \n" 
+"HAVE MERCY ON US.  \n"
+"Lamb of God, who takes away the sins of the world,  \n"
+"HAVE MERCY ON US.  \n"
+"Lamb of God, who takes away the sins of the world, \n" 
+"GRANT US YOUR PEACE.  ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2291,7 +2406,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "DISTRIBUTION ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2300,8 +2415,10 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "The Minister shall first partakes of both elements, after which he (she) will serve those assisting in  the distribution, after which the congregation shall be served. \n \n" 
+"In giving bread to the assisting Elders and the congregation, the Minister shall say:  Take eat, this is the body of Christ which is broken for you. This do in remembrance of Him.\n \n" 
+"And In giving the cup to the assisting Elders and the congregation, the Minister shall say:  This cup is the new covenant in the blood of Christ which is shed for many unto remission of  sins: drink of it, all of you. \n \n" 
+"When all have partaken, and the bread and wine have been replaced on the communion table and  covered, the Minister shall say: ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2312,7 +2429,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE PAX [PEACE] ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2321,8 +2438,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "The peace of the Lord Jesus Christ be with you all. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2333,7 +2449,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "AND WITH YOUR SPIRIT",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2342,8 +2458,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "If desired members of the congregation may briefly share the peace at this time by shaking hands.  ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2354,7 +2469,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE DIPTYCHUS [EUCHARISTIC INTERCESSION, PRAYER OF THANKSGIVING] ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2363,8 +2478,8 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Prayer of Thanksgiving \n"
+"Almighty and ever-loving God, we most heartily thank You that in Your great love You so  graciously feed us at Your table with this spiritual food, and to thereby assure us of Your  favour and goodness towards us; and that we are verily members incorporate in the mystical  body of Your Son, the blessed company of all faithful people, and are also heirs through hope  of Your everlasting kingdom. And we most humbly pray, O heavenly Father, so to assist us  with Your grace that we may continue in this holy fellowship, and live henceforth to your  glory, through Jesus Christ our Lord. AMEN. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2375,7 +2490,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "Prayer of Commemoration for the Faithful Departed",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2384,8 +2499,9 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "And, rejoicing in the communion of saints, we thank and praise You for all Your servants who have departed in the faith; the great cloud of witnesses by which we are compassed about;  all Your saints in every age who have loved You in life and continued faithful unto death,  especially those dear to our own hearts whom we now silently name… Give us grace to follow them as they followed Christ and bring us with them, at the last, to those things which eye  has not seen nor ear heard, which You have prepared for them that love You; through Jesus  Christ our Lord, who lives and reigns, and is worshipped and glorified with You, O Father, and  the Holy Spirit, world without end. AMEN. \n \n" 
+"Or \n \n"
+"Eternal God, with whom are the issues of life; we give You thanks for all Your saints who,  having in this life witnessed a good confession, have left the light of their example to shine  before Your people; especially those beloved by us who are now with You. Bring us into  communion with them here in Your holy presence; and enable us to follow them in all godly  living, that hereafter we may with them behold Your face in glory, and in the heavenly places  be one with them forever; through Jesus Christ our Lord, to whom, with You and the Holy  Spirit, be all honour and glory, world without end. AMEN.  ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2396,7 +2512,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE DOXOLOGY",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2405,8 +2521,11 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Said or sung. \n \n" 
+"Praise God from whom all blessings flow;\n" 
+"Praise Him, all people here below;\n" 
+"Praise Him above ye heavenly host;\n" 
+"Praise Father, Son, and Holy Ghost. AMEN. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2417,7 +2536,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE BENEDICTION  ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2426,8 +2545,8 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "The peace of God, which passes all understanding, keep your hearts and minds in the  knowledge and love of God, and of His Son Jesus Christ our Lord: and the blessing of God  Almighty remain with you always. AMEN. \n \n"
+              "A Recessional Hymn ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2438,7 +2557,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "AN ALTERNATE ORDER FOR THE ADMINISTRATION OF THE SACRAMENT OF  THE LORD’S SUPPER ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2447,8 +2566,8 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "This order may be followed when the regular Order of service for Morning Worship is used. After the sermon  come if any (baptisms, confirmations, reception of members, then the Apostle’s Creed, and then this order.  The Lord’s Supper is not, however, an appendage to a regular service; rather, all parts of the regular order  shall anticipate and prepare hearts for receiving the sacrament. \n \n" 
+"A communion hymn is sung, during which the elements are brought in, led by the Minster, and placed on the  communion table; or if the elements are already present on the table, they are uncovered. From the Table, the  Minister says: ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2459,7 +2578,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE ECUMENICAL INVITATION ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2468,8 +2587,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "In as much as this is the Lord’s Table, we invite all of God’s children who are in good standing  in their own Churches and whose consciences are clear before their Saviour, to join us for  your own spiritual nourishment as we partake of His table.  ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2480,7 +2598,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE PREPARATION ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2489,8 +2607,9 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Let us pray\n \n" 
+"Almighty God, unto whom all hearts be open, all desires known, and from whom no secrets  are hid; cleanse the thoughts of our hearts by the inspiration of Your Holy Spirit, that we may  perfectly love You and worthily magnify Your holy name, through Christ our Lord. AMEN.\n \n"  
+"Be loved in the Lord, as we draw near to the Table of our Lord Jesus Chris, let us remember  that this sacrament is a memorial of the sacrifice of Christ for the sins of men and women, a  means of grace for those who believe in Him, and a bond and pledge of their union with Him  and with each other as members of His body. For these reasons, it is necessary that we come  with knowledge, faith, repentance and love; not entertaining evil thoughts, nor cherishing  pride or self-righteousness, but, conscious of our weakness and in sorrow for our sins, humbly  putting our trust in Christ and seeking His grace.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2501,7 +2620,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "SELF-EXAMINATION ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2510,8 +2629,16 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Let us then, in quietness, examine our hearts, confess our sins and commit ourselves to the  mercy of God. Let us silently pray.\n \n"  
+"The Minister shall allow about one minute of silence, during which or after which the Minister may  say any or all of the following words of Christ: \n"
+"“Jesus said, “Take heart, my son; your sins are forgiven”.” (Matt. 9:2)\n \n" 
+"“Jesus said, “Come to me, all you that are weary and carrying heavy burdens, and I will give  you rest”.” (Matt. 11:28) \n \n"
+"“Anyone who comes to me I will not drive away”. (John 6:37)\n \n"
+"“I am the bread of life: whoever comes to me will never be hungry, and whoever believes in  me shall never be thirsty”. (John 6:35) \n \n"
+"“I came that men may have life, and have it abundantly”. (John 10:10)\n \n" 
+"We do not presume to come to this Your table, merciful Father, trusting in our own  righteousness, but in Your many and great mercies. We are not worthy so much as to gather up the crumbs under Your table. But You are the same Lord whose mercies never fails. Grant  us therefore, Gracious Lord, so by faith to partake of the body and blood of Christ, that we  may be cleansed in soul and spirit and always live in Him and He in us. Amen.\n \n"  
+"Let us say the grace together: \n" 
+"THE GRACE OF THE LORD JESUS CHRIST, AND THE LOVE OF GOD, AND THE  FELLOWSHIP OF THE HOLY SPIRIT BE WITH YOU ALL. AMEN  ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2531,8 +2658,19 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "THE WARRANT \n" 
+"Let us therefore draw near in faith and receive this holy sacrament to our comfort and to the  glory of God’s holy name. Attend to the words of its institution as they are expressed by St.  Paul: \n \n" 
+"For I received from the Lord what I also handed on to you, that the Lord Jesus on the night  when he was betrayed took a loaf of bread, and when he had given thanks, he broke it, and  said, “This is my body that is for you. Do this in remembrance of me.” In the same way he took  the cup also, after supper saying, “This cup is the new covenant in my blood. Do this, as often  as you drink it, in remembrance of me.” For as often as you eat this bread and drink the cup,  you proclaim the Lord’s death until he comes. (1 Cor. 11:23-26 NRSV) \n \n"
+"Therefore, that we may fulfil His institution in righteousness and joy, let us follow His blessed  example in word and action, in the name of the Father, and of the Son, and of the Holy Spirit.\n \n"  
+"THE SETTING APART\n" 
+"As the Lord Jesus, the same night in which He was betrayed, took bread, I take these elements  of bread and wine to be set apart from all common uses to this holy use and mystery; and as  He gave thanks and blessed it, let us also draw near to God and present unto Him our prayers  and thanksgiving. \n \n" 
+"THE INTRODUCTORY DIALOGUE\n" 
+"The Lord be with you,\n" 
+"AND WITH YOUR SPIRIT\n". 
+"Lift up your hearts.\n" 
+"WE LIFT THEM UP TO THE LORD.\n" 
+"Let us give thanks unto our Lord God.\n" 
+"IT IS MEET AND RIGHT SO TO DO.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2543,7 +2681,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE PREFACE",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2552,8 +2690,14 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "It is truly right, fitting, and our duty, at all times and in all places, to give thanks unto You, O  Lord, Holy Father, Almighty and Everlasting God; who made the heavens and the earth and  men and women* in Your own image, and who in love sustains all that you have made. Enter here the appropriate sentence, which may be found at the end of this order on page…\n \n" 
+"We praise You, Father, for Your Holy Spirit, through whom we know that You have sealed us  in baptism to be Your people, chosen to declare Your mighty works.\n \n" 
+"All the company of heaven cries aloud with joy, evermore praising You and saying: \n \n"
+"SANCTUS\n" 
+"HOLY, HOLY, HOLY LORD GOD OF HOST, HEAVEN AND EARTH AARE FULL OF YOUR  GLORY: GLORY BE TO YOU, O LORD MOST HIGH.\n \n" 
+"Awaken our hearts, O Lord, we pray, that we with them may praise You with our whole heart  for the wonder of Your works and all You gifts to us, known and unknown. \n \n"
+"Go forth in peace.\n" 
+"(Response) Thanks be to God.  ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2564,7 +2708,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE EPICLESIS",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2573,8 +2717,8 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "We most humbly pray You to send down Your Holy Spirit to sanctify both us and these Your  own gifts of bread and wine which we set before You, that the bread which we break may be  the communion of the Body of Christ, and the cup of blessing which we bless the communion  of the blood of Christ; that we, receiving them, may by faith be made partakers of His body  and blood with all His benefits, to our spiritual nourishment and growth in grace, and to the  glory of Your most Holy name. \n \n"  
+"And here we offer and present unto You ourselves, our souls and bodies, to be a reasonable,  holy, and living sacrifice. We ask You to mercifully to accept this our sacrifice of praise and  thanksgiving, as, in fellowship with all the faithful in heaven and on earth, we pray You to fulfil  in us and in all men and women, the purpose of Your redeeming love; through Jesus Christ  our Lord, by whom, and with whom, in the unity of the Holy Spirit, all honour and glory be  unto You, O Father Almighty, world without end. AMEN.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2585,7 +2729,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE FRACTION AND DISTRIBUTION  ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2594,8 +2738,34 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "According to the holy institution, example, and command of our Lord Jesus Christ, and for a  memorial of Him, we do this: who, the same night in which He was betrayed TOOK BREAD…\n" 
+"Here the Minister shall take the bread into his or her hands, and continue saying:\n \n" 
+"…and when He had giving thanks HE BROKE IT… \n"
+"Here the Minister shall break the bread\n \n". 
+"…and said, TAKE, EAT; THIS IS MY BODY, WHICH IS FOR YOU. DO THIS IN REMEMBRANCE OF  ME.\n" 
+"Here the Minister partakes of the bread, then serve the assisting Elders.\n \n" 
+"In the same way, HE TOOK THE CUP…\n" 
+"Here the Minister shall raise the cup.\n \n"  
+"…saying: THIS CUP IS THE NEW COVENANT IN MY BLOOD; THIS DO AS OFTEN AS YOU DRINK IT, IN REMEMBRANCE OF ME. \n"
+"The Minister partakes of the cup, then serves the assisting Elders.\n \n" 
+"Then the Elders, serve the congregation. When the remaining elements have been returned  to the Table, the Minister says:\n" 
+"THE PEACE\n \n" 
+"The peace of the Lord Jesus Christ be with you all.\n" 
+"The Minister may add any of the following:\n \n"  
+"Your body is a temple of the Holy Spirit within you, which you have from God. You are not  your own; you were bought with a price. Therefore glorify God in your body. (1 Cor. 6:19, 20)\n \n" 
+"Or, \n \n"
+"My grace is sufficient for you, for my power is made perfect in weakness. (2 Cor. 12:9) \n \n"
+"Or,\n \n"  
+"To the one who conquers, I will give a place with me on my throne; just as I myself conquered  and sat down with my Father on his throne. (Rev. 3:21)\n \n" 
+"The Minister says either of the following: \n" 
+"The Lord be with you.\n" 
+"AND WITH YOUR SPIRIT.\n" 
+"Go forth in peace.\n" 
+"THANKS BE TO GOD.\n \n" 
+"Or, \n \n"
+"Lord our God, Father of our Lord Jesus Christ, we give You all glory, thanks and praise for Your  great goodness, in permitting us to make this memorial of Your Son our Saviour and His  sacrifice on the cross; and for receiving us into communion with Him and with all who love  him.\n \n"  
+"We humbly pray that You accept us as again we dedicate ourselves to Your service. Assist us  with your heavenly grace that we may continue always in this holy fellowship, and evermore  live to Your glory, through Jesus Christ our Lord. AMEN.\n \n"  
+"The Lord’s Supper being now concluded, the worship service returns to its normal order.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2606,7 +2776,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "PREFACES ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2615,8 +2785,26 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Advent \n"
+"…that Your people might see the wonders of His coming, and the things spoken by the  prophets might be fulfilled for all peoples.\n \n" 
+"Christmas Sundays\n" 
+"…to be born for us. He took our nature from the Virgin Mary, becoming truly man by the  power of the Holy Spirit, that He might cleanse us from our sins.\n \n" 
+"Epiphany and following \n" 
+"…that in His perfect manhood we may see revelled the greatness of Your glory. \n \n"
+"9th to 7th Sundays before Easter\n"  
+"…to take our nature that He might overcome sin and death and set us free to become heirs  of Your kingdom. \n \n"
+"Lent\n"  
+"…that, as He bore our sins, so we might die to sin and live for righteousness.\n \n" 
+"Passion Sunday and Palm Sunday\n"  
+"…to save us by the cross. For as by one man sin came into the world, and death through sin,  so through the death of one man, Jesus Christ, grace has conquered, and brought us eternal  life.\n \n" 
+"Easter and Sundays following\n" 
+"…and raising Him from the dead. He is our Passover Lamb, who was sacrificed for us, and bore  the sin of the world. By His death He has destroyed death, and by His rising again He has  restored to us eternal life.\n \n"  
+"Ascension Sunday\n"  
+"…who after His resurrection was clearly seen by His apostles, and in their sight ascended to  heaven, there to pray for us in Your presence, and prepare a place for us, so that we too might dwell where He is and share with him in glory.\n \n"  
+"Pentecost Sunday\n"  
+"…who after His resurrection ascended above all worlds, and sat down at Your right hand,  pouring out on Your chosen people the Holy Spirit as He had promised. Therefore all people  rejoice at the proclamation of Your grace in every tongue, and praise You in their own  language with great joy.\n \n" 
+"Trinity and Sundays following \n" 
+"…to take our nature that He might overcome sin and death and set us free to become heirs  of Your Kingdom.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2627,7 +2815,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "AN ORDER FOR THE ADMINISTRATION OF THE SACRAMENT OF THE SACRAMENT OF THE LORD’S SUPPER WITH THE ILL AND THE AGED ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2636,8 +2824,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "The celebration of the Lord’s Supper with the ill must be done by the Minister accompanied by an  Elder, and done with the approval of the Session. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2649,7 +2836,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE INVITATION",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2658,8 +2845,11 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "Beloved in the lord, hear what gracious words our Saviour Christ says unto all who truly turn  to him:\n \n" 
+"Come to me, all who labour and are heavy laden, and I will give you rest. Take my yoke upon  you, and learn from me; for I am gentle and lowly in heart, and you will find rest for your  souls. For my yoke is easy, and my burden is light” (Matt. 11:28)\n \n" 
+"I am the bread of life; he who comes to me shall not hunger, and he who believes in me shall  never thirst. Him who comes to me I will not cast out. (John 6:35, 37)\n \n" 
+"Let us reverently listen to the words of the institution of the holy supper of our Lord Jesus  Christ, as they have been delivered by the Apostle Paul:\n \n"  
+"For I received from the Lord what I also deliver to you, that the Lord Jesus on the night when  he was betrayed took bread, and when he had given thanks, he broke it, and said, “This is  my body which is broken for you. Do this in remembrance of me”. In the same way also the  cup, after supper saying, “This cup is the new covenant in my blood. Do this, as often as you  drink it, in remembrance of me”. For as often as you eat this bread and drink the cup, you  proclaim the Lord’s death until he comes. (1 Cor. 11:23-26) ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2670,7 +2860,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE CONSECRATION",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2679,8 +2869,14 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "And now, in His name, I take these elements…  \n"
+"Here the Minister may lay his hand upon the plate and the cup.\n \n" 
+"…to be set apart by prayer and thanksgiving to the holy use for which He has appointed  them.\n \n"  
+"Let us pray\n \n"  
+"Most gracious God, the Father of our Lord Jesus Christ, whose offering up of Himself upon the  cross we commemorate before You now: we earnestly desire Your Fatherly goodness to  accept this our sacrifice of praise and thanksgiving:\n \n" 
+"And we pray You to bless and sanctify with your Word and Spirit these Your own gifts of bread  and wine which we set before You, that we may receive by faith Christ crucified for us, and so  feed upon Him that He may be made one with us and we with Him.\n \n" 
+"And here we offer and present unto You ourselves, our souls and bodies, to be an acceptable,  holy, and living sacrifice. We pray that You will mercifully accept this our sacrifice of praise  and thanksgiving, as, in fellowship with all the faithful in heaven and on earth, we pray You to  fulfil in us, and in all people, the purpose of Your redeeming love;\n \n"  
+"Through Jesus Christ our Lord; to whom, with You and the Holy Spirit, be the glory and the  praise, both now and evermore. AMEN. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2691,7 +2887,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE COMMUNION ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2700,8 +2896,18 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "The Bread and wine being thus set apart by prayer and thanksgiving, the Minister shall say:\n \n" 
+"The Lord Jesus took bread… \n"
+"Here the Minister shall take some of the bread into his or her hands.\n \n" 
+"And when He had blessed it, He broke it,\n" 
+"Here the Minister shall break the Bread.\n \n" 
+"And gave it to His disciples, as I, ministering in His name, give this bread to you: saying, Take,  eat; this is My body, broken for you. Do this in remembrance of Me.\n"  
+"Then the Minister, who is also to partake, is to administer the Bread, saying:\n \n" 
+"After partaking, the Minister shall say:\n \n" 
+"Let us pray\n" 
+"We thank You, O God, for Your great mercy giving to us in this Sacrament, whereby we are  made partakers of Christ.\n \n"  
+"Enrich us by Your Holy Spirit, so that the life of Jesus may be made manifest in us, and the  remainder of our days may be spent in Your love and service.\n \n"  
+"O Lord, Holy Father, by whose loving-kindness our souls and bodies are renewed: Mercifully  look upon this Your servant, that if it please You, every cause of sickness being removed, and he (she) may be restored to soundness of health: through Jesus Christ our Lord. AMEN. ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2712,7 +2918,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "THE BENEDICTION ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2721,8 +2927,8 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "The peace of God, which passes all understanding, keep your hearts and minds in the  knowledge and love of God, and of His Son Jesus Christ our Lord; and the blessing of God  Almighty, the Father, the Son, and the Holy Spirit, be upon you, and remain with you always.  AMEN. \n \n"  
+"After the celebration, reverent disposition of the elements which remain shall be made.",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
@@ -2733,7 +2939,7 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "THE LORD’S SUPPER ",
+              "AN ORDER FOR THE ADMINISTRATION OF THE SACRAMENT OF THE LORD’S SUPPER TO THE ILL AND AGED ",
               textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: size * 1)
             ),
@@ -2742,8 +2948,22 @@ OBLATION \n "
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-             "INVITATION AND FENCING \n" 
-"Beloved in the Lord, as we draw to the Lord’s Table, we are to consider how great are the  benefits of this sacraments if we come to it with understanding, faith and repentance, and  with our souls hungering and thirsting after Christ. Not unto those who live willingly in sin, or  who love self-righteousness in their hearts, or who are out of fellowship with their brethren are these benefits of Christ offered. But those, who in sorrow of heart labour under the  burden of their sins, and who, putting their trust in Christ, desire to lead a new life and to  reach out unto a greater progress in grace, are invited and encouraged in his name to come  to the Supper of the Lord, to their spiritual refreshing and the renewal of their strength. ",
+             "For use as an extension of the congregational Lord’s Supper Service when the sick and aged are visited  immediately after the service. This service must be conducted by the Minister, and preferably with  one or two Ruling Elders accompanying him (or her). It is not necessary for the Minister and the Elders  to partake of the elements again.\n \n" 
+"The Salutation and Address\n" 
+"The Lord be with you. AMEN. Beloved in the Lord, we come to you with bread and wine which  have already this day been set apart and sanctified by the Word of God and prayer to be to  us the communion of the Body and Blood of our Lord Jesus Christ. It is now your privilege to  share in the same communion, and receiving these holy gifts to be nourished unto everlasting  life.\n \n" 
+"Prayer of Confession and Petition\n" 
+"Forgive us, O Father in heaven, for all the wrong we have done, thought or spoken, our  impatience, our lack of trust in You, the little love we have for others. Come to us, O Lord, and  cleans us; come to us O Lord, and heal us; come to us, O Lord, and strengthen us; and grant  that we having received You, may never be separated from You by our sins, but may continue  Yours forever, through Jesus Christ our Redeemer. AMEN.\n \n" 
+"Assurance of Pardon \n"
+"Jesus said, Come to me, all you that are weary and carrying heavy burdens, and I will give you  rest. Blessed are those who hunger and thirst for righteousness for they will be satisfied. (Matt.  11:28; 5:6)\n \n" 
+"You who do truly and earnestly repent of your sins, and are in love and fellowship with your  neighbours, draw near with faith and take this Sacrament to your comfort and growth in  grace.\n \n" 
+"The Administration \n"
+"Then the Minister, in giving the bread shall say: \n"
+"Take, eat, this is the Body of our Lord Jesus Christ, which is broken for You. Do this in  remembrance of Him.\n \n"  
+"And in giving the cup \n" 
+"This cup is the new covenant in the blood of Christ, which is poured out for the forgiveness of  sins. Do this, as often as you drink it, in remembrance of Him.\n \n" 
+"Prayer of Thanksgiving\n" 
+"Lord Jesus, we join with this (these) our brother (sister, brethren) to praise You that through  this holy communion You have assured him (her, them) that all his (her, their) sins are forgiving  and that he (she, they) is (are) accepted into Your fellowship. We pray that You, by Your  almighty power give him (her, them) strength to fight a good fight, and stand by him (her, them) in all his (her, their) troubles. Give him (her, them) patience to endure; [or, relieve and  heal him (her, them), if it is Your will], and when his (her, theirs) last hour comes, deliver him  (her, them) from all evil and take him (her, them) to be with the redeemed; we ask in Your  Name and for Your glory, O Jesus Christ our Lord. AMEN.\n \n"  
+"A Benediction ",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: size),
             ),
