@@ -75,10 +75,8 @@ capitalize(String word){
 //  return "${ret.join("")}...";
 //}
 
-/**
- * Garante um ponto ao final do texto, mantendo o ponto de exclamação
- * ou de interrogação, se houver.
- */
+/// Garante um ponto ao final do texto, mantendo o ponto de exclamação
+/// ou de interrogação, se houver.
 String dotAtEnd(String txt) {
   txt = cleanVerse(txt);
 

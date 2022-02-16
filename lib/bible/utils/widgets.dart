@@ -18,7 +18,7 @@ Widget centerText(String msg, {color: Colors.redAccent, size: 14.0}) {
 }
 
 EasyRichText richText(String txt, String words, double size) {
-  List<EasyRichTextPattern> pattern = List<EasyRichTextPattern>();
+  List<EasyRichTextPattern> pattern = [];//List<EasyRichTextPattern>();
 
   if (words != null) {
     List<String> w = words.split(" ");

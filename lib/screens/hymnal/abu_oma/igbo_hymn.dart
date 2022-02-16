@@ -13,7 +13,7 @@ class IgboHymn extends StatefulWidget {
 
 class _IgboHymnState extends State<IgboHymn> {
   WebViewPlusController _controller;
-  double _height = 1000;
+  double _height = 1500;
 
   @override
   Widget build(BuildContext context) {

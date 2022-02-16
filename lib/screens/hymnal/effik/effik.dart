@@ -23,7 +23,7 @@ class _EfikHymn extends State<EfikHymn> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Effik Hymn'),
+        title: Text('Efik Hymn'),
         actions: <Widget>[
           IconButton(
             icon: Icon(

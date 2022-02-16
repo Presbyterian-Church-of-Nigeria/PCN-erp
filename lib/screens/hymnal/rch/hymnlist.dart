@@ -31,8 +31,8 @@ class _RchAppState extends State<RchApp> {
         drawer: Navbar(),
 
         body: StreamBuilder<QuerySnapshot>(
-            stream: FirebaseFirestore.instance.collection("rch").snapshots(),
-            builder: (context, snapshot) {
+            stream: FirebaseFirestore.instance.collection("rch").snapshots().asBroadcastStream(),
+            builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
               if (snapshot.data == null) {
                 return CircularProgressIndicator();
               }
@@ -43,7 +43,8 @@ class _RchAppState extends State<RchApp> {
                 separatorBuilder: (context, index) => Divider(),
                 itemBuilder: (context, index) {
                   DocumentSnapshot rch = messages[index];
-                  return Card(
+                  return  Container(
+                   child: Card(
                     elevation: 5.0,
                     child: ListTile(
                       leading: CircleAvatar(
@@ -61,11 +62,12 @@ class _RchAppState extends State<RchApp> {
                           context,
                           MaterialPageRoute(
                             builder: (BuildContext context) => HymnDetail(
-                                rch.data()['c0_id'], rch.data()['c4lyrics']),
+                                rch.data()['c0_id'],  rch.data()['c4lyrics']),
                           ),
                         );
                       },
                     ),
+                  )
                   );
                 },
               );

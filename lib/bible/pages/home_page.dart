@@ -83,37 +83,64 @@ class BiblePage extends StatelessWidget {
   }
 
   _buttonBar(context) {
-    var iconSize = 35.0;
+    var iconSize = 20.0;
     return Container(
       color: background,
       child: Container(
         padding: EdgeInsets.all(16),
-        height: 70,
+        height: 90,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            FlatButton(
+            TextButton(
+              style: TextButton.styleFrom(
+                textStyle: const TextStyle(fontSize: 12)
+              ),
               onPressed: () {
                 push(context, BooksListPage(Testament.AT));
               },
-              child: Icon(
+              child: Column (
+
+              children: <Widget>[
+              Container( child: Icon(
                 Icons.auto_stories,
                 color: background,
                 size: iconSize,
+              )
               ),
+               SizedBox(height: 0.8,),
+               Container( child: const Text('Old Testment',
+               style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),)
+                 ,
+               ),
+      ]
+            )
+
+
             ),
-            FlatButton(
+            TextButton(
               onPressed: () {
                 push(context, BooksListPage(Testament.NT));
               },
-              child: Icon(
-                Icons.menu_book,
-                color: background,
-                size: iconSize,
-              ),
+                child: Column (
+
+                    children: <Widget>[
+                      Container( child: Icon(
+                        Icons.menu_book,
+                        color: background,
+                        size: iconSize,
+                      )
+                      ),
+                      SizedBox(height: 0.8,),
+                      Container( child: const Text('New Testment',
+                        style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),)
+                        ,
+                      ),
+                    ]
+                )
             ),
-            FlatButton(
-              padding: EdgeInsets.all(0),
+            TextButton(
+             // padding: EdgeInsets.all(0),
               onPressed: () {
                 push(context, BooksListPage(Testament.ALL));
               },

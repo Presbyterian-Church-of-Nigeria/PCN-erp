@@ -28,8 +28,8 @@ bottomSheetSaved(context, FavoritesBloc bloc, Favorite favorite, Book book) {
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  FlatButton(
-                      child: Text("REGISTRAR COMO LIDO",
+                  TextButton(
+                      child: Text("READ LATER",
                         style: TextStyle(color: background),
                       ),
                       onPressed: () {

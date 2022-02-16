@@ -39,11 +39,7 @@ class _Mod extends State<Mod> {
        //   ),
        // ],
       ),
-      body:// SfPdfViewer.asset(
-        //'assets/pdf/ModEke.pdf',
-        //key: _pdfViewerKey,
-      //),
-    //);
+      body:
        SingleChildScrollView(
     child: Container(
     padding: EdgeInsets.all(16),

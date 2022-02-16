@@ -3,10 +3,12 @@ import 'package:flutter/widgets.dart';
 import 'package:pcn_erp/bible/main.dart';
 import 'package:pcn_erp/screens/almanc.dart';
 import 'package:pcn_erp/screens/blue_book.dart';
+import 'package:pcn_erp/screens/book_of_service.dart';
 import 'package:pcn_erp/screens/church_leadership.dart';
 import 'package:pcn_erp/screens/homepage.dart';
 import 'package:pcn_erp/screens/hymnal/hymn_home.dart';
 import 'package:pcn_erp/screens/pnp.dart';
+import 'package:pcn_erp/screens/thankpage.dart';
 import 'package:share/share.dart';
 import 'package:pcn_erp/bible/utils/navigator.dart';
 
@@ -84,11 +86,27 @@ import 'package:pcn_erp/bible/utils/navigator.dart';
                   // _displayLanguagesPage(context);
                 })),
             ListTile(
-                title: Text("Approved Dates 2021"),
+                title: Text("Book of Service"),
+                leading: Icon(Icons.auto_stories),
+                onTap: (() {
+                  Navigator.pop(context);
+                  push(context ,BookService());
+                  // _displayLanguagesPage(context);
+                })),
+            ListTile(
+                title: Text("Approved Dates 2022"),
                 leading: Icon(Icons.calendar_today),
                 onTap: (() {
                   Navigator.pop(context);
                           push(context, Almanc());
+                  // _displayLanguagesPage(context);
+                })),
+            ListTile(
+                title: Text("Appreciation"),
+                leading: Icon(Icons.live_help_outlined),
+                onTap: (() {
+                  Navigator.pop(context);
+                  push(context ,Thanks());
                   // _displayLanguagesPage(context);
                 })),
 

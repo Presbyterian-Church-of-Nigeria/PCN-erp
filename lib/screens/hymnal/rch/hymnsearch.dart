@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 //import 'Hymn.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -44,44 +46,58 @@ class HymnSearchDelegate extends SearchDelegate {
 
     //HymnManager manager = HymnManager();
     return StreamBuilder<QuerySnapshot>(
-        stream: FirebaseFirestore.instance.collection("rch").snapshots(),
-        builder: (context, snapshot) {
-          if (snapshot.data == null) {
+        stream: FirebaseFirestore.instance
+            .collection("rch")
+            .snapshots()
+            .asBroadcastStream(),
+        builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
+          if (!snapshot.hasData) {
             return CircularProgressIndicator();
-          }
-          var messages = snapshot.data.docs;
-          return ListView.separated(
-            padding: EdgeInsets.symmetric(horizontal: 9.0, vertical: 9.0),
-            itemCount: messages.length,
-            separatorBuilder: (context, index) => Divider(),
-            itemBuilder: (context, index) {
-              DocumentSnapshot rch = messages[index];
-              return Card(
-                elevation: 5.0,
-                child: ListTile(
-                  leading: CircleAvatar(
-                    child: Text(rch.data()['c0_id']),
-                  ),
-                  title: Text(rch.data()['c1title']),
-                  isThreeLine: true,
-                  subtitle: Text(
-                    rch.data()['c4lyrics'],
-                    maxLines: 5,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (BuildContext context) => HymnDetail(
-                            rch.data()['c0_id'], rch.data()['c4lyrics']),
+          } else {
+            //Fetch Data here
+            //var messages = snapshot.data.docs;
+            print(snapshot.data);
+
+            return ListView(
+              children: [
+                ...snapshot.data.docs.where(
+                  (QueryDocumentSnapshot element)=> element['c1title']
+                .toString()
+                .toLowerCase()
+                .contains(query.toLowerCase())).map((QueryDocumentSnapshot data){
+
+                  final String title = data.get('c1title');
+                  final String c0_id = data['c0_id'];
+
+                  return  ListTile(
+                      leading: CircleAvatar(
+                        child: Text(data['c0_id']),
                       ),
+                      title: Text(data['c1title']),
+                      isThreeLine: true,
+                      subtitle: Text(
+                        data['c4lyrics'],
+                        maxLines: 5,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (BuildContext context) => HymnDetail(
+                                data['c0_id'],  data['c4lyrics']),
+                          ),
+                        );
+                      },
                     );
-                  },
-                ),
-              );
-            },
-          );
+
+                  
+                })
+
+              ],
+            );
+          }
+         
         });
   }
 

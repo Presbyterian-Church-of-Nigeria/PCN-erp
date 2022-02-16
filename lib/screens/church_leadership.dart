@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:pcn_erp/screens/deputy-c.dart';
 import 'package:pcn_erp/screens/moderator.dart';
 import 'package:pcn_erp/screens/pc_ga.dart';
 
@@ -46,7 +47,7 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                           //Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
                           Image.asset(
                             'assets/moder2.jpeg',
-                            //height: ,
+                            height: 100 ,
                             width: 130,
                             fit: BoxFit.contain,
                           ),
@@ -92,10 +93,10 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                     ),
                   ),
                   InkWell(
-                    // onTap: () {
-                    //   Navigator.push(context,
-                    //       MaterialPageRoute(builder: (context) => PcGa()));
-                    // },
+                     onTap: () {
+                    Navigator.push(context,
+                       MaterialPageRoute(builder: (context) => Dc()));
+                    },
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
@@ -110,9 +111,9 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                           //fit: BoxFit.cover)),
                           //Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
                           Image.asset(
-                            'assets/rev_s_okoro.jpeg',
+                            'assets/rev_oko.jpeg',
                             height: 100,
-                            width: 130,
+                            width: 180,
                             fit: BoxFit.contain,
                           ),
 
