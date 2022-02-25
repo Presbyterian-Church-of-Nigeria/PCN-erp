@@ -47,15 +47,15 @@ class _Bluebook extends State<Bluebook> {
               await getApplicationDocumentsDirectory();
               print('$appDocDir');
 
-              String iosBookPath = '${appDocDir.path}/bluebook.epub';
+              String iosBookPath = '${appDocDir.path}/23.epub';
               print(iosBookPath);
-              String androidBookPath = 'file:///android_asset/7.epub';
+              String androidBookPath = 'file:///android_asset/23.epub';
               EpubViewer.setConfig(
                   themeColor: Theme
                       .of(context)
                       .primaryColor,
                   identifier: "iosBook",
-                  scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
+                  scrollDirection: EpubScrollDirection.VERTICAL,
                   allowSharing: true,
                   enableTts: true,
                   nightMode: false);
@@ -72,7 +72,7 @@ class _Bluebook extends State<Bluebook> {
 //                    );
 
               await EpubViewer.openAsset(
-                'assets/bluebook.epub',
+                'assets/23.epub',
                 lastLocation: EpubLocator.fromJson({
                   "bookId": "2239",
                   "href": "/OEBPS/ch06.xhtml",
@@ -131,7 +131,7 @@ class _Bluebook extends State<Bluebook> {
           ? await getExternalStorageDirectory()
           : await getApplicationDocumentsDirectory();
 
-      String path = appDocDir.path + '/bluebook.epub';
+      String path = appDocDir.path + '/23.epub';
       File file = File(path);
 //    await file.delete();
 

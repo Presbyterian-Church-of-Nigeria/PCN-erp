@@ -93,16 +93,25 @@ class _Pnp extends State<Pnp> {
     child: Column(
     children:<Widget>[
     Container(
-    child: Text('PRACTICE AND PROCEDURE(PnP)',
-    style: TextStyle(fontSize: 30),
+    child: Text('Click to Read',
+    style: TextStyle(fontSize: 30, color: Colors.red),
     ),
     ),
       Container(
-        padding: EdgeInsets.only(left: 20.0,right: 20.0, top: 30, bottom: 30),
-        child: Icon(Icons.auto_stories,size: 200,),
+       // padding: EdgeInsets.only(left: 20.0,right: 20.0, top: 30, bottom: 30),
+        height: 400,
+        width: 300,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+        image: DecorationImage(
+        image: AssetImage("assets/93.jpg"),
+            fit: BoxFit.fill,
+            colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.1), BlendMode.darken)
+
+          //child: Icon(Icons.auto_stories,size: 200,),
 
         //  width: 300,
-      ),
+      ))),
 
     ]
     ),

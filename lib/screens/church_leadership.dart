@@ -4,9 +4,6 @@ import 'package:pcn_erp/screens/deputy-c.dart';
 import 'package:pcn_erp/screens/moderator.dart';
 import 'package:pcn_erp/screens/pc_ga.dart';
 
-
-
-
 /// Represents Homepage for Navigation
 class ChurchLeaders extends StatefulWidget {
   @override
@@ -33,7 +30,7 @@ class _ChurchLeaders extends State<ChurchLeaders> {
               child: GridView(
                 children: [
                   InkWell(
-                     onTap: () {
+                    onTap: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => Mod()));
                     },
@@ -44,15 +41,18 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          //Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
-                          Image.asset(
-                            'assets/moder2.jpeg',
-                            height: 100 ,
-                            width: 130,
-                            fit: BoxFit.contain,
-                          ),
+                          Container(
+                              width: 120,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  image: DecorationImage(
+                                    fit: BoxFit.fill,
+                                    image: AssetImage('assets/moder2.jpeg'),
+                                  ))),
                           Text(
-                            "Prelate & Moderator", textAlign: TextAlign.center,
+                            "Prelate & Moderator",
+                            textAlign: TextAlign.center,
                             style: TextStyle(color: Colors.white, fontSize: 20),
                           )
                         ],
@@ -60,10 +60,10 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                     ),
                   ),
                   InkWell(
-                     onTap: () {
-                       Navigator.push(context,
-                           MaterialPageRoute(builder: (context) => PcGa()));
-                     },
+                    onTap: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => PcGa()));
+                    },
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
@@ -71,19 +71,15 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          //decoration: BoxDecoration(
-                          //  color: Colors.white,
-                          //image: DecorationImage(
-                          //Image(semanticLabel: "assets/pcnlogo1.jpg"),
-                          //fit: BoxFit.cover)),
-                          //Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
-                          Image.asset(
-                            'assets/ajah.jpg',
-                            //height: 100,
-                            width: 130,
-                            fit: BoxFit.contain,
-                          ),
-
+                          Container(
+                              width: 120,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  image: DecorationImage(
+                                    fit: BoxFit.fill,
+                                    image: AssetImage('assets/ajah.jpg'),
+                                  ))),
                           Text(
                             "Principal Clerk",
                             style: TextStyle(color: Colors.white, fontSize: 20),
@@ -93,9 +89,9 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                     ),
                   ),
                   InkWell(
-                     onTap: () {
-                    Navigator.push(context,
-                       MaterialPageRoute(builder: (context) => Dc()));
+                    onTap: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => Dc()));
                     },
                     child: Container(
                       decoration: BoxDecoration(
@@ -104,36 +100,32 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          //decoration: BoxDecoration(
-                          //  color: Colors.white,
-                          //image: DecorationImage(
-                          //Image(semanticLabel: "assets/pcnlogo1.jpg"),
-                          //fit: BoxFit.cover)),
-                          //Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
-                          Image.asset(
-                            'assets/rev_oko.jpeg',
-                            height: 100,
-                            width: 180,
-                            fit: BoxFit.contain,
-                          ),
-
+                          Container(
+                              width: 120,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  image: DecorationImage(
+                                    fit: BoxFit.fill,
+                                    image: AssetImage(
+                                      'assets/rev_oko.jpeg',
+                                    ),
+                                  ))),
                           Text(
-                            "Deputy Principal Clerk", textAlign: TextAlign.center,
+                            "Deputy Principal Clerk",
+                            textAlign: TextAlign.center,
                             style: TextStyle(color: Colors.white, fontSize: 20),
                           )
                         ],
                       ),
                     ),
                   ),
-
                 ],
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
                     mainAxisSpacing: 10,
                     crossAxisSpacing: 10),
               )),
-
-        )
-    );
+        ));
   }
 }

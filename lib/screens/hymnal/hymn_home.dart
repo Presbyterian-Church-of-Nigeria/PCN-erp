@@ -17,8 +17,14 @@ class _HymnPageState extends State<HymnPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title:
+      backgroundColor: Colors.blue[100],
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+          elevation: 0.2,
+          title:
+
         Text('Hymnal'),
+
         ),
         drawer: Navbar(),
         body: Container(child: Padding(
@@ -29,12 +35,12 @@ class _HymnPageState extends State<HymnPage> {
                   Navigator.push(context,MaterialPageRoute(builder: (context)=> RchApp()));
                 },
                 child:
-                Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),color: Colors.deepOrangeAccent),
+                Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),color: Colors.lightBlueAccent),
                   child:Column(
                     mainAxisAlignment: MainAxisAlignment.center,
 
                     children: [
-                      Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
+                      Icon(Icons.music_note,size: 40,color: Colors.white,),
                       //Image.asset('assets/moder2.jpeg',height: 130,width: 130, fit: BoxFit.contain,),
                       Text("RCH", style: TextStyle(color:Colors.white,fontSize:20),)
                     ],
@@ -55,7 +61,7 @@ class _HymnPageState extends State<HymnPage> {
                       //image: DecorationImage(
                       //Image(semanticLabel: "assets/pcnlogo1.jpg"),
                       //fit: BoxFit.cover)),
-                      Icon(Icons.import_contacts_sharp,size: 40,color: Colors.white,),
+                      Icon(Icons.music_note_sharp,size: 40,color: Colors.white,),
                       //Image.asset('assets/ajah.jpg',height: 130,width: 130, fit: BoxFit.contain,),
 
                       Text("Igbo Hymn", style: TextStyle(color:Colors.white,fontSize:20),)
@@ -68,12 +74,12 @@ class _HymnPageState extends State<HymnPage> {
                 onTap:(){
                   Navigator.push(context,MaterialPageRoute(builder: (context)=> EfikHymn()));
                 },
-                child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),color: Colors.lightGreen),
+                child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.white),
                   child:Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.auto_stories,size: 40,color: Colors.white,),
-                      Text("Effik Hymn", style: TextStyle(color:Colors.white,fontSize:20),)
+                      Icon(Icons.music_note_rounded,size: 40,color: Colors.blue,),
+                      Text("Efik Hymn", style: TextStyle(color:Colors.blue,fontSize:20),)
                     ],
 
                   ),),

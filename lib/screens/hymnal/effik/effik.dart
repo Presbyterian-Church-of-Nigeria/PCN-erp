@@ -34,17 +34,17 @@ class _EfikHymn extends State<EfikHymn> {
               _pdfViewerKey.currentState?.openBookmarkView();
             },
           ),
-          IconButton(
-            icon: Icon(
-              Icons.search,
-              color: Colors.white,
-            ),
-            onPressed: () async {
-              _searchResult = await _pdfViewerController?.searchText('the',);
+         // IconButton(
+           // icon: Icon(
+             // Icons.search,
+             // color: Colors.white,
+           // ),
+           // onPressed: () async {
+             // _searchResult = await _pdfViewerController?.searchText('the',);
                // searchOption: TextSearchOption.caseSensitive);
-              setState(() {});
-            },
-          ),
+              //setState(() {});
+            //},
+         // ),
           Visibility(
             visible: _searchResult?.hasResult ?? false,
             child: IconButton(

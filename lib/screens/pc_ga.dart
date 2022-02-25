@@ -55,14 +55,16 @@ class _PcGa extends State<PcGa> {
       children: <Widget>[
 
 
-        Container(
-          padding: EdgeInsets.only(left: 20.0,right: 20.0),
-          child: Image.asset(
-            "assets/ajah.jpg",
-            height: 300,
-            width: 300,
-          ),
-        ),
+        
+                          Container(
+                              width: 350,
+                              height: 260,
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  image: DecorationImage(
+                                    fit: BoxFit.fill,
+                                    image: AssetImage('assets/ajah.jpg'),
+                                  ))),
         Container(
           padding: EdgeInsets.only(top: spacer),
           child: Text(

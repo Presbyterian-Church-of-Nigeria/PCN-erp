@@ -64,6 +64,7 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
+
     }
 
     signingConfigs {
@@ -79,6 +80,8 @@ android {
             signingConfig signingConfigs.release
             minifyEnabled false
             shrinkResources false
+
+
         }
     }
 

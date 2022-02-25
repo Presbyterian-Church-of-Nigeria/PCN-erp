@@ -66,14 +66,15 @@ class _Mod extends State<Mod> {
       children: <Widget>[
 
 
-        Container(
-          padding: EdgeInsets.only(left: 20.0,right: 20.0),
-          child: Image.asset(
-            "assets/moder2.jpeg",
-            height: 300,
-            width: 300,
-          ),
-        ),
+       Container(
+                              width: 350,
+                              height: 250,
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  image: DecorationImage(
+                                    fit: BoxFit.fill,
+                                    image: AssetImage('assets/moder2.jpeg'),
+                                  ))),
         Container(
           padding: EdgeInsets.only(top: spacer),
           child: Text(

@@ -48,18 +48,18 @@ class DatabaseHelper {
     }
   }
 
-  _executeSql(Database db, String sqlFile) async {
-    String path = "assets/sql/$sqlFile.sql";
-    String s = await rootBundle.loadString(path);
+  //_executeSql(Database db, String sqlFile) async {
+  //  String path = "assets/sql/$sqlFile.sql";
+  ///  String s = await rootBundle.loadString(path);
 
-    List<String> sql = s.split(";");
+    //List<String> sql = s.split(";");
 
-    for (String s in sql) {
-      if (s.trim().isNotEmpty) {
-        await db.execute(s);
-      }
-    }
-  }
+   // for (String s in sql) {
+     // if (s.trim().isNotEmpty) {
+      //  await db.execute(s);
+     // }
+   // }
+  //}
 
   _copyIfNotExists() async {
     var databasesPath = await getDatabasesPath();

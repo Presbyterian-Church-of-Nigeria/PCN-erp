@@ -4,11 +4,11 @@
 <title>Abu</title>
 <link rel="stylesheet" type="text/css" href="main.css"/>
 <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.3.min.css"/>
-<script type="text/javascript" src="jquery-2.1.0.min.js"></script>
-<script type="text/javascript" src="jquery.mobile-1.4.3.min.js"></script>
-<script type="text/javascript" src="android.js"></script>
-<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-	
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<!--script type="text/javascript" src="jquery.mobile-1.4.3.min.js"></script-->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js" integrity="sha256-Lsk+CDPOzTapLoAzWW0G/WeQeViS3FMzywpzPZV8SXk=" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
 <div data-role="page">
@@ -17,7 +17,7 @@
 <h1><table align="center"><tr>
 <td>ABU IJI EKPERE CHINEKE</td>
 </tr>
-<tr><td><input type="number" data-type="search" id="searchbox" placeholder="Search Hymn!" onkeypress="findit()" >
+<tr><td><input type="number" data-type="search" id="searchbox"  placeholder="Search Hymn!" onkeypress="findIt()" >
 <!--<input type="button" onclick="findit();" value="Search Hymn!" style="display:none">--></td>
 </tr>
 </table>
@@ -429,9 +429,26 @@
 <ul id="nomatch" style="display:none;text-align:center;">
 <li><a>Your search was not found!<br/> 
 To search a Hymn simply search the particular Hymn say 8, and follow the picture below.</a></li>
-<img src="img\hand.gif" width=45%/><br/>
-<a href="index.html"><img src="img\UniversalBackButton.png" width=20%/></a>
 </ul>
+
+    <script>
+function findIt() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("searchbox");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("searcharea");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
 
 
 

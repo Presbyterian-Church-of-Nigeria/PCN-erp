@@ -60,14 +60,14 @@ class HymnSearchDelegate extends SearchDelegate {
 
             return ListView(
               children: [
-                ...snapshot.data.docs.where(
+                 ...snapshot.data.docs.where(
                   (QueryDocumentSnapshot element)=> element['c1title']
                 .toString()
                 .toLowerCase()
                 .contains(query.toLowerCase())).map((QueryDocumentSnapshot data){
 
-                  final String title = data.get('c1title');
-                  final String c0_id = data['c0_id'];
+                 // final String title = data.get('c1title');
+                  //final String c0_id = data['c0_id'];
 
                   return  ListTile(
                       leading: CircleAvatar(
@@ -92,8 +92,41 @@ class HymnSearchDelegate extends SearchDelegate {
                     );
 
                   
-                })
+                }),
+                
+              ...snapshot.data.docs.where(
+                  (QueryDocumentSnapshot element)=> element['c0_id']
+                .toString()
+                .toLowerCase()
+                .contains(query.toLowerCase())).map((QueryDocumentSnapshot data){
 
+                 // final String title = data.get('c1title');
+                  //final String c0_id = data['c0_id'];
+
+                  return  ListTile(
+                      leading: CircleAvatar(
+                        child: Text(data['c0_id']),
+                      ),
+                      title: Text(data['c1title']),
+                      isThreeLine: true,
+                      subtitle: Text(
+                        data['c4lyrics'],
+                        maxLines: 5,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (BuildContext context) => HymnDetail(
+                                data['c0_id'],  data['c4lyrics']),
+                          ),
+                        );
+                      },
+                    );
+                }),
+                 
+            
               ],
             );
           }
@@ -103,6 +136,11 @@ class HymnSearchDelegate extends SearchDelegate {
 
   @override
   Widget buildSuggestions(BuildContext context) {
-    return Container();
+    return Center(
+               child:
+               
+                Text("Type Hymn Number or title"),
+               
+    );
   }
 }

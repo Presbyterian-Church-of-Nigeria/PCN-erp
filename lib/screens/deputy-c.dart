@@ -58,14 +58,17 @@ class _Dc extends State<Dc> {
       children: <Widget>[
 
 
-        Container(
-          padding: EdgeInsets.only(left: 20.0,right: 20.0),
-          child: Image.asset(
-            "assets/rev_oko.jpeg",
-            height: 300,
-            width: 300,
-          ),
-        ),
+         Container(
+                              width: 300,
+                              height: 240,
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  image: DecorationImage(
+                                    fit: BoxFit.fill,
+                                    image: AssetImage(
+                                      'assets/rev_oko.jpeg',
+                                    ),
+                                  ))),
         Container(
           padding: EdgeInsets.only(top: spacer),
           child: Text(

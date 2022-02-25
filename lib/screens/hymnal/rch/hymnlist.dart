@@ -34,7 +34,9 @@ class _RchAppState extends State<RchApp> {
             stream: FirebaseFirestore.instance.collection("rch").snapshots().asBroadcastStream(),
             builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
               if (snapshot.data == null) {
-                return CircularProgressIndicator();
+                return Center(
+                child: CircularProgressIndicator()
+                );
               }
               var messages = snapshot.data.docs;
               return ListView.separated(

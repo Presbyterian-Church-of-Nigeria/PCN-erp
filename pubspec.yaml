@@ -15,7 +15,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.3.6+8
+version: 2.4.1+95
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -30,7 +30,6 @@ dependencies:
   rxdart: ^0.24.0
   share: ^0.6.4
   easy_rich_text: ^0.2.2
-
   path_provider: ^1.6.28
   #open_file: ^3.0.1
 
@@ -40,9 +39,8 @@ dependencies:
   cupertino_icons: ^1.0.0
   cloud_firestore: ^0.14.4
   cloud_firestore_web: ^0.2.1+2
-  #google_maps_webservice: ^0.0.20-nullsafety.2
   provider: ^4.3.2+2
-
+  expansion_tile_card: ^1.1.0
   http_parser: ^3.1.3
   firebase_core: "0.5.3"
   epub_viewer: ^0.1.9
@@ -76,12 +74,15 @@ flutter:
     - assets/database.db
     #- assets/images/
     - assets/sql/
-    - assets/bluebook.epub
-    - assets/dates2022.epub
+    - assets/23.epub
+    - assets/7.epub
     - assets/4.epub
-    - assets/almac.jpeg
     - assets/ajah.jpg
+    - assets/cover.jpeg
     - assets/mcalogo.png
+    - assets/royalph.png
+    - assets/pcnlocation.jpg
+    - assets/93.jpg
     - assets/rev_oko.jpeg
     - assets/womenguild.jpg
     - assets/pypan.jpg
@@ -99,7 +100,7 @@ flutter:
     - assets/igbo/main.css
     - assets/igbo/jquery.mobile-1.4.3.min.js
     - assets/igbo/jquery.mobile-1.4.3.min.css
-    - assets/igbo/jquery-2.1.0.min.js
+    #- assets/igbo/jquery-2.1.0.min.js
     - assets/igbo/index.html
     - assets/igbo/abu1.html
     - assets/igbo/abu2.html
