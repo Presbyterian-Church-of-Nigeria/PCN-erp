@@ -50,7 +50,7 @@ class _Pnp extends State<Pnp> {
 
               String iosBookPath = '${appDocDir.path}/4.epub';
               print(iosBookPath);
-              String androidBookPath = 'file:///android_asset/5.epub';
+              //String androidBookPath = 'file:///android_asset/5.epub';
               EpubViewer.setConfig(
                   themeColor: Theme
                       .of(context)
@@ -132,35 +132,6 @@ class _Pnp extends State<Pnp> {
     //  }
     //}
 
-    startDownload() async {
-      Directory appDocDir = Platform.isAndroid
-          ? await getExternalStorageDirectory()
-          : await getApplicationDocumentsDirectory();
-
-      String path = appDocDir.path + '/chair.epub';
-      File file = File(path);
-//    await file.delete();
-
-      if (!File(path).existsSync()) {
-        await file.create();
-        await dio.download(
-          'https://github.com/FolioReader/FolioReaderKit/raw/master/Example/'
-              'Shared/Sample%20eBooks/The%20Silver%20Chair.epub',
-          path,
-          deleteOnError: true,
-          onReceiveProgress: (receivedBytes, totalBytes) {
-            print((receivedBytes / totalBytes * 100).toStringAsFixed(0));
-            //Check if download is complete and close the alert dialog
-            if (receivedBytes == totalBytes) {
-              loading = false;
-              setState(() {});
-            }
-          },
-        );
-      } else {
-        loading = false;
-        setState(() {});
-      }
-    }
+   
   }
 }

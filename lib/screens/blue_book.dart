@@ -49,7 +49,7 @@ class _Bluebook extends State<Bluebook> {
 
               String iosBookPath = '${appDocDir.path}/23.epub';
               print(iosBookPath);
-              String androidBookPath = 'file:///android_asset/23.epub';
+              //String androidBookPath = 'file:///android_asset/23.epub';
               EpubViewer.setConfig(
                   themeColor: Theme
                       .of(context)
@@ -93,7 +93,7 @@ class _Bluebook extends State<Bluebook> {
                   children:<Widget>[
                     Container(
                       padding: EdgeInsets.only(top: 30),
-                      child: Text('Blue Book',
+                      child: Text('Click to Read',
                         style: TextStyle(fontSize: 30),
                       ),
                     ),
@@ -126,35 +126,5 @@ class _Bluebook extends State<Bluebook> {
     //  }
     //}
 
-    startDownload() async {
-      Directory appDocDir = Platform.isAndroid
-          ? await getExternalStorageDirectory()
-          : await getApplicationDocumentsDirectory();
-
-      String path = appDocDir.path + '/23.epub';
-      File file = File(path);
-//    await file.delete();
-
-      if (!File(path).existsSync()) {
-        await file.create();
-        await dio.download(
-          'https://github.com/FolioReader/FolioReaderKit/raw/master/Example/'
-              'Shared/Sample%20eBooks/The%book.epub',
-          path,
-          deleteOnError: true,
-          onReceiveProgress: (receivedBytes, totalBytes) {
-            print((receivedBytes / totalBytes * 100).toStringAsFixed(0));
-            //Check if download is complete and close the alert dialog
-            if (receivedBytes == totalBytes) {
-              loading = false;
-              setState(() {});
-            }
-          },
-        );
-      } else {
-        loading = false;
-        setState(() {});
-      }
-    }
-  }
+     }
 }

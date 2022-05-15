@@ -47,7 +47,7 @@ class _BibleStudy extends State<BibleStudy> {
 
                   String iosBookPath = '${appDocDir.path}/7.epub';
                   print(iosBookPath);
-                  String androidBookPath = 'file:///android_asset/7.epub';
+                  //String androidBookPath = 'file:///android_asset/7.epub';
                   EpubViewer.setConfig(
                       themeColor: Theme.of(context).primaryColor,
                       identifier: "iosBook",
@@ -127,35 +127,6 @@ class _BibleStudy extends State<BibleStudy> {
     //  }
     //}
 
-    startDownload() async {
-      Directory appDocDir = Platform.isAndroid
-          ? await getExternalStorageDirectory()
-          : await getApplicationDocumentsDirectory();
-
-      String path = appDocDir.path + '/7.epub';
-      File file = File(path);
-      await file.delete();
-
-      if (!File(path).existsSync()) {
-        await file.create();
-        await dio.download(
-          'https://github.com/FolioReader/FolioReaderKit/raw/master/Example/'
-          'Shared/Sample%20eBooks/The%r.epub',
-          path,
-          deleteOnError: true,
-          onReceiveProgress: (receivedBytes, totalBytes) {
-            print((receivedBytes / totalBytes * 100).toStringAsFixed(0));
-            //Check if download is complete and close the alert dialog
-            if (receivedBytes == totalBytes) {
-              loading = false;
-              setState(() {});
-            }
-          },
-        );
-      } else {
-        loading = false;
-        setState(() {});
-      }
     }
   }
-}
+

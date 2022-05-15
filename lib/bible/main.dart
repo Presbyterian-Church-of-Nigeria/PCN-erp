@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 import 'package:pcn_erp/bible/pages/home_page.dart';
 import 'package:pcn_erp/bible/services/books_bloc.dart';
@@ -25,8 +23,7 @@ class _MyBibleState extends State<MyBible> {
       theme: new ThemeData(
         canvasColor: background,
         primaryColor: accent,
-        backgroundColor: background,
-        accentColor: accent,
+        backgroundColor: background, colorScheme: ColorScheme.fromSwatch().copyWith(secondary: accent),
       ),
       home: BiblePage(),
     );

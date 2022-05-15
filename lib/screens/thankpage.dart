@@ -130,12 +130,12 @@ class _Thanks extends State<Thanks> {
               patternList: [
                 EasyRichTextPattern(
                   targetString: 'His Eminence Nzie Nsi Eke',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size*1.1),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size*1.0),
 
                 ),
                 EasyRichTextPattern(
                   targetString: 'Prelate & General Assembly Moderator Of The Presbyterian Church Of Nigeria',
-                  style: TextStyle(color: Colors.blue, fontStyle: FontStyle.italic , fontSize: size *1.1),
+                  style: TextStyle(color: Colors.blue, fontStyle: FontStyle.italic , fontSize: size *0.9),
                 ),
 
               ],
@@ -150,11 +150,11 @@ class _Thanks extends State<Thanks> {
               patternList: [
                 EasyRichTextPattern(
                   targetString: 'Most Rev Dr Miracle Ajah',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.1),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.0),
                 ),
                 EasyRichTextPattern(
                   targetString: 'Principal Clerk Of The General Assembly Of The Presbyterian Church Of Nigeria',
-                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic , fontSize: size *1.1),
+                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic , fontSize: size *0.9),
                 ),
 
               ],
@@ -169,11 +169,11 @@ class _Thanks extends State<Thanks> {
               patternList: [
                 EasyRichTextPattern(
                   targetString: 'Rt Rev Solomon Okoro',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size *1.1),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size *1.0),
                 ),
                 EasyRichTextPattern(
                   targetString: 'Deputy Clerk Of The General Assembly Of The Presbyterian Church Of Nigeria',
-                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size*1.1 ),
+                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size*0.9 ),
                 ),
 
               ],
@@ -199,12 +199,12 @@ class _Thanks extends State<Thanks> {
               patternList: [
                 EasyRichTextPattern(
                   targetString: 'Elder Engr Awa Eke Osonwa',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.1),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.0),
 
                 ),
                 EasyRichTextPattern(
                   targetString: 'Chairman MCA CWC',
-                  style: TextStyle(color: Colors.blue, fontStyle: FontStyle.italic, fontSize: size * 1.1 ),
+                  style: TextStyle(color: Colors.blue, fontStyle: FontStyle.italic, fontSize: size * 0.9 ),
                 ),
 
               ],
@@ -219,11 +219,11 @@ class _Thanks extends State<Thanks> {
               patternList: [
                 EasyRichTextPattern(
                   targetString: 'Engr Idika Okechukwu',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size *1.1),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size *1.0),
                 ),
                 EasyRichTextPattern(
                   targetString: 'Secretary MCA CWC',
-                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size *1.1 ),
+                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size *0.9 ),
                 ),
 
               ],
@@ -238,11 +238,11 @@ class _Thanks extends State<Thanks> {
               patternList: [
                 EasyRichTextPattern(
                   targetString: 'Mr Mike Ibiam',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size *1.1),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size *1.0),
                 ),
                 EasyRichTextPattern(
                   targetString: 'Treasurer MCA CWC',
-                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size * 1.1 ),
+                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size * 0.9 ),
                 ),
 
               ],
@@ -257,11 +257,11 @@ class _Thanks extends State<Thanks> {
               patternList: [
                 EasyRichTextPattern(
                   targetString: 'Rev Sunday Eke Ole',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.1),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.0),
                 ),
                 EasyRichTextPattern(
                   targetString: 'Desk Coordinator MCA CWC',
-                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic , fontSize: size * 1.1),
+                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic , fontSize: size * 0.9),
                 ),
 
               ],
@@ -282,17 +282,37 @@ class _Thanks extends State<Thanks> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: EasyRichText(
-              "Okenwa Ikwan Kevin -\n Leader Developer | Soparkids Int",
+              "Engr Idika Okechukwu -\n Lead Project",
               textAlign: TextAlign.center,
               patternList: [
                 EasyRichTextPattern(
-                  targetString: 'Okenwa Ikwan kevin',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.1),
+                  targetString: 'Engr Idika Okechukwu',
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.0),
 
                 ),
                 EasyRichTextPattern(
-                  targetString: 'Leader Developer | Soparkids Int',
-                  style: TextStyle(color: Colors.blue, fontStyle: FontStyle.italic, fontSize: size * 1.1 ),
+                  targetString: 'Lead Project',
+                  style: TextStyle(color: Colors.blue, fontStyle: FontStyle.italic, fontSize: size * 0.9 ),
+                ),
+
+              ],
+            ),
+
+          ),
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: EasyRichText(
+              "Okenwa Ikwan Kevin -\n Lead App Developer",
+              textAlign: TextAlign.center,
+              patternList: [
+                EasyRichTextPattern(
+                  targetString: 'Okenwa Ikwan Kevin',
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.0),
+
+                ),
+                EasyRichTextPattern(
+                  targetString: 'Lead App Developer',
+                  style: TextStyle(color: Colors.blue, fontStyle: FontStyle.italic, fontSize: size * 0.9 ),
                 ),
 
               ],
@@ -307,11 +327,11 @@ class _Thanks extends State<Thanks> {
               patternList: [
                 EasyRichTextPattern(
                   targetString: 'Evelyn Okenwa Ikwan',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size *1.1),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size *1.0),
                 ),
                 EasyRichTextPattern(
                   targetString: 'Content Dev',
-                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size *1.1 ),
+                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size *0.9 ),
                 ),
 
               ],
@@ -326,11 +346,11 @@ class _Thanks extends State<Thanks> {
               patternList: [
                 EasyRichTextPattern(
                   targetString: 'Obidigwe Kosischukwu',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.1),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.0),
                 ),
                 EasyRichTextPattern(
                   targetString: 'Front End Dev',
-                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size * 1.1 ),
+                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size * 0.9 ),
                 ),
 
               ],
@@ -345,11 +365,11 @@ class _Thanks extends State<Thanks> {
               patternList: [
                 EasyRichTextPattern(
                   targetString: 'Ayalogu Ikenna Innocent',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.1),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: size * 1.0),
                 ),
                 EasyRichTextPattern(
                   targetString: 'UI UX Dev',
-                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size * 1.1 ),
+                  style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic, fontSize: size * 0.9 ),
                 ),
 
               ],

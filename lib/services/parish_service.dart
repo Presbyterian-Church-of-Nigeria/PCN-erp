@@ -2,8 +2,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 //import 'package:firebase_core/firebase_core.dart';
 //import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:pcn_erp/models/parish.dart';
+//import 'package:flutter/material.dart';
+//import 'package:pcn_erp/models/parish.dart';
 
 class Parish {
   
@@ -19,14 +19,13 @@ class Parish {
 
     DocumentSnapshot snapshot = await parishes.doc('parishes').get();
     if (snapshot.exists){
-      Map<String, dynamic> data = snapshot.data() as Map<String, dynamic>;
-      var parishesData = data['parishes'] as List<dynamic>;
-      parishesData.forEach((parData) {
+      //Map<String, dynamic> data = snapshot.data() as Map<String, dynamic>;
+      //var parishesData = data['parishes'] as List<dynamic>;
+      //parishesData.forEach((parData) {
         //Parish cat = Parish.fromJson(parData);
        // _parishes.add(cat);
 
-      });
+      }
     }
 
   }
-}

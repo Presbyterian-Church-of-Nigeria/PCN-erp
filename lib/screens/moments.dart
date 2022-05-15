@@ -42,63 +42,42 @@ class _Moments extends State<Moments> {
                   itemBuilder: (context, index) {
                     DocumentSnapshot rch = messages[index];
                     return Container(
-                        child:
-                        ExpansionTileCard(
-                      elevation: 5.0,
-                     baseColor: Colors.cyan[50],
-                     expandedColor: Colors.red[50],
-                     // child: ListTile(
+                      child: ExpansionTileCard(
+                        elevation: 5.0,
+                        baseColor: Colors.cyan[50],
+                        expandedColor: Colors.red[50],
+                        // child: ListTile(
                         leading: CircleAvatar(
-                          child: Text(rch?.data()['year'] ,textAlign: TextAlign.center,),
-
-
+                          child: Text(
+                            rch?.data()['year'],
+                            textAlign: TextAlign.center,
+                          ),
                           maxRadius: 32,
-
                         ),
-                        title: Text( rch?.data()['month'],style: TextStyle(fontSize: 17.5),),
+                        title: Text(
+                          rch?.data()['month'],
+                          style: TextStyle(fontSize: 17.5),
+                        ),
                         children: [
                           Divider(
                             thickness: 1.0,
                             height: 1.0,
-                         ),
-                          Align(
-                            alignment: Alignment.centerLeft,
-                            child: Padding(
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 16.0,
-                                vertical: 10.0
-                              ),
-                              child: Text(
-                                rch?.data()['event']
-                              ,style: TextStyle(fontSize: 18),),
-                            )
                           ),
+                          Align(
+                              alignment: Alignment.centerLeft,
+                              child: Padding(
+                                padding: const EdgeInsets.symmetric(
+                                    horizontal: 16.0, vertical: 10.0),
+                                child: Text(
+                                  rch?.data()['event'],
+                                  style: TextStyle(fontSize: 18),
+                                ),
+                              )),
                         ],
-                        //isThreeLine: true,
-                        //subtitle: Text("")
-
-                       // onTap: () {
-                         // Navigator.push(
-                          //  context,
-                           // MaterialPageRoute(
-                           //  builder: (BuildContext context) =>  MomentDetail(rch.data()['year'],rch.data()[ 'month'], rch.data()['event'])
-                                  //rch.data()['date'],
-                                  //rch.data()['activity'],
-                              //    rch.data()['date2'],
-                               //   rch.data()['activity2'],
-                             //     rch.data()['date3'],
-                             //     rch.data()['activity3'],
-                             //     rch.data()['date4'],
-                             //     rch.data()['activity4'],
-                             //     rch.data()['week']),
-                            ),
-                          );
-                        },
-                      //),
-                    //),
-                         );
-                  //},
-                //);
+                      ),
+                    );
+                  },
+                );
               }
             })));
   }

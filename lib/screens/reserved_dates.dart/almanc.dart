@@ -58,7 +58,7 @@ class _Almanc extends State<Almanc> {
                           Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (BuildContext context) => DateDetail(rch.data()['date']  ,rch.data()['activity'], rch.data()['date2'], rch.data()['activity2'],rch.data()['date3'],rch.data()['activity3'],rch.data()['date4'],rch.data()['activity4'],rch.data()['week']),
+                            builder: (BuildContext context) => DateDetail(rch.data()['date']  ,rch.data()['activity'], rch.data()['date1'], rch.data()['activity1'],rch.data()['date2'],rch.data()['activity2'],rch.data()['date3'],rch.data()['activity3'],rch.data()['week']),
                           ),
                         );
                         },

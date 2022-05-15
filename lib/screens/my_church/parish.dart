@@ -39,7 +39,7 @@ class _Parish extends State<Parish> {
                   itemCount: messages.length,
                   separatorBuilder: (context, index) => Divider(),
                   itemBuilder: (context, index) {
-                    DocumentSnapshot rch = messages[index];
+                    //DocumentSnapshot rch = messages[index];
                     return Container(
                         child: Card(
                       elevation: 5.0,
