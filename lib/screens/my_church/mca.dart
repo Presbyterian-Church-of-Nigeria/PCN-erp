@@ -1,10 +1,11 @@
-import 'dart:ui';
+//import 'dart:ui';
 
 import 'package:expansion_tile_card/expansion_tile_card.dart';
 import 'package:flutter/material.dart';
 //import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'package:pcn_erp/bible/utils/constants.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:pcn_erp/screens/reserved_dates.dart/almanc.dart';
+//import 'package:flutter/cupertino.dart';
 
 /// Represents Homepage for Navigation
 class Mca extends StatefulWidget {
@@ -473,7 +474,17 @@ class _Mca extends State<Mca> {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 16.0, vertical: 10.0),
-                    child: Text(
+                    child: Column(
+                        children:[ Container(
+                        height: 120,
+                        width: 120,
+                        decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            image: DecorationImage(
+                                image: AssetImage(
+                                  'assets/Rev_Eke_Ole.jpg',
+                                )))),
+                    Text(
                       "Rev Sunday Eke Ole. Hails from Okpo Ihechiowa. Arochukwu LGA.Abia State. He is married to Deaconess Nnenna Eke Ole and blessed with children.\n"
                       "He was Licensed in 1995 and ordained in 1996. He has served in the Presbyterian church as Clerk and Moderator of different Presbyteries.\n One time clerk of synods of the East and North respectively. One time member of BPT now BPM and GAEC.\n He is presently member of BFO, CMD, Moderator Calabar Presbytery and Desk Coordinator Men's PCN.\n"
                       "He acquired his Diploma Certificate in University of Calabar and Trinity College Umuahia. Bachelor of Divinity University of Jos and Theological College of Northern Nigeria, Bukuru Jos, and Masters in Religion and Society from University of Nigeria Nsukka.\n"
@@ -481,7 +492,7 @@ class _Mca extends State<Mca> {
                       "He is joyfully married and blessed with children.",
                       style: TextStyle(fontSize: 18),
                     ),
-                  )),
+                  ]))),
             ],
           ),
           
@@ -510,7 +521,17 @@ class _Mca extends State<Mca> {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 16.0, vertical: 10.0),
-                    child: Text(
+                    child: Column(
+                        children:[ Container(
+                        height: 120,
+                        width: 120,
+                        decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            image: DecorationImage(
+                                image: AssetImage(
+                                  'assets/engr_awa.jpg',
+                                )))),
+                     Text(
                       "Parentage: Elder Engr. Awa Eke Osonwa was born to the family of Late Teacher Eke Osonwa of blessed memory and Elder Mrs. Elizabeth E. Osonwa in Akanu Ohafia, Ohafia LGA, Abia State.\n"
                       "Education: He attended Community Primary School, Amangwu and Akanu Ohafia Secondary School both in Ohafia. \n He later furthered his study at the Federal University of Technology, Owerri where he obtained a Bachelor Degree (Honours) in Mechanical Engineering and a Master Degree in Engineering Management obtained at the University of Port Harcourt.\n"
                       "Church Life: Elder Osonwa worships at the Rumuomasi Congregation of the Presbyterian Church of Nigeria, Rumuomasi Parish. \n He is a committed members of the Parish and has served the Parish, Presbytery and Synod in various capacities, viz \n"
@@ -528,7 +549,7 @@ class _Mca extends State<Mca> {
                       ,
                       style: TextStyle(fontSize: 18),
                     ),
-                  )),
+                  ]))),
             ],
           ),
           
@@ -557,7 +578,17 @@ class _Mca extends State<Mca> {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 16.0, vertical: 10.0),
-                    child: Text(
+                    child: Column(
+                        children:[ Container(
+                        height: 120,
+                        width: 120,
+                        decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            image: DecorationImage(
+                                image: AssetImage(
+                                  'assets/okechwku.jpg',
+                                )))),
+                     Text(
                       "Born on 3rd of April, at Nsukka then Anambra, He hails from Ebem in Ohafia Local Government Area of Abia State. \n He attended Onuiyi Primary School, St. Teresa’s College Nsukka and Michael Okpara Federal University of Agriculture, Umudike, in Umuahia, Abia State. He successfully completed his NYSC in Oyo State.\n"
 "After his NYSC at Oyo State he moved to Lagos and joined a telecommunication clearing house (Interconnect Clearinghouse Nigeria) as Billing System Analyst. \n After a few years with ICN, he moved fully into the telecommunication industry as a Billing System Specialist with INTEC with the sole consult on billing system for MTN. he later moved on with Telkom SA the sole owner of Multi-links Nigeria.\n"
 "He was a member of the team that successfully deployed Sarbanes Oxley (SOX) which the legislation enacted in 2002 in response to the high-profile Enron and WorldCom financial and telecom scandals to protect shareholders and the public from accounting errors and fraudulent practices in the enterprise. \n This project plus other achievements gained him the National Colabo award Winner of the Best Staff of the year in the CIO department with an all-expense trip to South Africa for further Course in Computer Engineering and for the 2010 World Cup in South Africa.\n"
@@ -568,7 +599,7 @@ class _Mca extends State<Mca> {
 "He is happily married to his Jewel; Mrs. Rhema, a seasoned Biochemist and Public Health Professional. His family is blessed with – Chigozirim, Nmasinachi & Chibudom. ",
                       style: TextStyle(fontSize: 18),
                     ),
-                  )),
+                  ]))),
             ],
           ),
           
@@ -596,7 +627,17 @@ class _Mca extends State<Mca> {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 16.0, vertical: 10.0),
-                    child: Text(
+                    child: Column(
+                        children:[ Container(
+                        height: 120,
+                        width: 120,
+                        decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            image: DecorationImage(
+                                image: AssetImage(
+                                  'assets/ibam.jpg',
+                                )))),
+                     Text(
                      " Early Life:\n"
 "Mr. Mike Ibiam is the first child child of his parents - Late Mr. C. I. U. Agha & Ezinne (Mrs.) U. U. Agha, all of Unwana Community in Afikpo North Local Government Area of the present Ebonyi State.\n He attended three Primary Schools before obtaining his First Leaving Certificate from Central School Oso Edda, now in Afikpo South Local Government Area. \n This was due to the itinerant nature of his parents who were teachers.\n\n"
 "Education: \n"
@@ -614,7 +655,7 @@ class _Mca extends State<Mca> {
                     
                       style: TextStyle(fontSize: 18),
                     ),
-                  )),
+                  ]))),
             ],
           ),
           
@@ -642,7 +683,17 @@ class _Mca extends State<Mca> {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 16.0, vertical: 10.0),
-                    child: Text(
+                    child: Column(
+                        children:[ Container(
+                        height: 120,
+                        width: 120,
+                        decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            image: DecorationImage(
+                                image: AssetImage(
+                                  'assets/josph_okon.jpg',
+                                )))),
+                    Text(
                       
 "Joe Asanga, as he is fondly called, hails from Use Ikot Amama in Ibiono Ibom Local Government  Area, Akwa Ibom State. He is a well bred Presbyterian having been born into the family of late Elder Chief & Mrs. Okon James Asanga and having maintained the faith till date.\n He was baptized as an infant and confirmed at Mary Slessor Presbyterian Church, Port Harcourt in 1985 during his NYSC Program.\n"
 
@@ -658,7 +709,7 @@ class _Mca extends State<Mca> {
 
                       style: TextStyle(fontSize: 18),
                     ),
-                  )),
+                  ]))),
                   
             ],
           ),
@@ -689,7 +740,18 @@ class _Mca extends State<Mca> {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 16.0, vertical: 10.0),
-                    child: Text(
+                    child: Column(
+                        children:[ Container(
+                        height: 130,
+                        width: 120,
+                        decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            image: DecorationImage(
+                                image: AssetImage(
+                                  'assets/eyo.jpg',
+                                )))),
+
+                     Text(
                       
 "The Rev Ubong Ekpenyong Eyo, Ph.D. is an ordained Minister of the Word and Sacrament, having been ordained in at the Presbyterian Church of Nigeria, Akim Qua Town Parish on August 06, 1995 after a successful probationary period at Lagos Presbyterian Church, Yaba under the supervision of Most Rev Benebo Fubara Fubara-Manuel between July 1994-June, 1995. He was licensed at Creek Town Parish (his home town) on July 10th, 1994 after successfully completing his Diploma in Religious Studies and Diploma in Theology at Trinity Union Theological College, Umuahia (the then affiliate college of the University of Calabar).\n He has served in different Parishes as the Minister in Charge – Akim Qua Town, Kaduna Urban, Karmo, Port Harcourt and Big Qua Town Parishes. \nCurrently, due to his secondment status, he is serving at Duke Town Parish as an Associate Minister.\n"
 "He was appointed the pioneer Men’s Desk Co-ordinator in Nov., 1999 and commenced work in February, 2000. Though it was an uphill task, yet it wasn’t an impossible one, he laid the foundation for the Men’s Desk work in the Presbyterian Church of Nigeria. His appointment as Men’s Desk Co-ordinator introduced him into the Board of Faith and Order as a member. Upon the completion of his six years tenure as Men’s Desk Co-ordinator, he was appointed as the Secretary of Board of Faith and Order in 2005, a tenure that was short lived and abruptly came to an end in 2006. Since his entrance into BFO, he has served the Board in different capacities such as Secretary, Doctrine and Standards, Publication Department (where he featured majorly in the writing of GA Bible Study Guide) and as the immediate past Secretary of the Board, having served a full tenure of six years. He has thus served the Board since 2000 till date, except for the one-year period of his studies in Geneva. \n"
@@ -700,7 +762,7 @@ class _Mca extends State<Mca> {
 
                       style: TextStyle(fontSize: 18),
                     ),
-                  )),
+                  ]))),
                   
             ],
           ),
@@ -713,6 +775,7 @@ class _Mca extends State<Mca> {
             elevation: 5.0,
             baseColor: Colors.cyan[50],
             expandedColor: Colors.red[50],
+
             title: Text(
               "REV. DR. TORTY OKWARA ONOH ",
               style: TextStyle(fontSize: 17.5),
@@ -731,7 +794,17 @@ class _Mca extends State<Mca> {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 16.0, vertical: 10.0),
-                    child: Text(
+                    child: Column(
+                        children:[ Container(
+                        height: 120,
+                        width: 120,
+                        decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            image: DecorationImage(
+                                image: AssetImage(
+                                  'assets/rev totri.jpg',
+                                )))),
+                    Text(
                       
 "The Rev. Dr. Torty Okwara Onoh was born a twin on the 5th Day of December 1963 at the Queen Elizabeth Hospital Umuahia to the royal and Christian family of Elder Chief Isaac Okwara Onoh, Eze Ogo X111 and late Elder Mrs. Mercy M. Onoh of Agbagwu, Arochukwu in Arochukwu local Government Area of Abia State.\n"
 "EDUCATION\n\n" 
@@ -754,7 +827,7 @@ class _Mca extends State<Mca> {
 
                       style: TextStyle(fontSize: 18),
                     ),
-                  )),
+                  ]))),
                   
             ],
           ),
@@ -767,6 +840,9 @@ class _Mca extends State<Mca> {
             elevation: 5.0,
             baseColor: Colors.cyan[50],
             expandedColor: Colors.red[50],
+
+           // leading:
+
             title: Text(
               "REV. SUNDAY OYAMA AGARA ",
               style: TextStyle(fontSize: 17.5),
@@ -785,7 +861,18 @@ class _Mca extends State<Mca> {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 16.0, vertical: 10.0),
-                    child: Text(
+                  child: Column(
+                    children:[ Container(
+                        height: 120,
+                        width: 120,
+                        decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            image: DecorationImage(
+                                image: AssetImage(
+                                  'assets/rev_sunday.jpg',
+                                )))),
+
+                    Text(
                       "BIRTH AND PARENTAGE\n\n"
 "The Rev Sunday O. Agara was born on 9th August, 1970 in Lagos to the family of late Mr. Samuel Oyama Agara and late Mrs. Jenny Oyama Agara both of Ofodua-Adun, Obubra Local Government Area of Cross River State.\n\n"
 "EDUCATIONAL QUALIFICATION\n\n"
@@ -850,7 +937,7 @@ class _Mca extends State<Mca> {
 
                       style: TextStyle(fontSize: 18),
                     ),
-                  )),
+                  ]))),
                   
             ],
           ),

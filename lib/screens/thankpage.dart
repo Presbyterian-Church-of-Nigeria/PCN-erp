@@ -2,7 +2,7 @@ import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
 //import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'package:pcn_erp/bible/utils/constants.dart';
-import 'package:flutter/cupertino.dart';
+//import 'package:flutter/cupertino.dart';
 
 
 /// Represents Homepage for Navigation
