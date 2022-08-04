@@ -76,7 +76,6 @@ flutter:
   assets:
     - assets/database.db
     #- assets/images/
-    - assets/sql/
     - assets/bible_icon.png
     - assets/23.epub
     - assets/7.epub
@@ -111,6 +110,7 @@ flutter:
     - assets/eyo.png
     - assets/josph_okon.png
     - assets/Rev_Eke_Ole.png
+    - assets/girls_brigade_image.jpeg
 
 
 
