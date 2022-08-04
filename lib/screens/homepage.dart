@@ -1,6 +1,7 @@
 //import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 //import 'package:flutter/widgets.dart';
 import 'package:pcn_erp/bible/main.dart';
 import 'package:pcn_erp/nav/nav.dart';
@@ -17,398 +18,108 @@ import '../nav/nav.dart';
 import 'hymnal/hymn_home.dart';
 import 'my_church/mychurch.dart';
 
-class Homepage extends StatefulWidget {
-  const Homepage({Key key}) : super(key: key);
+import 'package:flutter/src/foundation/key.dart';
+import 'package:flutter/src/widgets/framework.dart';
+import 'package:pcn_erp/util/first_half.dart';
+import 'package:pcn_erp/util/second_half.dart';
+
+class HomePage extends StatefulWidget {
+  const HomePage({Key key}) : super(key: key);
 
   @override
-  _HomepageState createState() => _HomepageState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _HomepageState extends State<Homepage> {
-  int counter = 0;
+class _HomePageState extends State<HomePage> {
+  int _currentIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.blue[100],
-        appBar: PreferredSize(
-            preferredSize: Size.fromHeight(100),
-            child: AppBar(
-              //backgroundColor: Colors.transparent,
-
-              title: Text(
-                '',
-                textAlign: TextAlign.center,
-                style:
-                    TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+      drawer: Navbar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        leading: Builder(
+          builder: (context) {
+            return IconButton(
+              onPressed: () => Scaffold.of(context).openDrawer(),
+              icon: Icon(
+                FontAwesomeIcons.bars,
+                color: Colors.deepPurple,
               ),
-
-              centerTitle: true,
-              flexibleSpace: ClipRRect(
-                  borderRadius: BorderRadius.only(
-                      bottomRight: Radius.circular(50),
-                      bottomLeft: Radius.circular(50)),
-                  child: Container(
-                    decoration: BoxDecoration(
-                        image: DecorationImage(
-                            image: AssetImage('assets/royalph.png'),
-                            fit: BoxFit.fill,
-                            colorFilter: ColorFilter.mode(
-                                Colors.blue[100].withOpacity(0.8),
-                                BlendMode.darken))),
-                  )),
-              backgroundColor: Colors.transparent,
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.only(
-                      bottomRight: Radius.circular(50),
-                      bottomLeft: Radius.circular(50))),
-              actions: <Widget>[
-                // Using Stack to show Notification Badge
-                new Stack(
-                  children: <Widget>[
-                    new IconButton(
-                        icon: Icon(
-                          Icons.notifications,
-                          color: Colors.white,
-                        ),
-                        onPressed: () {
-                          setState(() {
-                            counter = 0;
-                          });
-                        }),
-                    counter != 0
-                        ? new Positioned(
-                            right: 11,
-                            top: 11,
-                            child: new Container(
-                              padding: EdgeInsets.all(2),
-                              decoration: new BoxDecoration(
-                                color: Colors.red,
-                                borderRadius: BorderRadius.circular(6),
-                              ),
-                              constraints: BoxConstraints(
-                                minWidth: 14,
-                                minHeight: 14,
-                              ),
-                              child: Text(
-                                '$counter',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 8,
-                                ),
-                                textAlign: TextAlign.center,
-                              ),
-                            ),
-                          )
-                        : new Container()
-                  ],
+            );
+            
+          },
+        ),
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: Container(
+                color: Colors.grey[200],
+                child: TextField(
+                  decoration: InputDecoration(
+                    hintText: 'Search for anything',
+                    prefixIcon: Icon(Icons.search),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey.shade200),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.deepPurple.shade200),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                  ),
                 ),
-              ],
-            )),
-        extendBodyBehindAppBar: true,
-        drawer: Navbar(),
-        body: Container(
-          child: Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: GridView(
+              ),
+            ),
+            SizedBox(height: 30),
+            //The First Half Column
+            Container(
+              height: MediaQuery.of(context).size.height,
+              width: MediaQuery.of(context).size.width,
+              child: ListView(
                 children: [
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => ChurchLeaders()));
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.deepOrangeAccent),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Container(
-                              width: 120,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  image: DecorationImage(
-                                      image: AssetImage(
-                                    'assets/moder2.jpeg',
-                                  )))),
-                          Text(
-                            "Church Leadership",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => HymnPage()));
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.cyan),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.auto_stories,
-                            size: 40,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Hymnal",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => MyBible()));
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.black26),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.menu_book,
-                            size: 40,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Bible",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => BibleStudyHome()));
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.yellow),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.import_contacts_outlined,
-                            size: 40,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Bible Study",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => Bluebook()));
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.blue[200]),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.my_library_books,
-                            size: 40,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Blue Book",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => Pnp()));
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.lightGreen),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.library_books_outlined,
-                            size: 40,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "P and P",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => Almanc()));
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.green),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.date_range_outlined,
-                            size: 40,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Dates",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => BookService()));
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.purple[200]),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.menu_book_rounded,
-                            size: 40,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Book of Service",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => Moments()));
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.orangeAccent),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.history,
-                            size: 40,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Moments in History",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => Mychurch()));
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.deepOrangeAccent),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.location_pin,
-                            size: 40,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "My Church",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          )
-                        ],
-                      ),
-                    ),
-                  )
+                  FirstHalf(),
+                  SizedBox(height: 20),
+                  //Second Half of Column
+                  SecondHalf(),
                 ],
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    mainAxisSpacing: 10,
-                    crossAxisSpacing: 10),
-              )),
-        ));
+              ),
+            )
+          ],
+        ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        fixedColor: Colors.deepPurple,
+        currentIndex: _currentIndex,
+        iconSize: 25,
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.home_outlined,
+            ),
+            
+            label: '',
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.menu_book_outlined), label: ''),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.church_outlined,
+            ),
+            label: '',
+          ),
+        ],
+        onTap: (index) {
+          setState(() {
+            _currentIndex = index;
+          });
+        },
+      ),
+    );
   }
 }

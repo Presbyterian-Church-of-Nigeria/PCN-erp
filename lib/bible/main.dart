@@ -19,7 +19,7 @@ class _MyBibleState extends State<MyBible> {
 
 
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      //debugShowCheckedModeBanner: false,
       theme: new ThemeData(
         canvasColor: background,
         primaryColor: accent,

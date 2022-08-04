@@ -15,7 +15,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 2.6.3+98
+version: 2.6.4+99
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -27,6 +27,7 @@ dependencies:
   transparent_image: ^1.0.0
   syncfusion_flutter_pdfviewer: ^18.4.41-beta
   sqflite: ^1.3.0
+  
   rxdart: ^0.24.0
   animated_text_kit: ^4.2.1
   share: ^0.6.4
@@ -39,6 +40,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   cloud_firestore: ^0.14.4
+  font_awesome_flutter: ^10.1.0
   cloud_firestore_web: ^0.2.1+2
   provider: ^4.3.2+2
   expansion_tile_card: ^1.1.0
@@ -75,15 +77,17 @@ flutter:
     - assets/database.db
     #- assets/images/
     - assets/sql/
+    - assets/bible_icon.png
     - assets/23.epub
     - assets/7.epub
     - assets/4.epub
     - assets/mca.epub
-    - assets/ajah.jpg
+    - assets/ajah.png
     - assets/euptc.jpeg
-    - assets/goldi.jpeg
+    - assets/goldi.png
+    - assets/rchhymn.jpg
     - assets/pctm.jpeg
-    - assets/bb.jpeg
+    - assets/bb.png
     - assets/cover1.jpg
     - assets/cover.jpeg
     - assets/mcalogo.png
@@ -91,22 +95,22 @@ flutter:
     - assets/mcapcn.jpg
     - assets/pcnlocation.jpg
     - assets/93.jpg
-    - assets/rev_oko.jpeg
+    - assets/rev_oko.png
     - assets/womenguild.jpg
-    - assets/pypan.jpg
+    - assets/pypan.png
     - assets/pcnGlogo.png
-    - assets/cgit.jpg
+    - assets/cgit.png
     - assets/moder2.jpeg
     - assets/pcnlogo1.jpg
     - assets/pdf/efik-hymn.pdf
-    - assets/rev_sunday.jpg
-    - assets/rev totri.jpg
-    - assets/engr_awa.jpg
-    - assets/okechwku.jpg
-    - assets/ibam.jpg
-    - assets/eyo.jpg
-    - assets/josph_okon.jpg
-    - assets/Rev_Eke_Ole.jpg
+    - assets/rev_sunday.png
+    - assets/rev totri.png
+    - assets/engr_awa.png
+    - assets/okechwku.png
+    - assets/ibam.png
+    - assets/eyo.png
+    - assets/josph_okon.png
+    - assets/Rev_Eke_Ole.png
 
 
 
@@ -538,12 +542,12 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  fonts:
+      - family: Montserrat
+        fonts:
+          - asset: assets/fonts/Montserrat-Regular.ttf
+          - asset: assets/fonts/Montserrat-Bold.ttf
+            style: normal
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

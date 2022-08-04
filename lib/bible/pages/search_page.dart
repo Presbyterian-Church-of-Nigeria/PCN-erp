@@ -1,8 +1,8 @@
-import 'dart:ui';
+//import 'dart:ui';
 
 import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
+//import 'package:flutter/rendering.dart';
 import 'package:pcn_erp/bible/models/book.dart';
 import 'package:pcn_erp/bible/models/verse.dart';
 import 'package:pcn_erp/bible/pages/chapter_page.dart';

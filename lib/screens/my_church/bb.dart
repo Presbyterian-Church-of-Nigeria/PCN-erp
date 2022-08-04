@@ -34,7 +34,7 @@ class _BoyBState extends State<BoyB> {
                 child: Container(
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('assets/bb.jpeg'),
+                          image: AssetImage('assets/bb.png'),
                           fit: BoxFit.fill,
                           colorFilter: ColorFilter.mode(
                               Colors.black.withOpacity(0.5),

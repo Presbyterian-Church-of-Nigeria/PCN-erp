@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 //import 'package:flutter/widgets.dart';
 import 'package:pcn_erp/bible/main.dart';
 import 'package:pcn_erp/screens/reserved_dates.dart/almanc.dart';
@@ -12,114 +13,115 @@ import 'package:pcn_erp/screens/thankpage.dart';
 import 'package:share/share.dart';
 import 'package:pcn_erp/bible/utils/navigator.dart';
 
+class Navbar extends StatefulWidget {
+  const Navbar({key}) : super(key: key);
 
- class Navbar extends StatefulWidget {
-   const Navbar({ key }) : super(key: key);
- 
-   @override
-   _NavbarState createState() => _NavbarState();
- }
- 
- class _NavbarState extends State<Navbar> {
-   @override
-   Widget build(BuildContext context) {
-     return  Drawer(
-            child: ListView(
-          padding: EdgeInsets.zero,
-          children: <Widget>[
-            DrawerHeader(
-              decoration: BoxDecoration(
-                  color: Colors.white,
-                  image: DecorationImage(
-                      image: AssetImage("assets/pcnGlogo.png"),
-                      fit: BoxFit.cover)),
-              child: Container(),
-            ),
-            ListTile(
-                title: Text("Home"),
-                leading: Icon(Icons.home),
-                onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Homepage()));
-                }),
-            ListTile(
-              title: Text("Church Leadership"),
-              leading: Icon(Icons.person),
-              onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> ChurchLeaders()));
-                // _displayFavoritesPage(context);
-              },
-            ),
+  @override
+  _NavbarState createState() => _NavbarState();
+}
 
-            ListTile(
-                title: Text("Hymnal"),
-                leading: Icon(Icons.menu_book),
+class _NavbarState extends State<Navbar> {
+  @override
+  Widget build(BuildContext context) {
+    return Drawer(
+        child: ListView(
+      padding: EdgeInsets.zero,
+      children: <Widget>[
+        DrawerHeader(
+          decoration: BoxDecoration(
+              color: Colors.white,
+              image: DecorationImage(
+                  image: AssetImage("assets/pcnGlogo.png"), fit: BoxFit.cover)),
+          child: Container(),
+        ),
+        ListTile(
+            title: Text("Home"),
+            leading: Icon(Icons.home),
+            onTap: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => HomePage()));
+            }),
+        ListTile(
+          title: Text("Church Leadership"),
+          leading: Icon(Icons.person),
+          onTap: () {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => ChurchLeaders()));
+            // _displayFavoritesPage(context);
+          },
+        ),
 
-                onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> HymnPage()));
-                  // _displayLanguagesPage(context);
-                }),
-            ListTile(
-                title: Text("Bible"),
-                leading: Icon(Icons.auto_stories),
-                onTap: (() {
-                  Navigator.pop(context);
-                  push(context, MyBible());
-                })),
-                //onTap: () {
-                 // Navigator.pop(context, MaterialPageRoute(builder: (context)=> MyBible()));
-                  // _displayLanguagesPage(context);
-                //}),
-            ListTile(
-                title: Text("Practice & Procedure"),
-                leading: Icon(Icons.bookmark),
-                onTap: (() {
-                  Navigator.pop(context);
-                      push(context, Pnp());
-                  // _displayLanguagesPage(context);
-                })),
-            ListTile(
-                title: Text("The Blue Book"),
-                leading: Icon(Icons.history_edu_outlined),
-                onTap: (() {
-                  Navigator.pop(context);
-                      push(context ,Bluebook());
-                  // _displayLanguagesPage(context);
-                })),
-            ListTile(
-                title: Text("Book of Service"),
-                leading: Icon(Icons.auto_stories),
-                onTap: (() {
-                  Navigator.pop(context);
-                  push(context ,BookService());
-                  // _displayLanguagesPage(context);
-                })),
-            ListTile(
-                title: Text("Approved Dates 2022"),
-                leading: Icon(Icons.calendar_today),
-                onTap: (() {
-                  Navigator.pop(context);
-                          push(context, Almanc());
-                  // _displayLanguagesPage(context);
-                })),
-            ListTile(
-                title: Text("Appreciation"),
-                leading: Icon(Icons.live_help_outlined),
-                onTap: (() {
-                  Navigator.pop(context);
-                  push(context ,Thanks());
-                  // _displayLanguagesPage(context);
-                })),
+        ListTile(
+            title: Text("Hymnal"),
+            leading: Icon(Icons.menu_book),
+            onTap: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => HymnPage()));
+              // _displayLanguagesPage(context);
+            }),
+        ListTile(
+            title: Text("Bible"),
+            leading: Icon(FontAwesomeIcons.bookBible),
+            onTap: (() {
+              Navigator.pop(context);
+              push(context, MyBible());
+            })),
+        //onTap: () {
+        // Navigator.pop(context, MaterialPageRoute(builder: (context)=> MyBible()));
+        // _displayLanguagesPage(context);
+        //}),
+        ListTile(
+            title: Text("Practice & Procedure"),
+            leading: Icon(Icons.bookmark),
+            onTap: (() {
+              Navigator.pop(context);
+              push(context, Pnp());
+              // _displayLanguagesPage(context);
+            })),
+        ListTile(
+            title: Text("The Blue Book"),
+            leading: Icon(Icons.history_edu_outlined),
+            onTap: (() {
+              Navigator.pop(context);
+              push(context, Bluebook());
+              // _displayLanguagesPage(context);
+            })),
+        ListTile(
+            title: Text("Book of Service"),
+            leading: Icon(Icons.auto_stories),
+            onTap: (() {
+              Navigator.pop(context);
+              push(context, BookService());
+              // _displayLanguagesPage(context);
+            })),
+        ListTile(
+            title: Text("Approved Dates 2022"),
+            leading: Icon(Icons.calendar_today),
+            onTap: (() {
+              Navigator.pop(context);
+              push(context, Almanc());
+              // _displayLanguagesPage(context);
+            })),
+        ListTile(
+            title: Text("Appreciation"),
+            leading: Icon(Icons.live_help_outlined),
+            onTap: (() {
+              Navigator.pop(context);
+              push(context, Thanks());
+              // _displayLanguagesPage(context);
+            })),
 
-            ListTile(
-              leading: Icon(Icons.share),
-              title: Text("Share"),
-              subtitle: Text("Share with family and friends"),
-              onTap: () => _onShareClick(context),
-            ),
-          ],
-        ));
-   }
- }
+        ListTile(
+          leading: Icon(Icons.share),
+          title: Text("Share"),
+          subtitle: Text("Share with family and friends"),
+          onTap: () => _onShareClick(context),
+        ),
+      ],
+    ));
+  }
+}
+
 _onShareClick(BuildContext context) {
   Navigator.pop(context);
   final text = "I am Using PCN erp app "
