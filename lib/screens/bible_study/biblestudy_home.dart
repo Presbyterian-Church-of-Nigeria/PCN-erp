@@ -15,9 +15,9 @@ class _BibleStudyHome extends State<BibleStudyHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.blue[100],
+        backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.deepPurple.withOpacity(0.7),
           elevation: 0.2,
           title: Text('Bible Study 2022'),
         ),
@@ -37,7 +37,7 @@ class _BibleStudyHome extends State<BibleStudyHome> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Colors.deepPurpleAccent),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -73,7 +73,7 @@ class _BibleStudyHome extends State<BibleStudyHome> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Colors.amber),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [

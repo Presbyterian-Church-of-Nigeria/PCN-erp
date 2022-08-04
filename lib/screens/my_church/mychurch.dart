@@ -29,6 +29,7 @@ class _Mychurch extends State<Mychurch> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.deepPurple[300],
           title: Text('My Church'),
         ),
         body: Container(
@@ -44,7 +45,7 @@ class _Mychurch extends State<Mychurch> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: const Color(0xFFbb6b25)),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -73,7 +74,7 @@ class _Mychurch extends State<Mychurch> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: const Color(0xFFbb2925)),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -104,7 +105,7 @@ class _Mychurch extends State<Mychurch> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: const Color(0xFF176D71)),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -133,7 +134,7 @@ class _Mychurch extends State<Mychurch> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Colors.black),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -143,7 +144,7 @@ class _Mychurch extends State<Mychurch> {
                               decoration: BoxDecoration(
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
-                                      image: AssetImage('assets/pypan.jpg')))),
+                                      image: AssetImage('assets/pypan.png')))),
                           Text(
                             "PYPAN",
                             style: TextStyle(color: Colors.white, fontSize: 20),
@@ -160,7 +161,7 @@ class _Mychurch extends State<Mychurch> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: const Color(0xFF1d9325)),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -171,7 +172,7 @@ class _Mychurch extends State<Mychurch> {
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
                                       image: AssetImage(
-                                    'assets/cgit.jpg',
+                                    'assets/cgit.png',
                                   )))),
                           Text(
                             "CGIT",
@@ -189,7 +190,7 @@ class _Mychurch extends State<Mychurch> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: const Color(0xffbfe70f)),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -200,7 +201,7 @@ class _Mychurch extends State<Mychurch> {
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
                                       image: AssetImage(
-                                    'assets/bb.jpeg',
+                                    'assets/bb.png',
                                   )))),
                           // child:
                           // SizedBox(
@@ -227,7 +228,7 @@ class _Mychurch extends State<Mychurch> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: const Color(0xffbfe70f)),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -267,7 +268,7 @@ class _Mychurch extends State<Mychurch> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: const Color(0xFFac6485)),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -318,7 +319,7 @@ class _Mychurch extends State<Mychurch> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: const Color(0xffbfe70f)),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -329,7 +330,7 @@ class _Mychurch extends State<Mychurch> {
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
                                       image: AssetImage(
-                                    'assets/goldi.jpeg',
+                                    'assets/goldi.png',
                                   )))),
                           // child:
                           // SizedBox(
@@ -362,7 +363,7 @@ class _Mychurch extends State<Mychurch> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: const Color(0xffbfe70f)),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
