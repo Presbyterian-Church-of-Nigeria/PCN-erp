@@ -34,6 +34,7 @@ class _BibleStudy extends State<BibleStudy> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepPurple.withOpacity(0.7),
         title: const Text('Bible Study 2022'),
       ),
       body: Center(
@@ -90,11 +91,12 @@ class _BibleStudy extends State<BibleStudy> {
                       padding: EdgeInsets.only(top: 30),
                       child: Text(
                         'Click to Read',
-                        style: TextStyle(fontSize: 30),
+                        style:
+                            TextStyle(fontSize: 30, color: Colors.deepPurple),
                       ),
                     ),
                     Container(
-                      // padding: EdgeInsets.only(left: 20.0,right: 20.0, top: 30, bottom: 30),
+                        // padding: EdgeInsets.only(left: 20.0,right: 20.0, top: 30, bottom: 30),
                         height: 400,
                         width: 300,
                         decoration: BoxDecoration(
@@ -102,12 +104,14 @@ class _BibleStudy extends State<BibleStudy> {
                             image: DecorationImage(
                                 image: AssetImage("assets/cover.jpeg"),
                                 fit: BoxFit.fill,
-                                colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.1), BlendMode.darken)
+                                colorFilter: ColorFilter.mode(
+                                    Colors.white.withOpacity(0.1),
+                                    BlendMode.darken)
 
-                              //child: Icon(Icons.auto_stories,size: 200,),
+                                //child: Icon(Icons.auto_stories,size: 200,),
 
-                              //  width: 300,
-                            ))),
+                                //  width: 300,
+                                ))),
                   ]),
                 ),
               ),
@@ -126,7 +130,5 @@ class _BibleStudy extends State<BibleStudy> {
     //   await startDownload();
     //  }
     //}
-
-    }
   }
-
+}

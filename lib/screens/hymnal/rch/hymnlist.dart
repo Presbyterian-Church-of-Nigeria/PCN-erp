@@ -16,6 +16,7 @@ class _RchAppState extends State<RchApp> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.deepPurple.withOpacity(0.7),
           title: Text(" Presbyterian RCH "),
           actions: <Widget>[
             IconButton(
@@ -29,14 +30,14 @@ class _RchAppState extends State<RchApp> {
           ],
         ),
         drawer: Navbar(),
-
         body: StreamBuilder<QuerySnapshot>(
-            stream: FirebaseFirestore.instance.collection("rch").snapshots().asBroadcastStream(),
+            stream: FirebaseFirestore.instance
+                .collection("rch")
+                .snapshots()
+                .asBroadcastStream(),
             builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
               if (snapshot.data == null) {
-                return Center(
-                child: CircularProgressIndicator()
-                );
+                return Center(child: CircularProgressIndicator());
               }
               var messages = snapshot.data.docs;
               return ListView.separated(
@@ -45,8 +46,8 @@ class _RchAppState extends State<RchApp> {
                 separatorBuilder: (context, index) => Divider(),
                 itemBuilder: (context, index) {
                   DocumentSnapshot rch = messages[index];
-                  return  Container(
-                   child: Card(
+                  return Container(
+                      child: Card(
                     elevation: 5.0,
                     child: ListTile(
                       leading: CircleAvatar(
@@ -64,13 +65,12 @@ class _RchAppState extends State<RchApp> {
                           context,
                           MaterialPageRoute(
                             builder: (BuildContext context) => HymnDetail(
-                                rch.data()['c0_id'],  rch.data()['c4lyrics']),
+                                rch.data()['c0_id'], rch.data()['c4lyrics']),
                           ),
                         );
                       },
                     ),
-                  )
-                  );
+                  ));
                 },
               );
             }));

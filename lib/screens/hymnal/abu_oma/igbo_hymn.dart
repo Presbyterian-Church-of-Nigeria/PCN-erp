@@ -17,44 +17,40 @@ class _IgboHymnState extends State<IgboHymn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(" Igbo Hymn "),
+      appBar: AppBar(
+        backgroundColor: Colors.deepPurple.withOpacity(0.7),
+        title: Text(" Igbo Hymn "),
+      ),
+      //drawer: Navbar(),
 
-        ),
-        //drawer: Navbar(),
-
-        body: ListView(
-          shrinkWrap: true,
-    children: [
-    Column(
-
-      children: [
-        Container(
-         height: _height,
-
-       child: WebViewPlus(
-          javascriptChannels: null,
-          initialUrl: 'assets/igbo/index.html',
-          onWebViewCreated: (controller) {
-            this._controller = controller;
-          },
-          onPageFinished: (url) {
-            _controller.getHeight().then((double height) {
-              print("Height: " + height.toString());
-              setState(() {
-                _height = height;
-              });
-            });
-          },
-          javascriptMode: JavascriptMode.unrestricted,
-        ),)
-      ],
-    )
-
-    ],
-    ),
-
+      body: ListView(
+        shrinkWrap: true,
+        children: [
+          Column(
+            children: [
+              Container(
+                height: _height,
+                child: WebViewPlus(
+                  javascriptChannels: null,
+                  initialUrl: 'assets/igbo/index.html',
+                  onWebViewCreated: (controller) {
+                    this._controller = controller;
+                  },
+                  onPageFinished: (url) {
+                    _controller.getHeight().then((double height) {
+                      print("Height: " + height.toString());
+                      setState(() {
+                        _height = height;
+                      });
+                    });
+                  },
+                  javascriptMode: JavascriptMode.unrestricted,
+                ),
+              )
+            ],
+          )
+        ],
+      ),
     );
-
-    }
+  }
 }

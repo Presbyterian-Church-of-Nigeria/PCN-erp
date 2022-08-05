@@ -34,32 +34,30 @@ class _Pnp extends State<Pnp> {
 
   @override
   Widget build(BuildContext context) {
-    return
-       Scaffold(
+    return Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.deepPurple.withOpacity(0.7),
           title: const Text('PRACTICE AND PROCEDURE'),
         ),
         body: Center(
-          child: loading
-              ? CircularProgressIndicator()
-              : TextButton(
-            onPressed: () async {
-              Directory appDocDir =
-              await getApplicationDocumentsDirectory();
-              print('$appDocDir');
+            child: loading
+                ? CircularProgressIndicator()
+                : TextButton(
+                    onPressed: () async {
+                      Directory appDocDir =
+                          await getApplicationDocumentsDirectory();
+                      print('$appDocDir');
 
-              String iosBookPath = '${appDocDir.path}/4.epub';
-              print(iosBookPath);
-              //String androidBookPath = 'file:///android_asset/5.epub';
-              EpubViewer.setConfig(
-                  themeColor: Theme
-                      .of(context)
-                      .primaryColor,
-                  identifier: "iosBook",
-                  scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
-                  allowSharing: true,
-                  enableTts: true,
-                  nightMode: false);
+                      String iosBookPath = '${appDocDir.path}/4.epub';
+                      print(iosBookPath);
+                      //String androidBookPath = 'file:///android_asset/5.epub';
+                      EpubViewer.setConfig(
+                          themeColor: Theme.of(context).primaryColor,
+                          identifier: "iosBook",
+                          scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
+                          allowSharing: true,
+                          enableTts: true,
+                          nightMode: false);
 //                    EpubViewer.open(
 //                      Platform.isAndroid ? androidBookPath : iosBookPath,
 //                      lastLocation: EpubLocator.fromJson({
@@ -72,57 +70,57 @@ class _Pnp extends State<Pnp> {
 //                      }),
 //                    );
 
-              await EpubViewer.openAsset(
-                'assets/4.epub',
-                lastLocation: EpubLocator.fromJson({
-                  "bookId": "2239",
-                  "href": "/OEBPS/ch06.xhtml",
-                  "created": 1539934158390,
-                  "locations": {
-                    "cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"
-                  }
-                }),
-              );
-              // get current locator
-              EpubViewer.locatorStream.listen((locator) {
-                print(
-                    'LOCATOR: ${EpubLocator.fromJson(jsonDecode(locator))}');
-              });
-            },
-    child: Center(
-    child: Column(
-    children:<Widget>[
-    Container(
-    child: Text('Click to Read',
-    style: TextStyle(fontSize: 30, color: Colors.red),
-    ),
-    ),
-      Container(
-       // padding: EdgeInsets.only(left: 20.0,right: 20.0, top: 30, bottom: 30),
-        height: 400,
-        width: 300,
-        decoration: BoxDecoration(
-          shape: BoxShape.rectangle,
-        image: DecorationImage(
-        image: AssetImage("assets/93.jpg"),
-            fit: BoxFit.fill,
-            colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.1), BlendMode.darken)
+                      await EpubViewer.openAsset(
+                        'assets/4.epub',
+                        lastLocation: EpubLocator.fromJson({
+                          "bookId": "2239",
+                          "href": "/OEBPS/ch06.xhtml",
+                          "created": 1539934158390,
+                          "locations": {
+                            "cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"
+                          }
+                        }),
+                      );
+                      // get current locator
+                      EpubViewer.locatorStream.listen((locator) {
+                        print(
+                            'LOCATOR: ${EpubLocator.fromJson(jsonDecode(locator))}');
+                      });
+                    },
+                    child: Center(
+                      child: Column(children: <Widget>[
+                        Container(
+                          child: Text(
+                            'Click to Read',
+                            style: TextStyle(
+                                fontSize: 30, color: Colors.deepPurple),
+                          ),
+                        ),
+                        Container(
+                            // padding: EdgeInsets.only(left: 20.0,right: 20.0, top: 30, bottom: 30),
+                            height: 400,
+                            width: 300,
+                            decoration: BoxDecoration(
+                                shape: BoxShape.rectangle,
+                                image: DecorationImage(
+                                    image: AssetImage("assets/93.jpg"),
+                                    fit: BoxFit.fill,
+                                    colorFilter: ColorFilter.mode(
+                                        Colors.white.withOpacity(0.1),
+                                        BlendMode.darken)
 
-          //child: Icon(Icons.auto_stories,size: 200,),
+                                    //child: Icon(Icons.auto_stories,size: 200,),
 
-        //  width: 300,
-      ))),
-
-    ]
-    ),
-    ),
-    )));
+                                    //  width: 300,
+                                    ))),
+                      ]),
+                    ),
+                  )));
   }
 
   Future downloadFile() async {
     print('download1');
     //Map<PermissionGroup, PermissionStatus> permissions = await PermissionHandler().requestPermissions([PermissionGroup.storage]);
-
 
     // if (await Permission.storage.isGranted) {
     //   await Permission.storage.request();
@@ -131,7 +129,5 @@ class _Pnp extends State<Pnp> {
     //   await startDownload();
     //  }
     //}
-
-   
   }
 }
