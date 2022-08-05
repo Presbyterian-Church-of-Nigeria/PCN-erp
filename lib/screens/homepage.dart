@@ -2,8 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 //import 'package:flutter/widgets.dart';
 import 'package:pcn_erp/nav/nav.dart';
+import 'package:pcn_erp/screens/hymnal/hymn_home.dart';
+import 'package:pcn_erp/screens/my_church/mychurch.dart';
 //import 'package:pcn_erp/screens/bible_study/bible_study.dart';
 
 import '../nav/nav.dart';
@@ -19,6 +22,14 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _currentIndex = 0;
+  PageController pageController = PageController();
+
+  void onTapped(int index) {
+    setState(() {
+      _currentIndex = index;
+    });
+    pageController.jumpToPage(index);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -36,76 +47,76 @@ class _HomePageState extends State<HomePage> {
                 color: Colors.deepPurple,
               ),
             );
-            
           },
         ),
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10),
-              child: Container(
-                color: Colors.grey[200],
-                child: TextField(
-                  decoration: InputDecoration(
-                    hintText: 'Search for anything',
-                    prefixIcon: Icon(Icons.search),
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey.shade200),
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.deepPurple.shade200),
-                      borderRadius: BorderRadius.circular(12),
+      body: PageView(controller: pageController, children: [
+        SingleChildScrollView(
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: Container(
+                  color: Colors.grey[200],
+                  child: TextField(
+                    decoration: InputDecoration(
+                      hintText: 'Search for anything',
+                      prefixIcon: Icon(Icons.search),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.grey.shade200),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide:
+                            BorderSide(color: Colors.deepPurple.shade200),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
                     ),
                   ),
                 ),
               ),
-            ),
-            SizedBox(height: 30),
-            //The First Half Column
-            Container(
-              height: MediaQuery.of(context).size.height,
-              width: MediaQuery.of(context).size.width,
-              child: ListView(
-                children: [
-                  FirstHalf(),
-                  SizedBox(height: 20),
-                  //Second Half of Column
-                  SecondHalf(),
-                ],
-              ),
-            )
-          ],
+              SizedBox(height: 30),
+              //The First Half Column
+              Container(
+                height: MediaQuery.of(context).size.height,
+                width: MediaQuery.of(context).size.width,
+                child: ListView(
+                  children: [
+                    FirstHalf(),
+                    SizedBox(height: 20),
+                    //Second Half of Column
+                    SecondHalf(),
+                  ],
+                ),
+              )
+            ],
+          ),
         ),
-      ),
+        HymnPage(),
+        Mychurch()
+      ]),
       bottomNavigationBar: BottomNavigationBar(
         fixedColor: Colors.deepPurple,
         currentIndex: _currentIndex,
-        iconSize: 25,
+        iconSize: 22,
         items: [
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.home_outlined,
+              FontAwesomeIcons.house,
             ),
-            
-            label: '',
+            label: 'Home',
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.menu_book_outlined), label: ''),
+              icon: Icon(FontAwesomeIcons.music), label: 'Hymnal'),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.church_outlined,
+              FontAwesomeIcons.church
+              ,
             ),
-            label: '',
+            label: 'My Church',
           ),
         ],
-        onTap: (index) {
-          setState(() {
-            _currentIndex = index;
-          });
-        },
+        onTap:onTapped
       ),
     );
   }

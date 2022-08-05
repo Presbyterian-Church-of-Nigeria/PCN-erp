@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 //import 'package:flutter/widgets.dart';
-import 'package:pcn_erp/nav/nav.dart';
 import 'package:pcn_erp/screens/hymnal/abu_oma/igbo_hymn.dart';
 import 'package:pcn_erp/screens/hymnal/effik/effik.dart';
 import 'package:pcn_erp/screens/hymnal/rch/hymnlist.dart';
@@ -22,7 +21,7 @@ class _HymnPageState extends State<HymnPage> {
           elevation: 0.2,
           title: Text('Hymnal'),
         ),
-        drawer: Navbar(),
+       // drawer: Navbar(),
         body: Container(
           child: Padding(
               padding: const EdgeInsets.all(10.0),
