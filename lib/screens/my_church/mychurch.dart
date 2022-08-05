@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:pcn_erp/screens/my_church/bb.dart';
 import 'package:pcn_erp/screens/my_church/cgit.dart';
 import 'package:pcn_erp/screens/my_church/girls_brigade.dart';
-import 'package:pcn_erp/screens/my_church/gloriae_dei.dart';
 import 'package:pcn_erp/screens/my_church/hugh_goldie.dart';
 import 'package:pcn_erp/screens/my_church/mca.dart';
 import 'package:pcn_erp/screens/my_church/parish.dart';
@@ -30,7 +29,8 @@ class _Mychurch extends State<Mychurch> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.deepPurple[300],
-          title: Text('My Church'),
+          title: Text('My Church'
+          ),
         ),
         body: Container(
           child: Padding(
@@ -289,7 +289,7 @@ class _Mychurch extends State<Mychurch> {
                           DefaultTextStyle(
                             style: const TextStyle(
                                 fontSize: 16.0,
-                                fontFamily: 'Agne',
+                                fontFamily: 'Montserrat-Regular',
                                 color: Colors.white),
                             child: AnimatedTextKit(
                               animatedTexts: [
@@ -340,7 +340,7 @@ class _Mychurch extends State<Mychurch> {
                           DefaultTextStyle(
                             style: const TextStyle(
                                 fontSize: 16.0,
-                                fontFamily: 'Agne',
+                                fontFamily: 'Montserrat-Regular',
                                 color: Colors.white),
                             child: AnimatedTextKit(
                               animatedTexts: [
@@ -374,7 +374,7 @@ class _Mychurch extends State<Mychurch> {
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
                                       image: AssetImage(
-                                    'assets/pctm.jpeg',
+                                    'assets/pctm.png',
                                   )))),
                           // child:
                           // SizedBox(

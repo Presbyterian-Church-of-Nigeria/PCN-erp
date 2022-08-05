@@ -40,7 +40,7 @@ class _PctmState extends State<Pctm> with TickerProviderStateMixin {
             child: Container(
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage('assets/pctm.jpeg'),
+                      image: AssetImage('assets/pctm.png'),
                       fit: BoxFit.fill,
                       colorFilter: ColorFilter.mode(
                           Colors.black.withOpacity(0.5), BlendMode.darken))),
@@ -120,7 +120,7 @@ class _PctmState extends State<Pctm> with TickerProviderStateMixin {
         Container(
           padding: EdgeInsets.only(left: 20.0, right: 20.0),
           child: Image.asset(
-            "assets/pctm.jpeg",
+            "assets/pctm.png",
             height: 180,
             width: 180,
           ),

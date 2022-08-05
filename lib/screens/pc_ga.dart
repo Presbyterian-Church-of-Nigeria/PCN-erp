@@ -63,7 +63,7 @@ class _PcGa extends State<PcGa> {
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
-                                    image: AssetImage('assets/ajah.jpg'),
+                                    image: AssetImage('assets/ajah.png'),
                                   ))),
         Container(
           padding: EdgeInsets.only(top: spacer),

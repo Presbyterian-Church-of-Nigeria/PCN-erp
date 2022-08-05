@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:pcn_erp/bible/utils/constants.dart';
 import 'package:pcn_erp/nav/nav.dart';
-import 'package:expansion_tile_card/expansion_tile_card.dart';
 
 class Cgit extends StatefulWidget {
   //const Cgit({Key? key}) : super(key: key);
@@ -107,7 +106,7 @@ class _CgitState extends State<Cgit> with TickerProviderStateMixin {
         Container(
           padding: EdgeInsets.only(left: 20.0, right: 20.0),
           child: Image.asset(
-            "assets/cgit.jpg",
+            "assets/cgit.png",
             height: 180,
             width: 180,
           ),

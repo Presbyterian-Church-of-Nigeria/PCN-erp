@@ -78,7 +78,7 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
-                                    image: AssetImage('assets/ajah.jpg'),
+                                    image: AssetImage('assets/ajah.png'),
                                   ))),
                           Text(
                             "Principal Clerk",
@@ -108,7 +108,7 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
                                     image: AssetImage(
-                                      'assets/rev_oko.jpeg',
+                                      'assets/rev_oko.png',
                                     ),
                                   ))),
                           Text(

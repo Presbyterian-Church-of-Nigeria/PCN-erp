@@ -57,7 +57,7 @@ void main() async {
 
   runApp(MaterialApp(
     theme: ThemeData(
-      primaryColor: Colors.blueAccent,
+      primaryColor: Colors.deepPurple,
       scaffoldBackgroundColor: Colors.white,
       canvasColor: Colors.white,
       fontFamily: 'Montserrat-Regular',

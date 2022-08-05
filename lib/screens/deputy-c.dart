@@ -66,7 +66,7 @@ class _Dc extends State<Dc> {
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
                                     image: AssetImage(
-                                      'assets/rev_oko.jpeg',
+                                      'assets/rev_oko.png',
                                     ),
                                   ))),
         Container(

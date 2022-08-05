@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:pcn_erp/bible/utils/constants.dart';
 import 'package:pcn_erp/nav/nav.dart';
-import 'package:expansion_tile_card/expansion_tile_card.dart';
+//import 'package:expansion_tile_card/expansion_tile_card.dart';
 
 class GirlsBrigade extends StatefulWidget {
   //const GirlsBrigade({Key? key}) : super(key: key);
@@ -29,7 +29,7 @@ class _GirlsBrigadeState extends State<GirlsBrigade>
           title: Text(
             'GirlsBrigade',
             textAlign: TextAlign.center,
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold,fontFamily: 'Montserrat-Regular'),
           ),
 
           centerTitle: true,

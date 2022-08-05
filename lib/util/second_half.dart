@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:pcn_erp/bible/pages/home_page.dart';
 
-import 'package:pcn_erp/screens/bible_study/bible_study.dart';
 import 'package:pcn_erp/screens/bible_study/biblestudy_home.dart';
 import 'package:pcn_erp/screens/hymnal/hymn_home.dart';
 import 'package:pcn_erp/screens/my_church/mychurch.dart';

@@ -84,7 +84,7 @@ class _GloriaeDeiState extends State<GloriaeDei> {
                           child: DefaultTextStyle(
                             style: const TextStyle(
                                 fontSize: 35.0,
-                                fontFamily: 'Agne',
+                                fontFamily: 'Montserrat-Regular',
                                 color: Colors.black
                             ),
                             child: AnimatedTextKit(

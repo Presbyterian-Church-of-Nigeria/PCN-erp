@@ -40,7 +40,7 @@ class _PypanState extends State<Pypan> with TickerProviderStateMixin {
               child: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('assets/pypan.jpg'),
+                        image: AssetImage('assets/pypan.png'),
                         fit: BoxFit.fill,
                         colorFilter: ColorFilter.mode(
                             Colors.black.withOpacity(0.5), BlendMode.darken))),
@@ -107,7 +107,7 @@ class _PypanState extends State<Pypan> with TickerProviderStateMixin {
         Container(
           padding: EdgeInsets.only(left: 20.0, right: 20.0),
           child: Image.asset(
-            "assets/pypan.jpg",
+            "assets/pypan.png",
             height: 180,
             width: 180,
           ),
