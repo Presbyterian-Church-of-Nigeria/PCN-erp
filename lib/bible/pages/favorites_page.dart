@@ -40,7 +40,7 @@ class _FavoritesPageState extends State<FavoritesPage> {
       backgroundColor: background,
       appBar: AppBar(
         elevation: 1,
-        backgroundColor: accent,
+        backgroundColor: Colors.deepPurple.withOpacity(0.7),
         title: Text(title),
       ),
       body: _body(),
@@ -51,8 +51,7 @@ class _FavoritesPageState extends State<FavoritesPage> {
     return StreamBuilder(
       stream: _favBloc.stream,
       builder: (context, snapshot) {
-        if (snapshot.hasError)
-          return centerText("Error reading verse list.");
+        if (snapshot.hasError) return centerText("Error reading verse list.");
 
         if (!snapshot.hasData)
           return Center(child: CircularProgressIndicator());
@@ -69,7 +68,7 @@ class _FavoritesPageState extends State<FavoritesPage> {
     return Scrollbar(
       child: ListView.builder(
         itemCount: (verses != null) ? verses.length : 0,
-        itemBuilder: (context, index) =>_itemView(context, verses, index),
+        itemBuilder: (context, index) => _itemView(context, verses, index),
       ),
     );
   }

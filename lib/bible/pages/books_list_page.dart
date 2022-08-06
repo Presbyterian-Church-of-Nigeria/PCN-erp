@@ -31,6 +31,7 @@ class _BooksListPageState extends State<BooksListPage> {
   Widget build(context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepPurple.withOpacity(0.7),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.search, color: background),
@@ -53,8 +54,7 @@ class _BooksListPageState extends State<BooksListPage> {
     return StreamBuilder(
         stream: _bloc.stream,
         builder: (context, snapshot) {
-          if (snapshot.hasError)
-            return centerText("Error reading book list.");
+          if (snapshot.hasError) return centerText("Error reading book list.");
 
           if (!snapshot.hasData)
             return Center(child: CircularProgressIndicator());

@@ -109,8 +109,7 @@ class _SearchPageState extends State<SearchPage> {
     return StreamBuilder(
         stream: _bloc.stream,
         builder: (context, snapshot) {
-          if (snapshot.hasError)
-            return centerText("Error reading verse list.");
+          if (snapshot.hasError) return centerText("Error reading verse list.");
 
           if (!snapshot.hasData && _isSearching)
             return Center(child: CircularProgressIndicator());

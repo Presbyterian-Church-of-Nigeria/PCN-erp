@@ -24,34 +24,34 @@ class _MyDrawerState extends State<MyDrawer> {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: Colors.deepPurple.shade400.withOpacity(0.5),
-      child: ListView(
+        backgroundColor: Colors.deepPurple.shade400.withOpacity(0.5),
+        child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
-            
-             DrawerHeader(
-            
+            DrawerHeader(
               decoration: BoxDecoration(
                   //color: Colors.deepPurple.shade400.withOpacity(0.9),
                   image: DecorationImage(
-                      image: AssetImage("assets/pcnLogo.png"),
-                      fit: BoxFit.fill,
-                      scale: 0.5,
-                      )), child: null,
-            
-          ),
-          Divider(),
+                image: AssetImage("assets/pcnLogo.png"),
+                fit: BoxFit.fill,
+                scale: 0.5,
+              )),
+              child: null,
+            ),
+            Divider(),
             ListTile(
                 title: Text("Home"),
                 leading: Icon(Icons.home),
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> HomePage()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => HomePage()));
                 }),
             ListTile(
               title: Text("Church Leadership"),
               leading: Icon(Icons.person),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> ChurchLeaders()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => ChurchLeaders()));
                 // _displayFavoritesPage(context);
               },
             ),
@@ -59,9 +59,9 @@ class _MyDrawerState extends State<MyDrawer> {
             ListTile(
                 title: Text("Hymnal"),
                 leading: Icon(Icons.menu_book),
-
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> HymnPage()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => HymnPage()));
                   // _displayLanguagesPage(context);
                 }),
             ListTile(
@@ -71,16 +71,16 @@ class _MyDrawerState extends State<MyDrawer> {
                   Navigator.pop(context);
                   push(context, MyBible());
                 })),
-                //onTap: () {
-                 // Navigator.pop(context, MaterialPageRoute(builder: (context)=> MyBible()));
-                  // _displayLanguagesPage(context);
-                //}),
+            //onTap: () {
+            // Navigator.pop(context, MaterialPageRoute(builder: (context)=> MyBible()));
+            // _displayLanguagesPage(context);
+            //}),
             ListTile(
                 title: Text("Practice & Procedure"),
                 leading: Icon(Icons.bookmark),
                 onTap: (() {
                   Navigator.pop(context);
-                      push(context, Pnp());
+                  push(context, Pnp());
                   // _displayLanguagesPage(context);
                 })),
             ListTile(
@@ -88,7 +88,7 @@ class _MyDrawerState extends State<MyDrawer> {
                 leading: Icon(Icons.history_edu_outlined),
                 onTap: (() {
                   Navigator.pop(context);
-                      push(context ,Bluebook());
+                  push(context, Bluebook());
                   // _displayLanguagesPage(context);
                 })),
             ListTile(
@@ -96,15 +96,15 @@ class _MyDrawerState extends State<MyDrawer> {
                 leading: Icon(Icons.auto_stories),
                 onTap: (() {
                   Navigator.pop(context);
-                  push(context ,BookService());
+                  push(context, BookService());
                   // _displayLanguagesPage(context);
                 })),
             ListTile(
-                title: Text("Approved Dates 2022"),
+                title: Text("Church Calender"),
                 leading: Icon(Icons.calendar_today),
                 onTap: (() {
                   Navigator.pop(context);
-                          push(context, Almanc());
+                  push(context, Almanc());
                   // _displayLanguagesPage(context);
                 })),
             ListTile(
@@ -112,7 +112,7 @@ class _MyDrawerState extends State<MyDrawer> {
                 leading: Icon(Icons.live_help_outlined),
                 onTap: (() {
                   Navigator.pop(context);
-                  push(context ,Thanks());
+                  push(context, Thanks());
                   // _displayLanguagesPage(context);
                 })),
 
@@ -124,8 +124,9 @@ class _MyDrawerState extends State<MyDrawer> {
             ),
           ],
         ));
-   }
- }
+  }
+}
+
 _onShareClick(BuildContext context) {
   Navigator.pop(context);
   final text = "I am Using PCN erp app "
