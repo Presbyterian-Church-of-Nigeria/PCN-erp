@@ -1,15 +1,16 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutable//s
 
-
 import 'package:flutter/material.dart';
 
 class MyEventCard extends StatelessWidget {
   final String eventDetails;
   final String briefDetails;
+  final String imageDetails;
 
   MyEventCard({
      this.eventDetails,
-    this.briefDetails,
+     this.briefDetails,
+     this.imageDetails,
   });
 
   @override
@@ -22,12 +23,18 @@ class MyEventCard extends StatelessWidget {
             boxShadow: [
               BoxShadow(
                 color: Colors.grey,
-                spreadRadius: 2,
+                spreadRadius: 1.2,
                 blurRadius: 7,
               ),
             ],
-            color: Colors.grey[300],
-            borderRadius: BorderRadius.circular(10),
+
+            image: DecorationImage(
+              image: AssetImage(imageDetails),
+                  
+              fit: BoxFit.fill,
+            ),
+            //shape: BoxShape.rectangle,
+            borderRadius: BorderRadius.circular(12),
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.end,

@@ -18,7 +18,8 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 2.6.4+99
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.10.0 <3.0.0"
+ # flutter: "2.10.4"
 
 dependencies:
   flutter:
@@ -26,12 +27,14 @@ dependencies:
   flutter_staggered_grid_view: ^0.4.0
   transparent_image: ^1.0.0
   syncfusion_flutter_pdfviewer: ^18.4.41-beta
+  #syncfusion_flutter_pdfviewer: ^20.2.40-beta
   sqflite: ^1.3.0
   
   rxdart: ^0.24.0
   animated_text_kit: ^4.2.1
   share: ^0.6.4
   easy_rich_text: ^0.2.2
+  #path_provider: ^2.0.11
   path_provider: ^1.6.28
   #open_file: ^3.0.1
 
@@ -40,12 +43,16 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   cloud_firestore: ^0.14.4
+  #cloud_firestore: ^3.1.10
   font_awesome_flutter: ^10.1.0
+  #cloud_firestore_web: ^2.8.3
   cloud_firestore_web: ^0.2.1+2
   provider: ^4.3.2+2
   expansion_tile_card: ^1.1.0
   http_parser: ^3.1.3
+ # firebase_core: ^1.20.0
   firebase_core: "0.5.3"
+ # epub_viewer: ^0.2.5
   epub_viewer: ^0.1.9
   theme_provider: ^0.4.0+1
   permission_handler: ^4.4.0
@@ -82,13 +89,17 @@ flutter:
     - assets/4.epub
     - assets/mca.epub
     - assets/ajah.png
+    - assets/ga25th.jpeg
+    - assets/pcnapp.png
     - assets/euptc.jpeg
     - assets/goldi.png
     - assets/rchhymn.jpg
     - assets/pctm.png
     - assets/bb.png
+    - assets/coomingsoon.jpg
     - assets/cover1.jpg
     - assets/cover.jpeg
+    - assets/royal.png
     - assets/mcalogo.png
     - assets/royalph.png
     - assets/mcapcn.jpg

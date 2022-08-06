@@ -19,8 +19,8 @@ class Parish {
      this.minister,
      this.parish,
      //this.session_clerk,
-     this.synod,
-     this.town
+      this.synod,
+      this.town
 
     }
         );

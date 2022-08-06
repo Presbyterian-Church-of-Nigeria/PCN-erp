@@ -9,7 +9,7 @@ class EfikHymn extends StatefulWidget {
 
 class _EfikHymn extends State<EfikHymn> {
   final GlobalKey<SfPdfViewerState> _pdfViewerKey = GlobalKey();
-  PdfViewerController _pdfViewerController;
+   PdfViewerController _pdfViewerController;
 
   @override
   void initState() {
@@ -17,7 +17,7 @@ class _EfikHymn extends State<EfikHymn> {
     super.initState();
   }
 
-  PdfTextSearchResult _searchResult;
+   PdfTextSearchResult _searchResult;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

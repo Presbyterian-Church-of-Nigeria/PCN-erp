@@ -14,14 +14,18 @@ class FirstHalf extends StatefulWidget {
 class _FirstHalfState extends State<FirstHalf> {
   final List eventName = [
     'Prelates Send Forth',
-    'Election of New Prilate',
-    'Electon Date',
+    'GA Activities',
+    'Unveiling of PCN Moblie app',
   ];
 
-  final List briefText = [
-    'Click to see more',
-    'Click to see more',
-    'Click to see more',
+  final List<String> _eventImage = ['assets/royal.png',
+  'assets/ga25th.jpeg',
+  'assets/pcnapp.png'];
+
+  final List<String> briefText = [
+    'More coming soon',
+    '12th -19th August 2022',
+    '25th GA meeting',
   ];
 
   final List sermonName = [
@@ -73,6 +77,7 @@ class _FirstHalfState extends State<FirstHalf> {
               itemCount: eventName.length,
               itemBuilder: ((context, index) {
                 return MyEventCard(
+                  imageDetails: _eventImage[index],
                   eventDetails: eventName[index],
                   briefDetails: briefText[index],
                 );

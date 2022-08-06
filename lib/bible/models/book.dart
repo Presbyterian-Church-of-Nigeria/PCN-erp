@@ -16,10 +16,10 @@ class Book extends Entity {
 
   Book({
     this.testament,
-    this.bookID,
+     this.bookID,
     this.bookName,
-    this.chapters,
-    this.seq,
+     this.chapters,
+     this.seq,
   });
 
   get chaptersList => _chaptersList();
