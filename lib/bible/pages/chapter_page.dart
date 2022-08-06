@@ -53,6 +53,7 @@ class _ChapterPageState extends State<ChapterPage> {
         builder: (context, snapshot) {
           return Scaffold(
             appBar: AppBar(
+              backgroundColor: Colors.deepPurple.withOpacity(0.7),
               title: Text("${book.bookName}, ${widget.chapter}"),
               actions: <Widget>[
                 IconButton(
@@ -73,8 +74,7 @@ class _ChapterPageState extends State<ChapterPage> {
       child: StreamBuilder(
         stream: _bloc.stream,
         builder: (context, snapshot) {
-          if (snapshot.hasError)
-            return centerText("Error Loading Chapter.");
+          if (snapshot.hasError) return centerText("Error Loading Chapter.");
 
           if (!snapshot.hasData)
             return Center(child: CircularProgressIndicator());
@@ -91,7 +91,7 @@ class _ChapterPageState extends State<ChapterPage> {
       child: ListView.builder(
         controller: controller,
         itemCount: qtdVerses,
-        itemBuilder: (context, index) =>_itemView(context, verses, index),
+        itemBuilder: (context, index) => _itemView(context, verses, index),
       ),
     );
   }

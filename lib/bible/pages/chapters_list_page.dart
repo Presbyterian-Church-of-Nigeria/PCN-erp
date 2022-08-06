@@ -33,6 +33,7 @@ class _ChaptersListPageState extends State<ChaptersListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepPurple.withOpacity(0.7),
         title: Text(book.bookName),
         actions: <Widget>[
           IconButton(
