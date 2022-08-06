@@ -22,13 +22,18 @@ class _Almanc extends State<Almanc> {
   Widget build(BuildContext context) {
     return (Scaffold(
         appBar: AppBar(
-          title: const Text('Reserved Date 2022'),
+          backgroundColor: Colors.deepPurple.withOpacity(0.7),
+          title: const Text(
+            'Reserved Date 2022',
+            style: TextStyle(
+              fontFamily: 'Montserrat',
+            ),
+          ),
         ),
         drawer: Navbar(),
         body: StreamBuilder<QuerySnapshot>(
             stream: FirebaseFirestore.instance
                 .collection("date2022")
-
                 .snapshots()
                 .asBroadcastStream(),
             builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
@@ -47,20 +52,35 @@ class _Almanc extends State<Almanc> {
                       elevation: 5.0,
                       child: ListTile(
                         leading: CircleAvatar(
+                          backgroundColor: Colors.deepPurple[400],
                           child: Text("Week" + rch?.data()['week']),
                           maxRadius: 42,
                         ),
-                        title: Text("PCN Events"),
+                        title: Text(
+                          "PCN Events",
+                          style: TextStyle(
+                            fontFamily: 'Montserrat',
+                          ),
+                        ),
                         //isThreeLine: true,
                         //subtitle: Text("")
-                        
+
                         onTap: () {
                           Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (BuildContext context) => DateDetail(rch.data()['date']  ,rch.data()['activity'], rch.data()['date1'], rch.data()['activity1'],rch.data()['date2'],rch.data()['activity2'],rch.data()['date3'],rch.data()['activity3'],rch.data()['week']),
-                          ),
-                        );
+                            context,
+                            MaterialPageRoute(
+                              builder: (BuildContext context) => DateDetail(
+                                  rch.data()['date'],
+                                  rch.data()['activity'],
+                                  rch.data()['date1'],
+                                  rch.data()['activity1'],
+                                  rch.data()['date2'],
+                                  rch.data()['activity2'],
+                                  rch.data()['date3'],
+                                  rch.data()['activity3'],
+                                  rch.data()['week']),
+                            ),
+                          );
                         },
                       ),
                     ));
