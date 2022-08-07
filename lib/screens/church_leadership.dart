@@ -22,7 +22,13 @@ class _ChurchLeaders extends State<ChurchLeaders> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Church Leadership'),
+          backgroundColor: Colors.deepPurple.withOpacity(0.7),
+          title: Text(
+            'Church Leadership',
+            style: TextStyle(
+              fontFamily: 'Montserrat',
+            ),
+          ),
         ),
         body: Container(
           child: Padding(
@@ -37,7 +43,7 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Colors.deepOrangeAccent),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -67,7 +73,7 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Colors.lime),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -96,7 +102,7 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Colors.lime),
+                          color: Colors.deepPurple),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
