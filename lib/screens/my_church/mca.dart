@@ -482,7 +482,7 @@ class _Mca extends State<Mca> {
                             shape: BoxShape.circle,
                             image: DecorationImage(
                                 image: AssetImage(
-                                  'assets/Rev_Eke_Ole.jpg',
+                                  'assets/Rev_Eke_Ole.png',
                                 )))),
                     Text(
                       "Rev Sunday Eke Ole. Hails from Okpo Ihechiowa. Arochukwu LGA.Abia State. He is married to Deaconess Nnenna Eke Ole and blessed with children.\n"
@@ -529,7 +529,7 @@ class _Mca extends State<Mca> {
                             shape: BoxShape.circle,
                             image: DecorationImage(
                                 image: AssetImage(
-                                  'assets/engr_awa.jpg',
+                                  'assets/engr_awa.png',
                                 )))),
                      Text(
                       "Parentage: Elder Engr. Awa Eke Osonwa was born to the family of Late Teacher Eke Osonwa of blessed memory and Elder Mrs. Elizabeth E. Osonwa in Akanu Ohafia, Ohafia LGA, Abia State.\n"
@@ -586,7 +586,7 @@ class _Mca extends State<Mca> {
                             shape: BoxShape.circle,
                             image: DecorationImage(
                                 image: AssetImage(
-                                  'assets/okechwku.jpg',
+                                  'assets/okechwku.png',
                                 )))),
                      Text(
                       "Born on 3rd of April, at Nsukka then Anambra, He hails from Ebem in Ohafia Local Government Area of Abia State. \n He attended Onuiyi Primary School, St. Teresa’s College Nsukka and Michael Okpara Federal University of Agriculture, Umudike, in Umuahia, Abia State. He successfully completed his NYSC in Oyo State.\n"
@@ -635,7 +635,7 @@ class _Mca extends State<Mca> {
                             shape: BoxShape.circle,
                             image: DecorationImage(
                                 image: AssetImage(
-                                  'assets/ibam.jpg',
+                                  'assets/ibam.png',
                                 )))),
                      Text(
                      " Early Life:\n"
@@ -691,7 +691,7 @@ class _Mca extends State<Mca> {
                             shape: BoxShape.circle,
                             image: DecorationImage(
                                 image: AssetImage(
-                                  'assets/josph_okon.jpg',
+                                  'assets/josph_okon.png',
                                 )))),
                     Text(
                       
@@ -748,7 +748,7 @@ class _Mca extends State<Mca> {
                             shape: BoxShape.circle,
                             image: DecorationImage(
                                 image: AssetImage(
-                                  'assets/eyo.jpg',
+                                  'assets/eyo.png',
                                 )))),
 
                      Text(
@@ -802,7 +802,7 @@ class _Mca extends State<Mca> {
                             shape: BoxShape.circle,
                             image: DecorationImage(
                                 image: AssetImage(
-                                  'assets/rev totri.jpg',
+                                  'assets/rev totri.png',
                                 )))),
                     Text(
                       
@@ -869,7 +869,7 @@ class _Mca extends State<Mca> {
                             shape: BoxShape.circle,
                             image: DecorationImage(
                                 image: AssetImage(
-                                  'assets/rev_sunday.jpg',
+                                  'assets/rev_sunday.png',
                                 )))),
 
                     Text(

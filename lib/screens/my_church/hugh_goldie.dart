@@ -35,7 +35,7 @@ class _GoldieState extends State<Goldie> {
               child: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('??'),
+                        image: AssetImage('assets/goldi.png'),
                         fit: BoxFit.fill,
                         colorFilter: ColorFilter.mode(
                             Colors.black.withOpacity(0.5),

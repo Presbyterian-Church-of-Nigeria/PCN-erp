@@ -36,7 +36,7 @@ class _GloriaeDeiState extends State<GloriaeDei> {
               child: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('??'),
+                        image: AssetImage('assets/euptc.jpeg'),
                         fit: BoxFit.fill,
                         colorFilter: ColorFilter.mode(
                             Colors.black.withOpacity(0.5),

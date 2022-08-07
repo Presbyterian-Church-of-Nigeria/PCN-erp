@@ -108,7 +108,7 @@ class _GirlsBrigadeState extends State<GirlsBrigade>
         Container(
           padding: EdgeInsets.only(left: 20.0, right: 20.0),
           child: Image.asset(
-            "assets/GirlsBrigade.jpg",
+            "assets/girls_brigade_image.jpeg",
             height: 180,
             width: 180,
           ),

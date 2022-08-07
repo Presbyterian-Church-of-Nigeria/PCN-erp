@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:pcn_erp/screens/my_church/bb.dart';
 import 'package:pcn_erp/screens/my_church/cgit.dart';
 import 'package:pcn_erp/screens/my_church/girls_brigade.dart';
+import 'package:pcn_erp/screens/my_church/gloriae_dei.dart';
 import 'package:pcn_erp/screens/my_church/hugh_goldie.dart';
 import 'package:pcn_erp/screens/my_church/mca.dart';
 import 'package:pcn_erp/screens/my_church/parish.dart';
@@ -143,7 +144,7 @@ class _Mychurch extends State<Mychurch> {
                                 image: DecorationImage(
                                     image: AssetImage('assets/pypan.png')))),
                         Text(
-                          "PYPAN",
+                          "PSF",
                           style: TextStyle(color: Colors.white, fontSize: 20),
                         )
                       ],
@@ -219,7 +220,7 @@ class _Mychurch extends State<Mychurch> {
                 InkWell(
                   onTap: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => BoyB()));
+                        MaterialPageRoute(builder: (context) => GirlsBrigade()));
                   },
                   child: Container(
                     decoration: BoxDecoration(
@@ -258,7 +259,7 @@ class _Mychurch extends State<Mychurch> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => GirlsBrigade()));
+                            builder: (context) => GloriaeDei()));
                   },
                   child: Container(
                     decoration: BoxDecoration(
