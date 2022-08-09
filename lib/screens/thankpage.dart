@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
@@ -53,7 +52,7 @@ class _Thanks extends State<Thanks> {
           //);
           SingleChildScrollView(
         child: Container(
-          padding: EdgeInsets.all(16),
+          padding: EdgeInsets.only(bottom: 6,top: 8,left:13, right: 13),
           child: _content(),
         ),
       ),
@@ -323,7 +322,7 @@ class _Thanks extends State<Thanks> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: Text(
-              "App Developer",
+              "App Developers",
               textAlign: TextAlign.center,
               style: TextStyle(
                   fontWeight: FontWeight.bold,
@@ -445,6 +444,30 @@ class _Thanks extends State<Thanks> {
                 ),
                 EasyRichTextPattern(
                   targetString: 'UI UX Dev',
+                  style: TextStyle(
+                      color: Colors.blue,
+                      fontStyle: FontStyle.italic,
+                      fontFamily: 'Montserrat',
+                      fontSize: size * 0.9),
+                ),
+              ],
+            ),
+          ),
+          Container(
+            padding: EdgeInsets.only(top: spacer),
+            child: EasyRichText(
+              "PSF Media Team",
+              textAlign: TextAlign.center,
+              patternList: [
+                EasyRichTextPattern(
+                  targetString: 'PSF Media Team',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Montserrat',
+                      fontSize: size * 1.0),
+                ),
+                EasyRichTextPattern(
+                  targetString: 'P',
                   style: TextStyle(
                       color: Colors.blue,
                       fontStyle: FontStyle.italic,

@@ -8,6 +8,7 @@ import 'package:pcn_erp/screens/my_church/hugh_goldie.dart';
 import 'package:pcn_erp/screens/my_church/mca.dart';
 import 'package:pcn_erp/screens/my_church/parish.dart';
 import 'package:pcn_erp/screens/my_church/pctm.dart';
+import 'package:pcn_erp/screens/my_church/psf.dart';
 import 'package:pcn_erp/screens/my_church/pypan.dart';
 import 'package:pcn_erp/screens/my_church/women_guild.dart';
 
@@ -127,6 +128,33 @@ class _Mychurch extends State<Mychurch> {
                 InkWell(
                   onTap: () {
                     Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => Psf()));
+                  },
+                  child: Container(
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
+                        color: Colors.deepPurple),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                            height: 100,
+                            width: 130,
+                            decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                image: DecorationImage(
+                                    image: AssetImage('assets/psf.png')))),
+                        Text(
+                          "PSF",
+                          style: TextStyle(color: Colors.white, fontSize: 20),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                 InkWell(
+                  onTap: () {
+                    Navigator.push(context,
                         MaterialPageRoute(builder: (context) => Pypan()));
                   },
                   child: Container(
@@ -144,7 +172,7 @@ class _Mychurch extends State<Mychurch> {
                                 image: DecorationImage(
                                     image: AssetImage('assets/pypan.png')))),
                         Text(
-                          "PSF",
+                          "PYPAN",
                           style: TextStyle(color: Colors.white, fontSize: 20),
                         )
                       ],
@@ -256,6 +284,43 @@ class _Mychurch extends State<Mychurch> {
                 ),
                 InkWell(
                   onTap: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => Pctm()));
+                  },
+                  child: Container(
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
+                        color: Colors.deepPurple),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                            height: 100,
+                            width: 100,
+                            decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                image: DecorationImage(
+                                    image: AssetImage(
+                                  'assets/pctm.png',
+                                )))),
+                        // child:
+                        // SizedBox(
+                        // width: 250.0,
+                        //height: 80.0,
+                        // child:
+
+                        Text(
+                          "Children & Teens Ministry",
+                          // "Theological College",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(color: Colors.white, fontSize: 17.5),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                InkWell(
+                  onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
@@ -351,43 +416,7 @@ class _Mychurch extends State<Mychurch> {
                     ),
                   ),
                 ),
-                InkWell(
-                  onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => Pctm()));
-                  },
-                  child: Container(
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(20),
-                        color: Colors.deepPurple),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Container(
-                            height: 100,
-                            width: 100,
-                            decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                                image: DecorationImage(
-                                    image: AssetImage(
-                                  'assets/pctm.png',
-                                )))),
-                        // child:
-                        // SizedBox(
-                        // width: 250.0,
-                        //height: 80.0,
-                        // child:
-
-                        Text(
-                          "Children & Teens Ministry",
-                          // "Theological College",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(color: Colors.white, fontSize: 17.5),
-                        )
-                      ],
-                    ),
-                  ),
-                ),
+                
               ],
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,

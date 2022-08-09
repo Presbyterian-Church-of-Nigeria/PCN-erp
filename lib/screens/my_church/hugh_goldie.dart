@@ -1,6 +1,5 @@
 
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:pcn_erp/nav/nav.dart';
 
@@ -55,23 +54,10 @@ class _GoldieState extends State<Goldie> {
         //extendBodyBehindAppBar: true,
 
         drawer: Navbar(),
-        body: StreamBuilder<QuerySnapshot>(
-            stream: FirebaseFirestore.instance.collection("parish").snapshots(),
-            //.asBroadcastStream(),
-            builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
-              if (!snapshot.hasData) {
-                return Center(child: CircularProgressIndicator());
-              } else {
-                var messages = snapshot.data.docs;
-                // Map<String, dynamic> messages = snapshot.data.docs as Map<String, dynamic>;
-
-                return ListView.separated(
-                  padding: EdgeInsets.symmetric(horizontal: 9.0, vertical: 9.0),
-                  itemCount: messages.length,
-                  separatorBuilder: (context, index) => Divider(),
-                  itemBuilder: (context, index) {
+        body: Center(
+          heightFactor: 2.0,
                     //DocumentSnapshot rch = messages[index];
-                    return Card(
+                    child: Card(
 
                         elevation: 20,
                         color: Colors.white24,
@@ -95,10 +81,8 @@ class _GoldieState extends State<Goldie> {
 
                             ),
                           ),
-                        ));
-                  },
-                );
-              }
-            })));
+                        )))));
+                  
+           
   }
 }

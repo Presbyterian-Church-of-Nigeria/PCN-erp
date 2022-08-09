@@ -3,7 +3,10 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:pcn_erp/bible/pages/home_page.dart';
 
 import 'package:pcn_erp/screens/bible_study/biblestudy_home.dart';
+import 'package:pcn_erp/screens/blue_book.dart';
+import 'package:pcn_erp/screens/book_of_service.dart';
 import 'package:pcn_erp/screens/hymnal/hymn_home.dart';
+import 'package:pcn_erp/screens/moments.dart';
 import 'package:pcn_erp/screens/my_church/mychurch.dart';
 import 'package:pcn_erp/screens/pnp.dart';
 import 'package:pcn_erp/screens/reserved_dates.dart/almanc.dart';
@@ -15,7 +18,8 @@ class SecondHalf extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         color: Colors.transparent,
-        height: MediaQuery.of(context).size.height,
+        
+        height: MediaQuery.of(context).size.height * 1.4,
         width: MediaQuery.of(context).size.width,
         child: Padding(
           padding: const EdgeInsets.only(left: 10, right: 10, top: 10),
@@ -195,7 +199,92 @@ class SecondHalf extends StatelessWidget {
                       )),
                 ),
               ),
-              
+               SizedBox(
+                height: 10.0,
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => Bluebook()));
+                },
+                child: Container(
+                  height: 70,
+                  width: MediaQuery.of(context).size.width,
+                  decoration: BoxDecoration(
+                    color: Colors.deepPurple,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10),
+                      child: Row(
+                        children: [
+                          CircleAvatar(
+                              radius: 27,
+                              backgroundColor: Colors.deepPurple,
+                              child: Icon(
+                                FontAwesomeIcons.bookOpenReader,
+                                color: Colors.white,
+                                size: 36.0,
+                              )),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 20),
+                            child: Text(
+                              'Blue Book',
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color: Colors.white,
+                                fontFamily: 'Montserrat-Regular',
+                              ),
+                            ),
+                          ),
+                        ],
+                      )),
+                ),
+              ),
+              SizedBox(
+                height: 10.0,
+              ),
+               InkWell(
+                onTap: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => BookService()));
+                },
+                child: Container(
+                  height: 70,
+                  width: MediaQuery.of(context).size.width,
+                  decoration: BoxDecoration(
+                    color: Colors.deepPurple,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10),
+                      child: Row(
+                        children: [
+                          CircleAvatar(
+                              radius: 27,
+                              backgroundColor: Colors.deepPurple,
+                              child: Icon(
+                                FontAwesomeIcons.bookOpenReader,
+                                color: Colors.white,
+                                size: 36.0,
+                              )),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 20),
+                            child: Text(
+                              'Book of Service',
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color: Colors.white,
+                                fontFamily: 'Montserrat-Regular',
+                              ),
+                            ),
+                          ),
+                        ],
+                      )),
+                ),
+              ),
               SizedBox(
                 height: 10.0,
               ),
@@ -239,6 +328,49 @@ class SecondHalf extends StatelessWidget {
                       )),
                 ),
               ),
+               SizedBox(
+                height: 10.0,
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => Almanc()));
+                },
+                child: Container(
+                  height: 70,
+                  width: MediaQuery.of(context).size.width,
+                  decoration: BoxDecoration(
+                    color: Colors.deepPurple,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10),
+                      child: Row(
+                        children: [
+                          CircleAvatar(
+                              radius: 27,
+                              backgroundColor: Colors.deepPurple,
+                              child: Icon(
+                                FontAwesomeIcons.userTie,
+                                color: Colors.white,
+                                size: 36.0,
+                              )),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 20),
+                            child: Text(
+                              'Church leadership',
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color: Colors.white,
+                                fontFamily: 'Montserrat-Regular',
+                              ),
+                            ),
+                          ),
+                        ],
+                      )),
+                ),
+              ),
               SizedBox(
                 height: 10.0,
               ),
@@ -262,7 +394,7 @@ class SecondHalf extends StatelessWidget {
                               radius: 27,
                               backgroundColor: Colors.deepPurple,
                               child: Icon(
-                                FontAwesomeIcons.solidCalendarDays,
+                                FontAwesomeIcons.calendarCheck,
                                 color: Colors.white,
                                 size: 36.0,
                               )),
@@ -282,6 +414,50 @@ class SecondHalf extends StatelessWidget {
                       )),
                 ),
               ),
+               SizedBox(
+                height: 10.0,
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => Moments()));
+                },
+                child: Container(
+                  height: 70,
+                  width: MediaQuery.of(context).size.width,
+                  decoration: BoxDecoration(
+                    color: Colors.deepPurple,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10),
+                      child: Row(
+                        children: [
+                          CircleAvatar(
+                              radius: 27,
+                              backgroundColor: Colors.deepPurple,
+                              child: Icon(
+                                FontAwesomeIcons.calendarWeek,
+                                color: Colors.white,
+                                size: 36.0,
+                              )),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 20),
+                            child: Text(
+                              'Moments in History',
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color: Colors.white,
+                                fontFamily: 'Montserrat-Regular',
+                              ),
+                            ),
+                          ),
+                        ],
+                      )),
+                ),
+              ),
+              
             ],
           ),
         ));

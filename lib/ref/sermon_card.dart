@@ -21,9 +21,9 @@ class MySermonCard extends StatelessWidget {
           decoration: BoxDecoration(
             boxShadow: [
               BoxShadow(
-                color: Colors.grey,
-                spreadRadius: 2,
-                blurRadius: 7,
+               color: Color.fromARGB(255, 227, 227, 227),
+                spreadRadius: 1.1,
+                blurRadius:5,
               ),
             ],
             image: DecorationImage(

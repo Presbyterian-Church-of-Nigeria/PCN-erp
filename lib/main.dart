@@ -58,17 +58,20 @@ void main() async {
   runApp(MaterialApp(
     theme: ThemeData(
       primaryColor: Colors.deepPurple,
-      scaffoldBackgroundColor: Colors.white,
+     // scaffoldBackgroundColor: Col,
       canvasColor: Colors.white,
       fontFamily: 'Montserrat-Regular',
+      appBarTheme: AppBarTheme(color: Colors.deepPurple),
       textTheme: TextTheme(
         headline1: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
-        headline6: TextStyle(fontSize: 25.0, fontStyle: FontStyle.normal,fontFamily: 'Montserrat-Regular'),
+        headline6: TextStyle(
+            fontSize: 25.0,
+            fontStyle: FontStyle.normal,
+            fontFamily: 'Montserrat-Regular'),
         bodyText2: TextStyle(fontSize: 14.0, fontFamily: 'Montserrat-Regular'),
       ),
     ),
     debugShowCheckedModeBanner: false,
     home: HomePage(),
-  )
-  );
+  ));
 }

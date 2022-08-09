@@ -35,10 +35,11 @@ class _FirstHalfState extends State<FirstHalf> {
   ];
 
   final List priestName = [
-    'Rev. Etiowow Jackson',
-    'Rev. Uche Dan Okafor',
-    'Rev John Anaga',
+    'His Eminence Nzie Nsi Eke',
+    'Most Rev Dr Miracle Ajah',
+    'Rt Rev Solomon Okoro',
   ];
+
 
   @override
   Widget build(BuildContext context) {
