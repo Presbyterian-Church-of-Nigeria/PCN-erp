@@ -4,10 +4,15 @@ import 'package:firebase_core/firebase_core.dart' show Firebase;
 //import 'screens/rch/hymnlist.dart';
 
 import 'package:onesignal_flutter/onesignal_flutter.dart';
+import 'package:pcn_erp/bible/pages/onboarding_screen.dart';
 import 'package:pcn_erp/screens/homepage.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  final prefs = await SharedPreferences.getInstance();
+  final showHome = prefs.getBool('showHome') ?? false;
 
 // The promptForPushNotificationsWithUserResponse function will show the iOS push notification prompt. We recommend removing the following code and instead using an In-App Message to prompt for notification permission
   await OneSignal.shared
@@ -55,23 +60,35 @@ void main() async {
   OneSignal.shared
       .setInFocusDisplayType(OSNotificationDisplayType.notification);
 
-  runApp(MaterialApp(
-    theme: ThemeData(
-      primaryColor: Colors.deepPurple,
-     // scaffoldBackgroundColor: Col,
-      canvasColor: Colors.white,
-      fontFamily: 'Montserrat-Regular',
-      appBarTheme: AppBarTheme(color: Colors.deepPurple),
-      textTheme: TextTheme(
-        headline1: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
-        headline6: TextStyle(
-            fontSize: 25.0,
-            fontStyle: FontStyle.normal,
-            fontFamily: 'Montserrat-Regular'),
-        bodyText2: TextStyle(fontSize: 14.0, fontFamily: 'Montserrat-Regular'),
+  runApp(MyApp(showHome: showHome));
+}
+
+class MyApp extends StatelessWidget {
+  final bool showHome;
+
+  MyApp({Key key, this.showHome}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      theme: ThemeData(
+        primaryColor: Colors.deepPurple,
+        // scaffoldBackgroundColor: Col,
+        canvasColor: Colors.white,
+        fontFamily: 'Montserrat-Regular',
+        appBarTheme: AppBarTheme(color: Colors.deepPurple),
+        textTheme: TextTheme(
+          headline1: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
+          headline6: TextStyle(
+              fontSize: 25.0,
+              fontStyle: FontStyle.normal,
+              fontFamily: 'Montserrat-Regular'),
+          bodyText2:
+              TextStyle(fontSize: 14.0, fontFamily: 'Montserrat-Regular'),
+        ),
       ),
-    ),
-    debugShowCheckedModeBanner: false,
-    home: HomePage(),
-  ));
+      debugShowCheckedModeBanner: false,
+      home: showHome ? HomePage() : OnboardingScreen(),
+    );
+  }
 }
