@@ -5,6 +5,7 @@ import 'package:pcn_erp/bible/pages/home_page.dart';
 import 'package:pcn_erp/screens/bible_study/biblestudy_home.dart';
 import 'package:pcn_erp/screens/blue_book.dart';
 import 'package:pcn_erp/screens/book_of_service.dart';
+import 'package:pcn_erp/screens/church_leadership.dart';
 import 'package:pcn_erp/screens/hymnal/hymn_home.dart';
 import 'package:pcn_erp/screens/moments.dart';
 import 'package:pcn_erp/screens/my_church/mychurch.dart';
@@ -334,7 +335,7 @@ class SecondHalf extends StatelessWidget {
               InkWell(
                 onTap: () {
                   Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => Almanc()));
+                      context, MaterialPageRoute(builder: (context) => ChurchLeaders()));
                 },
                 child: Container(
                   height: 70,

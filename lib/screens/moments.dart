@@ -42,21 +42,26 @@ class _Moments extends State<Moments> {
                   itemBuilder: (context, index) {
                     DocumentSnapshot rch = messages[index];
                     return Container(
+                      
                       child: ExpansionTileCard(
                         elevation: 5.0,
-                        baseColor: Colors.cyan[50],
-                        expandedColor: Colors.red[50],
+                        baseColor: Colors.deepPurple.shade400,
+                        expandedColor: Colors.deepPurple.shade100,
                         // child: ListTile(
                         leading: CircleAvatar(
+                              backgroundColor: Colors.white,
+
                           child: Text(
                             rch?.data()['year'],
                             textAlign: TextAlign.center,
-                          ),
+                            style: TextStyle(color: Colors.black),
+                           ),
+                          
                           maxRadius: 32,
                         ),
                         title: Text(
                           rch?.data()['month'],
-                          style: TextStyle(fontSize: 17.5),
+                          style: TextStyle(fontSize: 17.5,color: Colors.white),
                         ),
                         children: [
                           Divider(

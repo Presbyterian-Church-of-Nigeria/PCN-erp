@@ -96,7 +96,7 @@ class _HomePageState extends State<HomePage> {
         Mychurch()
       ]),
       bottomNavigationBar: BottomNavigationBar(
-        fixedColor: Colors.deepPurple,
+        fixedColor: Colors.deepPurple[700],
         currentIndex: _currentIndex,
         iconSize: 22,
         items: [

@@ -20,9 +20,8 @@ class _KjvBibleState extends State<KjvBible> {
         ),
         body: Center(
           child: FutureBuilder(
-
-            future: DefaultAssetBundle.of(context)
-                .loadString('assets/bible.json'),
+            future:
+                DefaultAssetBundle.of(context).loadString('assets/bible.json'),
             builder: (context, snapshot) {
               // Decode the JSON
               var newData = json.decode(snapshot.data.toString());
@@ -56,16 +55,16 @@ class _KjvBibleState extends State<KjvBible> {
                               ),
                               //Text(
                               //  newData[index][''],
-                                //'Note Text',
+                              //'Note Text',
                               //  style: TextStyle(color: Colors.grey.shade600),
-                             // ),
+                              // ),
                             ],
                           ),
                           //SizedBox(width: 20),
                           //Container(
-                           // height: 50,
-                           // width: 50,
-                           // child: Image.asset(newData[index]['img']),
+                          // height: 50,
+                          // width: 50,
+                          // child: Image.asset(newData[index]['img']),
                           //)
                         ],
                       ),

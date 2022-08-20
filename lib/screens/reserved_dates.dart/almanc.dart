@@ -49,17 +49,19 @@ class _Almanc extends State<Almanc> {
                     DocumentSnapshot rch = messages[index];
                     return Container(
                         child: Card(
+                          
+                          color: Colors.deepPurple.shade400,
                       elevation: 5.0,
                       child: ListTile(
                         leading: CircleAvatar(
-                          backgroundColor: Colors.deepPurple[400],
-                          child: Text("Week" + rch?.data()['week']),
+                          backgroundColor: Colors.white,
+                          child: Text("Week" + rch?.data()['week'],style: TextStyle(color: Colors.black),),
                           maxRadius: 42,
                         ),
                         title: Text(
                           "PCN Events",
                           style: TextStyle(
-                            fontFamily: 'Montserrat',
+                            fontFamily: 'Montserrat',color: Colors.white
                           ),
                         ),
                         //isThreeLine: true,

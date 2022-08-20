@@ -17,7 +17,7 @@ class _HymnPageState extends State<HymnPage> {
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Colors.deepPurple.withOpacity(0.7),
+          backgroundColor: Colors.deepPurple,
           elevation: 0.2,
           title: Text('Hymnal'),
         ),
