@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutable//s
 
 import 'package:flutter/material.dart';
+import 'package:pcn_erp/screens/upcoming.dart';
 
 class MyEventCard extends StatelessWidget {
   final String eventDetails;
@@ -17,6 +18,13 @@ class MyEventCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
         padding: const EdgeInsets.all(8.0),
+        child: InkWell(
+            onTap: () async {
+              await showDialog(
+                  context: context,
+                  builder: (_) => ImageDialog()
+              );
+            },
         child: Container(
           width: 200,
           decoration: BoxDecoration(
@@ -77,6 +85,6 @@ class MyEventCard extends StatelessWidget {
               ),
             ],
           ),
-        ));
+        )));
   }
 }
