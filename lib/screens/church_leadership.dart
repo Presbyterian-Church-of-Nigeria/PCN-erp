@@ -48,13 +48,13 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Container(
-                              width: 120,
-                              height: 100,
+                              width: 105,
+                              height: 105,
                               decoration: BoxDecoration(
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
-                                    image: AssetImage('assets/moder2.jpeg'),
+                                    image: AssetImage('assets/prelate.png'),
                                   ))),
                           Text(
                             "Prelate & Moderator",
@@ -78,7 +78,7 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Container(
-                              width: 120,
+                              width: 110,
                               height: 100,
                               decoration: BoxDecoration(
                                   shape: BoxShape.circle,
@@ -107,14 +107,14 @@ class _ChurchLeaders extends State<ChurchLeaders> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Container(
-                              width: 120,
-                              height: 100,
+                              width: 105,
+                              height: 105,
                               decoration: BoxDecoration(
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
                                     image: AssetImage(
-                                      'assets/rev_oko.png',
+                                      'assets/dclerk.png',
                                     ),
                                   ))),
                           Text(

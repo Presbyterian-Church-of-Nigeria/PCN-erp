@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 //import 'Hymn.dart';
 
 class DateDetail extends StatelessWidget {
@@ -22,7 +23,7 @@ class DateDetail extends StatelessWidget {
       appBar: AppBar(
           backgroundColor: Colors.deepPurple.withOpacity(0.7),
           title: Text(
-            "Week " + this.week,
+            "Week " +  ('week'),
             style: TextStyle(
               fontFamily: 'Montserrat',
             ),
@@ -40,7 +41,7 @@ class DateDetail extends StatelessWidget {
                     Container(
                       padding: EdgeInsets.only(top: 3.0, bottom: 1.0),
                       child: Text(
-                        this?.date ?? "",
+                        this?.date,
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             color: Colors.black,

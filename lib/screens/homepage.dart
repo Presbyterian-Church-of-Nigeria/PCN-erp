@@ -9,7 +9,7 @@ import 'package:pcn_erp/screens/hymnal/hymn_home.dart';
 import 'package:pcn_erp/screens/my_church/mychurch.dart';
 //import 'package:pcn_erp/screens/bible_study/bible_study.dart';
 
-import '../nav/nav.dart';
+
 import 'package:pcn_erp/util/first_half.dart';
 import 'package:pcn_erp/util/second_half.dart';
 

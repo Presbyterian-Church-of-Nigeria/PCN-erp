@@ -13,19 +13,21 @@ class FirstHalf extends StatefulWidget {
 
 class _FirstHalfState extends State<FirstHalf> {
   final List eventName = [
-    'Prelates Send Forth',
-    'GA Activities',
-    'Unveiling of PCN Moblie app',
+    'Special invitation',
+    'Installation Service',
+    'Worlds Aid Week 2022',
   ];
 
-  final List<String> _eventImage = ['assets/royal.png',
-  'assets/ga25th.jpeg',
-  'assets/pcnapp.png'];
+  final List<String> _eventImage = ['assets/in.jpeg',
+    'assets/inv.jpeg',
+    'assets/aids.jpeg'];
+
+
 
   final List<String> briefText = [
-    'More coming soon',
-    '12th -19th August 2022',
-    '25th GA meeting',
+    'Sunday 11th December 2022',
+    'The PCN, Duke Town Cathedral',
+    '28th Nov - 4th Dec. 2022',
   ];
 
   final List sermonName = [
@@ -35,10 +37,11 @@ class _FirstHalfState extends State<FirstHalf> {
   ];
 
   final List priestName = [
-    'His Eminence Nzie Nsi Eke',
+    'His Eminence E. Akpanika PhD',
     'Most Rev Dr Miracle Ajah',
-    'Rt Rev Solomon Okoro',
+    'Rt. Rev. Aniefiok Victor Ekop',
   ];
+
 
 
   @override

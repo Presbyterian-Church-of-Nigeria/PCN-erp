@@ -19,7 +19,7 @@ class _BibleStudyHome extends State<BibleStudyHome> {
         appBar: AppBar(
           backgroundColor: Colors.deepPurple.withOpacity(0.7),
           elevation: 0.2,
-          title: Text('Bible Study 2022'),
+          title: Text('Bible Study 2023'),
         ),
         drawer: Navbar(),
         body: Container(
@@ -49,10 +49,10 @@ class _BibleStudyHome extends State<BibleStudyHome> {
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
                                       image: AssetImage(
-                                    'assets/cover.jpeg',
+                                    'assets/cpver.jpg',
                                   )))),
                           Text(
-                            "Bible Study 2022",
+                            "Bible Study 2023",
                             textAlign: TextAlign.center,
                             style: TextStyle(
                                 color: Colors.white,

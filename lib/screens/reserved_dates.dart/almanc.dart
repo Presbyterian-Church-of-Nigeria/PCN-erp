@@ -24,7 +24,7 @@ class _Almanc extends State<Almanc> {
         appBar: AppBar(
           backgroundColor: Colors.deepPurple.withOpacity(0.7),
           title: const Text(
-            'Reserved Date 2022',
+            'Reserved Dates 2023',
             style: TextStyle(
               fontFamily: 'Montserrat',
             ),
@@ -55,7 +55,7 @@ class _Almanc extends State<Almanc> {
                       child: ListTile(
                         leading: CircleAvatar(
                           backgroundColor: Colors.white,
-                          child: Text("Week" + rch?.data()['week'],style: TextStyle(color: Colors.black),),
+                          child: Text("Week" + rch.get('week'),style: TextStyle(color: Colors.black),),
                           maxRadius: 42,
                         ),
                         title: Text(
@@ -72,15 +72,15 @@ class _Almanc extends State<Almanc> {
                             context,
                             MaterialPageRoute(
                               builder: (BuildContext context) => DateDetail(
-                                  rch.data()['date'],
-                                  rch.data()['activity'],
-                                  rch.data()['date1'],
-                                  rch.data()['activity1'],
-                                  rch.data()['date2'],
-                                  rch.data()['activity2'],
-                                  rch.data()['date3'],
-                                  rch.data()['activity3'],
-                                  rch.data()['week']),
+                                  rch.get('date'),
+                                  rch.get('activity'),
+                                  rch.get('date1'),
+                                  rch.get('activity1'),
+                                  rch.get('date2'),
+                                  rch.get('activity2'),
+                                  rch.get('date3'),
+                                  rch.get('activity3'),
+                                  rch.get('week')),
                             ),
                           );
                         },

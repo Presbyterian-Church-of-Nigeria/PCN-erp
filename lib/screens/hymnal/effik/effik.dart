@@ -88,6 +88,6 @@ class _EfikHymn extends State<EfikHymn> {
         body: SfPdfViewer.asset('assets/pdf/efik-hymn.pdf',
             key: _pdfViewerKey,
             controller: _pdfViewerController,
-            searchTextHighlightColor: Colors.yellow));
+            currentSearchTextHighlightColor: Colors.yellow));
   }
 }

@@ -2,7 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:epub_viewer/epub_viewer.dart';
+import 'package:vocsy_epub_viewer/epub_viewer.dart';
+
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 
@@ -51,7 +52,7 @@ class _Pnp extends State<Pnp> {
                       String iosBookPath = '${appDocDir.path}/4.epub';
                       print(iosBookPath);
                       //String androidBookPath = 'file:///android_asset/5.epub';
-                      EpubViewer.setConfig(
+                      VocsyEpub.setConfig(
                           themeColor: Theme.of(context).primaryColor,
                           identifier: "iosBook",
                           scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
@@ -70,7 +71,7 @@ class _Pnp extends State<Pnp> {
 //                      }),
 //                    );
 
-                      await EpubViewer.openAsset(
+                      await VocsyEpub.openAsset(
                         'assets/4.epub',
                         lastLocation: EpubLocator.fromJson({
                           "bookId": "2239",
@@ -82,7 +83,7 @@ class _Pnp extends State<Pnp> {
                         }),
                       );
                       // get current locator
-                      EpubViewer.locatorStream.listen((locator) {
+                      VocsyEpub.locatorStream.listen((locator) {
                         print(
                             'LOCATOR: ${EpubLocator.fromJson(jsonDecode(locator))}');
                       });

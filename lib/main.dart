@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-//import 'package:cloud_firestore/cloud_firestore.dart';
+
 import 'package:firebase_core/firebase_core.dart' show Firebase;
-//import 'screens/rch/hymnlist.dart';
+
 
 import 'package:onesignal_flutter/onesignal_flutter.dart';
 import 'package:pcn_erp/bible/pages/onboarding_screen.dart';
@@ -18,30 +18,28 @@ void main() async {
   await OneSignal.shared
       .promptUserForPushNotificationPermission(fallbackToSettings: true);
 
-  OneSignal.shared
-      .setNotificationReceivedHandler((OSNotification notification) {
-    // will be called whenever a notification is received
+  OneSignal.shared.setNotificationWillShowInForegroundHandler((OSNotificationReceivedEvent event) {
+    // Will be called whenever a notification is received in foreground
+    // Display Notification, pass null param for not displaying the notification
+    event.complete(event.notification);
   });
 
-  OneSignal.shared
-      .setNotificationOpenedHandler((OSNotificationOpenedResult result) {
-    // will be called whenever a notification is opened/button pressed.
+  OneSignal.shared.setNotificationOpenedHandler((OSNotificationOpenedResult result) {
+    // Will be called whenever a notification is opened/button pressed.
   });
 
   OneSignal.shared.setPermissionObserver((OSPermissionStateChanges changes) {
-    // will be called whenever the permission changes
+    // Will be called whenever the permission changes
     // (ie. user taps Allow on the permission prompt in iOS)
   });
 
-  OneSignal.shared
-      .setSubscriptionObserver((OSSubscriptionStateChanges changes) {
-    // will be called whenever the subscription changes
-    //(ie. user gets registered with OneSignal and gets a user ID)
+  OneSignal.shared.setSubscriptionObserver((OSSubscriptionStateChanges changes) {
+    // Will be called whenever the subscription changes
+    // (ie. user gets registered with OneSignal and gets a user ID)
   });
 
-  OneSignal.shared.setEmailSubscriptionObserver(
-      (OSEmailSubscriptionStateChanges emailChanges) {
-    // will be called whenever then user's email subscription changes
+  OneSignal.shared.setEmailSubscriptionObserver((OSEmailSubscriptionStateChanges emailChanges) {
+    // Will be called whenever then user's email subscription changes
     // (ie. OneSignal.setEmail(email) is called and the user gets registered
   });
 
@@ -51,14 +49,16 @@ void main() async {
   await Firebase.initializeApp();
 
   //Remove this method to stop OneSignal Debugging
+//Remove this method to stop OneSignal Debugging
   OneSignal.shared.setLogLevel(OSLogLevel.verbose, OSLogLevel.none);
 
-  OneSignal.shared.init("0091186d-fa82-4d43-a91d-229c8d27f8f3", iOSSettings: {
-    OSiOSSettings.autoPrompt: false,
-    OSiOSSettings.inAppLaunchUrl: false
+  OneSignal.shared.setAppId("0091186d-fa82-4d43-a91d-229c8d27f8f3");
+
+// The promptForPushNotificationsWithUserResponse function will show the iOS or Android push notification prompt. We recommend removing the following code and instead using an In-App Message to prompt for notification permission
+  OneSignal.shared.promptUserForPushNotificationPermission().then((accepted) {
+    print("Accepted permission: $accepted");
   });
-  OneSignal.shared
-      .setInFocusDisplayType(OSNotificationDisplayType.notification);
+
 
   runApp(MyApp(showHome: showHome));
 }

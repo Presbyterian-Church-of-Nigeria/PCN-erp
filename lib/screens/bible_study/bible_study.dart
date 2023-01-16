@@ -1,8 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
-
+import 'package:webview_flutter/webview_flutter.dart';
+import 'dart:async';
 import 'package:dio/dio.dart';
-import 'package:epub_viewer/epub_viewer.dart';
+import 'package:permission_handler/permission_handler.dart';
+import 'package:vocsy_epub_viewer/epub_viewer.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 
@@ -14,7 +16,10 @@ class BibleStudy extends StatefulWidget {
 class _BibleStudy extends State<BibleStudy> {
   bool loading = false;
   Dio dio = new Dio();
+  String filePath = "";
 
+  final Completer<WebViewController> _controller =
+      Completer<WebViewController>();
   @override
   void initState() {
     super.initState();
@@ -35,100 +40,150 @@ class _BibleStudy extends State<BibleStudy> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurple.withOpacity(0.7),
-        title: const Text('Bible Study 2022'),
+        title: const Text('Bible Study 2023'),
       ),
-      body: Center(
-        child: loading
-            ? CircularProgressIndicator()
-            : TextButton(
-                onPressed: () async {
-                  Directory appDocDir =
-                      await getApplicationDocumentsDirectory();
-                  print('$appDocDir');
+      body: Container(
+        height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
+        child: Builder(builder: (BuildContext context) {
+          return WebView(
+              initialUrl: 'https://paystack.com/pay/biblestudy2022',
+              javascriptMode: JavascriptMode.unrestricted,
+              onWebViewCreated: (WebViewController webViewController) {
+                _controller.complete(webViewController);
+              },
+              onProgress: (int progress) {
+                print("progress $progress%");
+              },
+              javascriptChannels: <JavascriptChannel>{
+                _toasterJavascriptChannel(context)
+              },
+              onPageFinished: (nextpage) {
+                loading
+                    ? CircularProgressIndicator()
+                    : TextButton(
+                        onPressed: () async {
+                          print("====filePath======$filePath");
+                          //Directory appDocDir =
+                          //await getApplicationDocumentsDirectory();
+                          // print('$appDocDir');
 
-                  String iosBookPath = '${appDocDir.path}/7.epub';
-                  print(iosBookPath);
-                  //String androidBookPath = 'file:///android_asset/7.epub';
-                  EpubViewer.setConfig(
-                      themeColor: Theme.of(context).primaryColor,
-                      identifier: "iosBook",
-                      scrollDirection: EpubScrollDirection.VERTICAL,
-                      allowSharing: true,
-                      enableTts: true,
-                      nightMode: false);
-//                    EpubViewer.open(
-//                      Platform.isAndroid ? androidBookPath : iosBookPath,
-//                      lastLocation: EpubLocator.fromJson({
-//                        "bookId": "2239",
-//                        "href": "/OEBPS/ch06.xhtml",
-//                        "created": 1539934158390,
-//                        "locations": {
-//                          "cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"
-//                        }
-//                      }),
-//                    );
+                          // String iosBookPath = '${appDocDir.path}/2023.epub';
+                          // print(iosBookPath);
+                          //String androidBookPath = 'file:///android_asset/7.epub';
+                          VocsyEpub.setConfig(
+                              themeColor: Theme.of(context).primaryColor,
+                              identifier: "iosBook",
+                              scrollDirection:
+                                  EpubScrollDirection.ALLDIRECTIONS,
+                              allowSharing: true,
+                              enableTts: true,
+                              nightMode: true);
+//
 
-                  await EpubViewer.openAsset(
-                    'assets/7.epub',
-                    lastLocation: EpubLocator.fromJson({
-                      "bookId": "2239",
-                      "href": "/OEBPS/ch06.xhtml",
-                      "created": 1539934158390,
-                      "locations": {
-                        "cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"
-                      }
-                    }),
-                  );
-                  // get current locator
-                  EpubViewer.locatorStream.listen((locator) {
-                    print(
-                        'LOCATOR: ${EpubLocator.fromJson(jsonDecode(locator))}');
-                  });
-                },
-                child: Center(
-                  child: Column(children: <Widget>[
-                    Container(
-                      padding: EdgeInsets.only(top: 30),
-                      child: Text(
-                        'Click to Read',
-                        style:
-                            TextStyle(fontSize: 30, color: Colors.deepPurple),
-                      ),
-                    ),
-                    Container(
-                        // padding: EdgeInsets.only(left: 20.0,right: 20.0, top: 30, bottom: 30),
-                        height: 400,
-                        width: 300,
-                        decoration: BoxDecoration(
-                            shape: BoxShape.rectangle,
-                            image: DecorationImage(
-                                image: AssetImage("assets/cover.jpeg"),
-                                fit: BoxFit.fill,
-                                colorFilter: ColorFilter.mode(
-                                    Colors.white.withOpacity(0.1),
-                                    BlendMode.darken)
+                          VocsyEpub.open(
+                            filePath,
+                            lastLocation: EpubLocator.fromJson({
+                              "bookId": "2239",
+                              "href": "/OEBPS/ch06.xhtml",
+                              "created": 1539934158390,
+                              "locations": {
+                                "cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"
+                              }
+                            }),
+                          );
+                          // get current locator
+                          VocsyEpub.locatorStream.listen((locator) {
+                            print(
+                                'LOCATOR: ${EpubLocator.fromJson(jsonDecode(locator))}');
+                          });
+                        },
+                        child: Center(
+                          child: Column(children: <Widget>[
+                            Container(
+                              padding: EdgeInsets.only(top: 30),
+                              child: Text(
+                                'Pay to Dowload',
+                                style: TextStyle(
+                                    fontSize: 30, color: Colors.deepPurple),
+                              ),
+                            ),
+                            Container(
+                                // padding: EdgeInsets.only(left: 20.0,right: 20.0, top: 30, bottom: 30),
+                                height: 400,
+                                width: 300,
+                                decoration: BoxDecoration(
+                                    shape: BoxShape.rectangle,
+                                    image: DecorationImage(
+                                        image: AssetImage("assets/cpver.jpg"),
+                                        fit: BoxFit.fill,
+                                        colorFilter: ColorFilter.mode(
+                                            Colors.white.withOpacity(0.1),
+                                            BlendMode.darken)
 
-                                //child: Icon(Icons.auto_stories,size: 200,),
+                                        //child: Icon(Icons.auto_stories,size: 200,),
 
-                                //  width: 300,
-                                ))),
-                  ]),
-                ),
-              ),
+                                        //  width: 300,
+                                        ))),
+                          ]),
+                        ),
+                      );
+              });
+        }),
       ),
     );
   }
 
-  Future downloadFile() async {
-    print('download1');
-    //Map<PermissionGroup, PermissionStatus> permissions = await PermissionHandler().requestPermissions([PermissionGroup.storage]);
+  JavascriptChannel _toasterJavascriptChannel(BuildContext context) {
+    return JavascriptChannel(
+        name: 'Toaster',
+        onMessageReceived: (JavascriptMessage message) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text(message.message)),
+          );
+        });
+  }
 
-    // if (await Permission.storage.isGranted) {
-    //   await Permission.storage.request();
-    //   await startDownload();
-    // } else {
-    //   await startDownload();
-    //  }
-    //}
+  Future downloadFile() async {
+    if (await Permission.storage.isGranted) {
+      await Permission.storage.request();
+      await startDownload();
+    } else {
+      await startDownload();
+    }
+  }
+
+  startDownload() async {
+    Directory appDocDir = Platform.isAndroid
+        ? await getExternalStorageDirectory()
+        : await getApplicationDocumentsDirectory();
+
+    String path = appDocDir.path + '/chair.epub';
+    File file = File(path);
+
+    if (!File(path).existsSync()) {
+      await file.create();
+      await dio.download(
+        "http://rchapp.soparkids.org/ebook/2023.epub",
+        path,
+        deleteOnError: true,
+        onReceiveProgress: (receivedBytes, totalBytes) {
+          print((receivedBytes / totalBytes * 100).toStringAsFixed(0));
+          setState(() {
+            loading = true;
+          });
+        },
+      ).whenComplete(() {
+        setState(() {
+          loading = false;
+          filePath = path;
+        });
+      });
+    } else {
+      setState(() {
+        loading = false;
+        filePath = path;
+      });
+    }
   }
 }

@@ -52,7 +52,7 @@ class _Moments extends State<Moments> {
                               backgroundColor: Colors.white,
 
                           child: Text(
-                            rch?.data()['year'],
+                            rch['year'],
                             textAlign: TextAlign.center,
                             style: TextStyle(color: Colors.black),
                            ),
@@ -60,7 +60,7 @@ class _Moments extends State<Moments> {
                           maxRadius: 32,
                         ),
                         title: Text(
-                          rch?.data()['month'],
+                          rch['month'],
                           style: TextStyle(fontSize: 17.5,color: Colors.white),
                         ),
                         children: [
@@ -74,7 +74,7 @@ class _Moments extends State<Moments> {
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 16.0, vertical: 10.0),
                                 child: Text(
-                                  rch?.data()['event'],
+                                  rch['event'],
                                   style: TextStyle(fontSize: 18),
                                 ),
                               )),

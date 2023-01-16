@@ -51,12 +51,12 @@ class _RchAppState extends State<RchApp> {
                     elevation: 5.0,
                     child: ListTile(
                       leading: CircleAvatar(
-                        child: Text(rch.data()['c0_id']),
+                        child: Text(rch['c0_id']),
                       ),
-                      title: Text(rch.data()['c1title']),
+                      title: Text(rch['c1title']),
                       isThreeLine: true,
                       subtitle: Text(
-                        rch.data()['c4lyrics'],
+                        rch['c4lyrics'],
                         maxLines: 5,
                         overflow: TextOverflow.ellipsis,
                       ),
@@ -65,7 +65,7 @@ class _RchAppState extends State<RchApp> {
                           context,
                           MaterialPageRoute(
                             builder: (BuildContext context) => HymnDetail(
-                                rch.data()['c0_id'], rch.data()['c4lyrics']),
+                                rch['c0_id'], rch['c4lyrics']),
                           ),
                         );
                       },

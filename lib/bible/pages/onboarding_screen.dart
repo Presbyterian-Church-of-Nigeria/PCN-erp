@@ -32,9 +32,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         padding: EdgeInsets.only(bottom: 80),
         child: PageView(
           controller: controller,
-          onPageChanged: (Index) {
+          onPageChanged: (index) {
             setState(() {
-              isLastPage = Index == 2;
+              isLastPage = index == 2;
             });
           },
           children: [
@@ -63,10 +63,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       bottomSheet: isLastPage
           ? TextButton(
               style: TextButton.styleFrom(
-                shape: RoundedRectangleBorder(
+                foregroundColor: Colors.white, shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5),
                 ),
-                primary: Colors.white,
                 backgroundColor: Colors.deepPurple,
                 minimumSize: Size.fromHeight(80),
               ),
@@ -110,7 +109,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           spacing: 16,
                           dotColor: Colors.black26,
                           activeDotColor: Colors.deepPurple),
-                      onDotClicked: (Index) => controller.animateToPage(Index,
+                      onDotClicked: (index) => controller.animateToPage(index,
                           duration: Duration(milliseconds: 500),
                           curve: Curves.easeIn),
                     ),
