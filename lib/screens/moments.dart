@@ -42,6 +42,7 @@ class _Moments extends State<Moments> {
                   itemBuilder: (context, index) {
                     DocumentSnapshot rch = messages[index];
                     return Container(
+
                       
                       child: ExpansionTileCard(
                         elevation: 5.0,

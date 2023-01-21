@@ -14,8 +14,8 @@ class DateDetail extends StatelessWidget {
   final String activity2;
   final String activity3;
   final String week;
-  DateDetail(this.date, this.activity, this.date1, this.activity1, this.date2,
-      this.activity2, this.date3, this.activity3, this.week);
+  DateDetail(this.date, this.activity, this.date2,
+      this.activity2, this.date3, this.activity3, this.week, this.date1, this.activity1);
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class DateDetail extends StatelessWidget {
       appBar: AppBar(
           backgroundColor: Colors.deepPurple.withOpacity(0.7),
           title: Text(
-            "Week " +  ('week'),
+            "Week " +  this?.week,
             style: TextStyle(
               fontFamily: 'Montserrat',
             ),
@@ -41,7 +41,9 @@ class DateDetail extends StatelessWidget {
                     Container(
                       padding: EdgeInsets.only(top: 3.0, bottom: 1.0),
                       child: Text(
-                        this?.date,
+                        this?.date ?? '',
+                        //data().get('date'),
+                        //this?.data().toString().contains('date') ? .get('date') : '',
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             color: Colors.black,

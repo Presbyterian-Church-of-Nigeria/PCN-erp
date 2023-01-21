@@ -131,11 +131,11 @@ class _Thanks extends State<Thanks> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: EasyRichText(
-              "His Eminence Nzie Nsi Eke  \n Prelate & General Assembly Moderator Of The Presbyterian Church Of Nigeria",
+              "His Eminence Rev Dr Ekpenyong Akpanika  \n Prelate & General Assembly Moderator Of The Presbyterian Church Of Nigeria",
               textAlign: TextAlign.center,
               patternList: [
                 EasyRichTextPattern(
-                  targetString: 'His Eminence Nzie Nsi Eke',
+                  targetString: 'His Eminence Rev Dr Ekpenyong Akpanika',
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontFamily: 'Montserrat',
@@ -181,11 +181,11 @@ class _Thanks extends State<Thanks> {
           Container(
             padding: EdgeInsets.only(top: spacer),
             child: EasyRichText(
-              "Rt Rev Solomon Okoro  \n Deputy Clerk Of The General Assembly Of The Presbyterian Church Of Nigeria",
+              "Rt. Rev. Aniefiok Victor Ekop  \n Deputy Clerk Of The General Assembly Of The Presbyterian Church Of Nigeria",
               textAlign: TextAlign.center,
               patternList: [
                 EasyRichTextPattern(
-                  targetString: 'Rt Rev Solomon Okoro',
+                  targetString: 'Rt. Rev. Aniefiok Victor Ekop',
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontFamily: 'Montserrat',

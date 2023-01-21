@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:pcn_erp/nav/nav.dart';
 import 'package:pcn_erp/screens/reserved_dates.dart/date_details.dart';
+
 //void main() async {
 // runApp(MyApp());
 //}
@@ -49,7 +50,7 @@ class _Almanc extends State<Almanc> {
                     DocumentSnapshot rch = messages[index];
                     return Container(
                         child: Card(
-                          
+
                           color: Colors.deepPurple.shade400,
                       elevation: 5.0,
                       child: ListTile(
@@ -72,15 +73,15 @@ class _Almanc extends State<Almanc> {
                             context,
                             MaterialPageRoute(
                               builder: (BuildContext context) => DateDetail(
-                                  rch.get('date'),
-                                  rch.get('activity'),
-                                  rch.get('date1'),
-                                  rch.get('activity1'),
-                                  rch.get('date2'),
-                                  rch.get('activity2'),
-                                  rch.get('date3'),
-                                  rch.get('activity3'),
-                                  rch.get('week')),
+                                  rch["date"],
+                                  rch['activity'],
+                                  rch['date1'],
+                                  rch['activity1'],
+                                  rch['date2'],
+                                  rch['activity2'],
+                                  rch['date3'],
+                                  rch['activity3'],
+                                  rch['week']),
                             ),
                           );
                         },
