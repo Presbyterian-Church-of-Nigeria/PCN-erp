@@ -14,7 +14,7 @@ import 'package:pcn_erp/util/first_half.dart';
 import 'package:pcn_erp/util/second_half.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key key}) : super(key: key);
+  const HomePage({ Key key}) : super(key: key);
 
   @override
   State<HomePage> createState() => _HomePageState();

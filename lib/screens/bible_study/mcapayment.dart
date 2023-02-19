@@ -2,47 +2,44 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_paystack/flutter_paystack.dart';
-import 'package:pcn_erp/screens/bible_study/bible_study.dart';
+import 'package:pcn_erp/screens/bible_study/mca_bible_study.dart';
 import 'package:pcn_erp/util/button.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class PaystackCardMethod extends StatefulWidget {
+class PaystackCard extends StatefulWidget {
   @override
-  _PaystackCardMethodState createState() => _PaystackCardMethodState();
+  _PaystackCardState createState() => _PaystackCardState();
 }
 
-class _PaystackCardMethodState extends State<PaystackCardMethod> {
+class _PaystackCardState extends State<PaystackCard> {
   String publicKeyTest =
-      'pk_live_06994bfab880b4cebe0561662a624c0a2066dd04';         //pass in the public test key obtained from paystack dashboard here
+      'pk_live_06994bfab880b4cebe0561662a624c0a2066dd04'; //pass in the public test key obtained from paystack dashboard here
 
   var _customerEmailController = TextEditingController();
   var _customerNameController = TextEditingController();
 
   final plugin = PaystackPlugin();
-          bool _paymentMade = false;
-
+  bool _paymentMca = false;
 
   @override
   void initState() {
     //initialize the publicKey
     plugin.initialize(publicKey: publicKeyTest);
     super.initState();
-     // Check if the payment has already been made
-   
-  _checkPaymentStatus().then((paymentMade) {
+    // Check if the payment has already been made
+
+    _checkPaymentStatus1().then((paymentMca) {
       setState(() {
-        _paymentMade = paymentMade;
+        _paymentMca = paymentMca;
       });
     });
   }
 
-  Future<bool> _checkPaymentStatus() async {
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-  bool paymentMade = prefs.getBool('paymentMade') ?? false;
-  return paymentMade;
+  Future<bool> _checkPaymentStatus1() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    bool paymentMca = prefs.getBool('paymentMca') ?? false;
+    return paymentMca;
   }
-
-
 
   //a method to show the message
   void _showMessage(String message) {
@@ -64,7 +61,7 @@ class _PaystackCardMethodState extends State<PaystackCardMethod> {
           100 //the money should be in kobo hence the need to multiply the value by 100
       ..reference = _getReference()
       ..putCustomField('custom_id',
-          'Biblestudy2023') //to pass extra parameters to be retrieved on the response from Paystack
+          'Mcabible2023') //to pass extra parameters to be retrieved on the response from Paystack
       ..email = _customerEmailController.text
       ..name = _customerNameController.text;
 
@@ -77,19 +74,17 @@ class _PaystackCardMethodState extends State<PaystackCardMethod> {
     //check if the response is true or not
     if (response.status == true) {
       _showMessage('Payment was successful!!!');
-       setState(() {
-      _paymentMade = true;
-    });
-      
-  SharedPreferences.getInstance().then((prefs) {
-    prefs.setBool('paymentMade', true);
-  });
-    Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => BibleStudy()),
-    );
-      
-      
+      setState(() {
+        _paymentMca = true;
+      });
+
+      SharedPreferences.getInstance().then((prefs) {
+        prefs.setBool('paymentMca', true);
+      });
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => McaBibleStudy()),
+      );
     } else {
       //the payment wasn't successsful or the user cancelled the payment
       _showMessage('Payment Failed!!!');
@@ -98,14 +93,14 @@ class _PaystackCardMethodState extends State<PaystackCardMethod> {
 
   @override
   Widget build(BuildContext context) {
-        if (_paymentMade) {
-      return BibleStudy();
+    if (_paymentMca) {
+      return McaBibleStudy();
     }
 
     return Scaffold(
         appBar: AppBar(
           title: Text(
-            "Bible Study 2023",
+            "MCA Bible Study 2023 ",
           ),
           centerTitle: true,
           elevation: 0.0,
@@ -118,7 +113,7 @@ class _PaystackCardMethodState extends State<PaystackCardMethod> {
                     height: 25,
                   ),
                   Container(
-                    height: 80,
+                    height: 90,
                     width: MediaQuery.of(context).size.width,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
@@ -126,7 +121,7 @@ class _PaystackCardMethodState extends State<PaystackCardMethod> {
                     ),
                     child: Column(
                       children: <Widget>[
-                        // master card like logo
+                        // master card lik logo
                         Container(
                             width: 50,
                             height: 50,
@@ -135,13 +130,12 @@ class _PaystackCardMethodState extends State<PaystackCardMethod> {
                                 shape: BoxShape.circle,
                                 image: DecorationImage(
                                     image: AssetImage(
-                                  'assets/cpver.jpg',
-                                )))
-                                ),
-                             Text(
-                          "Annual Subsriciption for Bibile Study ₦100",
-                             style: TextStyle(color: Colors.white),)
-
+                                  'assets/cover1.jpg',
+                                )))),
+                        Text(
+                          "Annual Subsriciption for MCA Bibile Study ₦100",
+                          style: TextStyle(color: Colors.white),
+                        )
                       ],
                     ),
                   ),
@@ -152,7 +146,7 @@ class _PaystackCardMethodState extends State<PaystackCardMethod> {
                     controller: _customerNameController,
                     decoration: InputDecoration(
                       labelText: 'Full Name',
-                      hintText: 'Victor Ken',
+                      hintText: 'Grace Peace',
                       hintStyle: TextStyle(fontSize: 14),
                       labelStyle: TextStyle(fontSize: 14),
                       border: OutlineInputBorder(),
@@ -165,8 +159,8 @@ class _PaystackCardMethodState extends State<PaystackCardMethod> {
                   TextFormField(
                     controller: _customerEmailController,
                     decoration: InputDecoration(
-                      labelText: 'Yours Email',
-                      hintText: 'youremail@mail.com',
+                      labelText: 'Your Email',
+                      hintText: 'youraddress@email.com',
                       hintStyle: TextStyle(fontSize: 14),
                       labelStyle: TextStyle(fontSize: 14),
                       border: OutlineInputBorder(),

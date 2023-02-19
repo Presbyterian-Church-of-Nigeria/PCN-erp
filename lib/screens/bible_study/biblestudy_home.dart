@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 //import 'package:flutter/widgets.dart';
 import 'package:pcn_erp/nav/nav.dart';
-import 'package:pcn_erp/screens/bible_study/mca_bible_study.dart';
+import 'package:pcn_erp/screens/bible_study/mcapayment.dart';
 import 'package:pcn_erp/screens/bible_study/paymentpage.dart';
-//import 'package:pcn_erp/screens/bible_study/paymentpage.dart';
 
 class BibleStudyHome extends StatefulWidget {
   //const BibleStudyHome({ Key key}) : super(key: key);
@@ -33,7 +32,7 @@ class _BibleStudyHome extends State<BibleStudyHome> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) =>  PayUser() ));
+                              builder: (context) => PaystackCardMethod() ));
                                   //BibleStudy()));
                     },
                     child: Container(
@@ -70,7 +69,7 @@ class _BibleStudyHome extends State<BibleStudyHome> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => McaBibleStudy()));
+                              builder: (context) => PaystackCard()));
                     },
                     child: Container(
                       decoration: BoxDecoration(

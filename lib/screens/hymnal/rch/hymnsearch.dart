@@ -45,11 +45,10 @@ class HymnSearchDelegate extends SearchDelegate {
     }
 
     //HymnManager manager = HymnManager();
-    return StreamBuilder<QuerySnapshot>(
-        stream: FirebaseFirestore.instance
-            .collection("rch")
-            .snapshots()
-            .asBroadcastStream(),
+    return FutureBuilder<QuerySnapshot>(
+        future: FirebaseFirestore.instance
+            .collection("rch").get(),
+           // .asBroadcastStream(),
         builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
           if (!snapshot.hasData) {
             return CircularProgressIndicator();

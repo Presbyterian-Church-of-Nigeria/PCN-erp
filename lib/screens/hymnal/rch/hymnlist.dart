@@ -30,12 +30,10 @@ class _RchAppState extends State<RchApp> {
           ],
         ),
         drawer: Navbar(),
-        body: StreamBuilder<QuerySnapshot>(
-            stream: FirebaseFirestore.instance
-                .collection("rch")
-                .snapshots()
-                .asBroadcastStream(),
-            builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
+        body: FutureBuilder<QuerySnapshot>(
+            future: FirebaseFirestore.instance
+                .collection("rch").get(),
+                builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
               if (snapshot.data == null) {
                 return Center(child: CircularProgressIndicator());
               }

@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 class PayButton extends StatelessWidget {
-  const PayButton({this.callback, MaterialAccentColor color, Color textColor, String text, int fontSize, int height});
+  const PayButton({this.callback});
 
   final VoidCallback callback;
 
@@ -26,7 +26,7 @@ class PayButton extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  'Pay Now!!!',
+                  'Pay ₦100',
                   style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
@@ -40,4 +40,3 @@ class PayButton extends StatelessWidget {
     );
   }
 }
-

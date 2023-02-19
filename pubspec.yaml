@@ -1,5 +1,5 @@
 name: pcn_erp
-description: A new Flutter project.
+description: A PCN Flutter project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -15,7 +15,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 3.3.5+104
+version: 3.5.7+106
 
 environment:
   sdk: ">=2.10.0 <3.0.0"
@@ -35,9 +35,8 @@ dependencies:
   easy_rich_text: ^1.1.0
   device_info: ^0.4.0+4
   path_provider: ^2.0.11
-  webview_flutter: ^3.0.1
+  webview_flutter: ^3.0.4
   http: ^0.13.3
-
   webview_flutter_plus: ^0.3.0+2
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -45,6 +44,8 @@ dependencies:
   smooth_page_indicator: ^1.0.0+2
   shared_preferences: ^2.0.15
   cloud_firestore: ^4.1.0
+
+  http_auth: ^1.0.1
   photo_view:
   font_awesome_flutter: ^10.1.0
   cloud_firestore_web: ^3.1.0
@@ -55,7 +56,7 @@ dependencies:
 
   vocsy_epub_viewer: ^1.0.1
   theme_provider: ^0.5.0
-
+  flutter_paystack: ^1.0.4+1
   permission_handler: ^10.2.0
   dio: ^4.0.6
 
@@ -64,6 +65,7 @@ dependencies:
   moor_flutter: ^4.1.0
   firebase_auth: ^4.2.4
   firebase_ui_auth: ^1.1.6
+  flutter_inappwebview: ^5.7.2+3
 
 flutter_native_splash:
   color: "#ffffff"
@@ -106,7 +108,6 @@ flutter:
     - assets/cpver.jpg
     - assets/aids.jpeg
     - assets/mcalogo.png
-    - assets/royalph.png
     - assets/mcapcn.jpg
     - assets/pcnlocation.jpg
     - assets/93.jpg

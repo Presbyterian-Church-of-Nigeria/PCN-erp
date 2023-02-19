@@ -35,7 +35,7 @@ class _McaBibleStudy extends State<McaBibleStudy> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurple.withOpacity(0.7),
-        title: const Text('MCA Bible Study 2022'),
+        title: const Text('MCA Bible Study 2023'),
       ),
       body: Center(
         child: loading
