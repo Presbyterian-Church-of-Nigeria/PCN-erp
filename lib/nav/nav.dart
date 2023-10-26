@@ -10,7 +10,7 @@ import 'package:pcn_erp/screens/homepage.dart';
 import 'package:pcn_erp/screens/hymnal/hymn_home.dart';
 import 'package:pcn_erp/screens/pnp.dart';
 import 'package:pcn_erp/screens/thankpage.dart';
-import 'package:share/share.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:pcn_erp/bible/utils/navigator.dart';
 
 class Navbar extends StatefulWidget {
@@ -40,7 +40,7 @@ class _NavbarState extends State<Navbar> {
             color: Colors.deepPurple,),
             onTap: () {
               Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => HomePage()));
+                  context, MaterialPageRoute(builder: (context) => HomePage(key: Key('homePageKey'),)));
             }),
         ListTile(
           title: Text("Church Leadership"),
@@ -57,7 +57,7 @@ class _NavbarState extends State<Navbar> {
             leading: Icon(Icons.music_note_outlined, color: Colors.deepPurple,),
             onTap: () {
               Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => HymnPage()));
+                  context, MaterialPageRoute(builder: (context) => HymnPage(key: Key('hymnPage'),)));
               // _displayLanguagesPage(context);
             }),
         ListTile(
@@ -125,12 +125,21 @@ class _NavbarState extends State<Navbar> {
 
 _onShareClick(BuildContext context) {
   Navigator.pop(context);
-  final text = "I am Using PCN erp app "
-      "Download it !\n"
-      "https://play.google.com/store/apps/details?id=com.pcn_erp.main";
-  final RenderBox box = context.findRenderObject();
-  Share.share(
-    text,
-    sharePositionOrigin: box.localToGlobal(Offset.zero) & box.size,
-  );
+
+  // Ensure that the context has a render box
+  final RenderBox? box = context.findRenderObject() as RenderBox?;
+
+  if (box != null) {
+    final text = "I am Using PCN erp app "
+        "Download it !\n"
+        "https://play.google.com/store/apps/details?id=com.pcn_erp.main";
+
+    Share.share(
+      text,
+      sharePositionOrigin: box.localToGlobal(Offset.zero) & box.size,
+    );
+  } else {
+    // Handle the case where context does not have a render box
+    print("Error: Context does not have a RenderBox");
+  }
 }

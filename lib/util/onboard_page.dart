@@ -1,6 +1,5 @@
 //import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-//import 'package:flutter/src/foundation/key.dart';
 
 class OnboardPage extends StatelessWidget {
   final String pageText;
@@ -9,10 +8,10 @@ class OnboardPage extends StatelessWidget {
   final String imagePath;
 
   OnboardPage({
-    this.pageText,
-    this.pageColor,
-    this.pageSubTitle,
-    this.imagePath,
+    required this.pageText,
+    required this.pageColor,
+    required this.pageSubTitle,
+    required this.imagePath,
   });
 
   @override

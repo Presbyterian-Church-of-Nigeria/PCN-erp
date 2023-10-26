@@ -11,10 +11,10 @@ import 'package:pcn_erp/screens/hymnal/hymn_home.dart';
 import 'package:pcn_erp/screens/pnp.dart';
 import 'package:pcn_erp/screens/reserved_dates.dart/almanc.dart';
 import 'package:pcn_erp/screens/thankpage.dart';
-import 'package:share/share.dart';
+import 'package:share_plus/share_plus.dart';
 
 class MyDrawer extends StatefulWidget {
-  const MyDrawer({Key key}) : super(key: key);
+  const MyDrawer({required Key key}) : super(key: key);
 
   @override
   State<MyDrawer> createState() => _MyDrawerState();
@@ -44,7 +44,7 @@ class _MyDrawerState extends State<MyDrawer> {
                 leading: Icon(Icons.home),
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => HomePage()));
+                      MaterialPageRoute(builder: (context) => HomePage(key: Key('homePageKey'),)));
                 }),
             ListTile(
               title: Text("Church Leadership"),
@@ -61,7 +61,7 @@ class _MyDrawerState extends State<MyDrawer> {
                 leading: Icon(Icons.menu_book),
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => HymnPage()));
+                      MaterialPageRoute(builder: (context) => HymnPage(key: Key('hymnPage'),)));
                   // _displayLanguagesPage(context);
                 }),
             ListTile(
@@ -129,12 +129,22 @@ class _MyDrawerState extends State<MyDrawer> {
 
 _onShareClick(BuildContext context) {
   Navigator.pop(context);
-  final text = "I am Using PCN erp app "
-      "Download it !\n"
-      "https://play.google.com/store/apps/details?id=com.pcn_erp.main";
-  final RenderBox box = context.findRenderObject();
-  Share.share(
-    text,
-    sharePositionOrigin: box.localToGlobal(Offset.zero) & box.size,
-  );
+
+  // Ensure that the context has a render box
+  final RenderBox? box = context.findRenderObject() as RenderBox?;
+
+  if (box != null) {
+    final text = "I am Using PCN erp app "
+        "Download it !\n"
+        "https://play.google.com/store/apps/details?id=com.pcn_erp.main";
+
+    Share.share(
+      text,
+      sharePositionOrigin: box.localToGlobal(Offset.zero) & box.size,
+    );
+  } else {
+    // Handle the case where context does not have a render box
+    print("Error: Context does not have a RenderBox");
+  }
 }
+

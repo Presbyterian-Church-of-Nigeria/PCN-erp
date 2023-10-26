@@ -7,7 +7,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Parish {
   
-  FirebaseFirestore _instance;
+  late FirebaseFirestore _instance;
   List<Parish> _parishes =[];
   List<Parish> getParish(){
     return _parishes;

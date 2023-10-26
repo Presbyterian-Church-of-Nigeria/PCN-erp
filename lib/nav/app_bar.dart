@@ -34,7 +34,7 @@ class _AppBaState extends State<AppBa> {
                     image: AssetImage('assets/royalph.png'),
                     fit: BoxFit.fill,
                     colorFilter: ColorFilter.mode(
-                        Colors.blue[100].withOpacity(0.8),
+                        Colors.blue[100]!.withOpacity(0.8),
                         BlendMode.darken))),
           )),
       backgroundColor: Colors.transparent,

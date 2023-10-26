@@ -13,7 +13,7 @@ import 'package:pcn_erp/screens/pnp.dart';
 import 'package:pcn_erp/screens/reserved_dates.dart/almanc.dart';
 
 class SecondHalf extends StatelessWidget {
-  const SecondHalf({Key key}) : super(key: key);
+  const SecondHalf({required Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -76,7 +76,7 @@ class SecondHalf extends StatelessWidget {
               InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => HymnPage()));
+                      MaterialPageRoute(builder: (context) => HymnPage(key: Key('hymnPage'),)));
                 },
                 child: Container(
                   height: 70,

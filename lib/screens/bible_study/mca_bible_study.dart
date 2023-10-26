@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:vocsy_epub_viewer/epub_viewer.dart';
 
 import 'package:dio/dio.dart';
-import 'package:epub_viewer/epub_viewer.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 
@@ -49,7 +49,7 @@ class _McaBibleStudy extends State<McaBibleStudy> {
                   String iosBookPath = '${appDocDir.path}/mca.epub';
                   print(iosBookPath);
                   //String androidBookPath = 'file:///android_asset/mca.epub';
-                  EpubViewer.setConfig(
+                  VocsyEpub.setConfig(
                       themeColor: Theme.of(context).primaryColor,
                       identifier: "iosBook",
                       scrollDirection: EpubScrollDirection.VERTICAL,
@@ -68,7 +68,7 @@ class _McaBibleStudy extends State<McaBibleStudy> {
 //                      }),
 //                    );
 
-                  await EpubViewer.openAsset(
+                  await VocsyEpub.openAsset(
                     'assets/mca.epub',
                     lastLocation: EpubLocator.fromJson({
                       "bookId": "2239",
@@ -80,7 +80,7 @@ class _McaBibleStudy extends State<McaBibleStudy> {
                     }),
                   );
                   // get current locator
-                  EpubViewer.locatorStream.listen((locator) {
+                  VocsyEpub.locatorStream.listen((locator) {
                     print(
                         'LOCATOR: ${EpubLocator.fromJson(jsonDecode(locator))}');
                   });

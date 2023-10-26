@@ -31,12 +31,12 @@ class _Parish extends State<Parish> {
               if (!snapshot.hasData) {
                 return Center(child: CircularProgressIndicator());
               } else {
-                var messages = snapshot.data.docs;
+                var messages = snapshot.data?.docs;
                // Map<String, dynamic> messages = snapshot.data.docs as Map<String, dynamic>;
 
                 return ListView.separated(
                   padding: EdgeInsets.symmetric(horizontal: 9.0, vertical: 9.0),
-                  itemCount: messages.length,
+                  itemCount: messages!.length,
                   separatorBuilder: (context, index) => Divider(),
                   itemBuilder: (context, index) {
                     //DocumentSnapshot rch = messages[index];

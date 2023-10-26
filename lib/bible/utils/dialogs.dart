@@ -8,8 +8,7 @@ import 'package:pcn_erp/bible/models/favorite.dart';
 import 'package:pcn_erp/bible/models/verse.dart';
 import 'package:pcn_erp/bible/services/favorites_bloc.dart';
 import 'package:pcn_erp/bible/utils/text_utils.dart';
-import 'package:share/share.dart';
-
+import 'package:share_plus/share_plus.dart';
 import 'constants.dart';
 
 bottomSheetSaved(context, FavoritesBloc bloc, Favorite favorite, Book book) {
@@ -135,10 +134,10 @@ _shareButton(context, Verse verse) {
       onPressed: () {
         Navigator.pop(context);
         final text = "${cleanVerse(verse.verseTxt)} \n${verse.reference()}";
-        final RenderBox box = context.findRenderObject();
+        final RenderObject? box = context.findRenderObject();
         Share.share(
           text,
-          sharePositionOrigin: box.localToGlobal(Offset.zero) & box.size,
+          sharePositionOrigin: box?.localToGlobal(Offset.zero) & box.size,
         );
       },
     );

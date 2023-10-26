@@ -5,7 +5,7 @@ import 'package:pcn_erp/screens/hymnal/effik/effik.dart';
 import 'package:pcn_erp/screens/hymnal/rch/hymnlist.dart';
 
 class HymnPage extends StatefulWidget {
-  const HymnPage({Key key}) : super(key: key);
+  const HymnPage({required Key key}) : super(key: key);
 
   @override
   _HymnPageState createState() => _HymnPageState();

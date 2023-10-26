@@ -5,7 +5,7 @@ import 'package:pcn_erp/ref/event_card.dart';
 import 'package:pcn_erp/ref/sermon_card.dart';
 
 class FirstHalf extends StatefulWidget {
-  const FirstHalf({Key key}) : super(key: key);
+  const FirstHalf({required Key key}) : super(key: key);
 
   @override
   State<FirstHalf> createState() => _FirstHalfState();

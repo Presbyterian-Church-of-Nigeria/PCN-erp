@@ -39,10 +39,10 @@ class _RchAppState extends State<RchApp> {
               if (snapshot.data == null) {
                 return Center(child: CircularProgressIndicator());
               }
-              var messages = snapshot.data.docs;
+              var messages = snapshot.data?.docs;
               return ListView.separated(
                 padding: EdgeInsets.symmetric(horizontal: 9.0, vertical: 9.0),
-                itemCount: messages.length,
+                itemCount: messages!.length,
                 separatorBuilder: (context, index) => Divider(),
                 itemBuilder: (context, index) {
                   DocumentSnapshot rch = messages[index];
@@ -51,12 +51,12 @@ class _RchAppState extends State<RchApp> {
                     elevation: 5.0,
                     child: ListTile(
                       leading: CircleAvatar(
-                        child: Text(rch.data()['c0_id']),
+                        child: Text((rch.data() as Map<String, dynamic>)['c0_id']?.toString() ?? ''),
                       ),
-                      title: Text(rch.data()['c1title']),
+                      title: Text((rch.data() as Map<String,dynamic>)['c1title']?.toString() ?? ''),
                       isThreeLine: true,
                       subtitle: Text(
-                        rch.data()['c4lyrics'],
+                          (rch.data() as Map<String, dynamic>)['c4lyrics']?.toString() ?? '',
                         maxLines: 5,
                         overflow: TextOverflow.ellipsis,
                       ),
@@ -65,7 +65,7 @@ class _RchAppState extends State<RchApp> {
                           context,
                           MaterialPageRoute(
                             builder: (BuildContext context) => HymnDetail(
-                                rch.data()['c0_id'], rch.data()['c4lyrics']),
+                                (rch.data() as Map<String, dynamic>)['c0_id']?.toString() ?? '', (rch.data() as Map<String, dynamic>)['c4lyrics']?.toString() ?? ''),
                           ),
                         );
                       },

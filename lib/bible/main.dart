@@ -23,9 +23,9 @@ class _MyBibleState extends State<MyBible> {
         canvasColor: Colors.white,
         fontFamily: 'Montserrat-Regular',
         textTheme: TextTheme(
-          headline1: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
-          headline6: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
-          bodyText2:
+          displayLarge: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
+          titleLarge: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
+          bodyMedium:
               TextStyle(fontSize: 15.0, fontFamily: 'Montserrat-Regular'),
         ),
       ),

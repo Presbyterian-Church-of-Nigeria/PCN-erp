@@ -40,10 +40,10 @@ class _Almanc extends State<Almanc> {
               if (!snapshot.hasData) {
                 return Center(child: CircularProgressIndicator());
               } else {
-                var messages = snapshot.data.docs;
+                var messages = snapshot.data?.docs;
                 return ListView.separated(
                   padding: EdgeInsets.symmetric(horizontal: 9.0, vertical: 9.0),
-                  itemCount: messages.length,
+                  itemCount: messages!.length,
                   separatorBuilder: (context, index) => Divider(),
                   itemBuilder: (context, index) {
                     DocumentSnapshot rch = messages[index];
@@ -55,7 +55,8 @@ class _Almanc extends State<Almanc> {
                       child: ListTile(
                         leading: CircleAvatar(
                           backgroundColor: Colors.white,
-                          child: Text("Week" + rch?.data()['week'],style: TextStyle(color: Colors.black),),
+                          child: Text("Week" + (rch?.data() as Map<String, dynamic>)?['week'] ?? '',
+                            style: TextStyle(color: Colors.black),),
                           maxRadius: 42,
                         ),
                         title: Text(
@@ -72,15 +73,15 @@ class _Almanc extends State<Almanc> {
                             context,
                             MaterialPageRoute(
                               builder: (BuildContext context) => DateDetail(
-                                  rch.data()['date'],
-                                  rch.data()['activity'],
-                                  rch.data()['date1'],
-                                  rch.data()['activity1'],
-                                  rch.data()['date2'],
-                                  rch.data()['activity2'],
-                                  rch.data()['date3'],
-                                  rch.data()['activity3'],
-                                  rch.data()['week']),
+                                  (rch.data() as Map<String, dynamic>)?['date']?.toString() ?? '',
+                                  (rch.data() as Map<String, dynamic>)?['activity']?.toString() ?? '',
+                                  (rch.data() as Map<String, dynamic>)?['date1']?.toString()?? '',
+                                  (rch.data() as Map<String, dynamic>)?['activity1']?.toString()?? '',
+                                  (rch.data() as Map<String, dynamic>)?['date2']?.toString()?? '',
+                                  (rch.data() as Map<String, dynamic>)?['activity2']?.toString() ?? '',
+                                  (rch.data() as Map<String, dynamic>)?['date3']?.toString() ?? '',
+                                  (rch.data() as Map<String, dynamic>)?['activity3']?.toString() ?? '',
+                                  (rch.data() as Map<String, dynamic>)?['week']?.toString()?? ''),
                             ),
                           );
                         },

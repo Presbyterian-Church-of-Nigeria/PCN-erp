@@ -8,8 +8,8 @@ class MySermonCard extends StatelessWidget {
   final sermonImage;
 
   MySermonCard({
-    this.sermonDetails,
-    this.sermonPriest, this.sermonImage,
+    required this.sermonDetails,
+    required this.sermonPriest, this.sermonImage,
   });
 
   @override

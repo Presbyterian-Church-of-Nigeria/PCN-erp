@@ -15,12 +15,12 @@ class Parish {
     Parish(
 
    {
-     this.address,
-     this.minister,
-     this.parish,
+     required this.address,
+     required this.minister,
+     required this.parish,
      //this.session_clerk,
-      this.synod,
-      this.town
+      required this.synod,
+      required this.town
 
     }
         );

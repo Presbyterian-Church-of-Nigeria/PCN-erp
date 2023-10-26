@@ -9,7 +9,7 @@ class EfikHymn extends StatefulWidget {
 
 class _EfikHymn extends State<EfikHymn> {
   final GlobalKey<SfPdfViewerState> _pdfViewerKey = GlobalKey();
-   PdfViewerController _pdfViewerController;
+   late PdfViewerController _pdfViewerController;
 
   @override
   void initState() {
@@ -17,7 +17,7 @@ class _EfikHymn extends State<EfikHymn> {
     super.initState();
   }
 
-   PdfTextSearchResult _searchResult;
+   late PdfTextSearchResult _searchResult;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,7 +46,7 @@ class _EfikHymn extends State<EfikHymn> {
             //},
             // ),
             Visibility(
-              visible: _searchResult?.hasResult ?? false,
+              visible: _searchResult.hasResult ,
               child: IconButton(
                 icon: Icon(
                   Icons.clear,
@@ -60,26 +60,26 @@ class _EfikHymn extends State<EfikHymn> {
               ),
             ),
             Visibility(
-              visible: _searchResult?.hasResult ?? false,
+              visible: _searchResult.hasResult,
               child: IconButton(
                 icon: Icon(
                   Icons.keyboard_arrow_up,
                   color: Colors.white,
                 ),
                 onPressed: () {
-                  _searchResult?.previousInstance();
+                  _searchResult.previousInstance();
                 },
               ),
             ),
             Visibility(
-              visible: _searchResult?.hasResult ?? false,
+              visible: _searchResult.hasResult ,
               child: IconButton(
                 icon: Icon(
                   Icons.keyboard_arrow_down,
                   color: Colors.white,
                 ),
                 onPressed: () {
-                  _searchResult?.nextInstance();
+                  _searchResult.nextInstance();
                 },
               ),
             ),
@@ -88,6 +88,6 @@ class _EfikHymn extends State<EfikHymn> {
         body: SfPdfViewer.asset('assets/pdf/efik-hymn.pdf',
             key: _pdfViewerKey,
             controller: _pdfViewerController,
-            searchTextHighlightColor: Colors.yellow));
+        ));
   }
 }

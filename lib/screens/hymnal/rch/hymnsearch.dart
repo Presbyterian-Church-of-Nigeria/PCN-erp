@@ -60,7 +60,7 @@ class HymnSearchDelegate extends SearchDelegate {
 
             return ListView(
               children: [
-                 ...snapshot.data.docs.where(
+                 ...snapshot.data!.docs.where(
                   (QueryDocumentSnapshot element)=> element['c1title']
                 .toString()
                 .toLowerCase()
@@ -94,7 +94,7 @@ class HymnSearchDelegate extends SearchDelegate {
                   
                 }),
                 
-              ...snapshot.data.docs.where(
+              ...snapshot.data!.docs.where(
                   (QueryDocumentSnapshot element)=> element['c0_id']
                 .toString()
                 .toLowerCase()

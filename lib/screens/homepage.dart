@@ -13,7 +13,7 @@ import 'package:pcn_erp/util/first_half.dart';
 import 'package:pcn_erp/util/second_half.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key key}) : super(key: key);
+  const HomePage({required Key key}) : super(key: key);
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -81,17 +81,17 @@ class _HomePageState extends State<HomePage> {
                 width: MediaQuery.of(context).size.width,
                 child: ListView(
                   children: [
-                    FirstHalf(),
+                    FirstHalf(key: Key('firstHalfKey'),),
                     SizedBox(height: 20),
                     //Second Half of Column
-                    SecondHalf(),
+                    SecondHalf(key: Key('secondHalfKey'),),
                   ],
                 ),
               )
             ],
           ),
         ),
-        HymnPage(),
+        HymnPage(key: Key('hymnPage'),),
         Mychurch()
       ]),
       bottomNavigationBar: BottomNavigationBar(

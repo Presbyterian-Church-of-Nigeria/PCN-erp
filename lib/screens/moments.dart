@@ -34,10 +34,10 @@ class _Moments extends State<Moments> {
               if (!snapshot.hasData) {
                 return Center(child: CircularProgressIndicator());
               } else {
-                var messages = snapshot.data.docs;
+                var messages = snapshot.data?.docs;
                 return ListView.separated(
                   padding: EdgeInsets.symmetric(horizontal: 9.0, vertical: 9.0),
-                  itemCount: messages.length,
+                  itemCount: messages!.length,
                   separatorBuilder: (context, index) => Divider(),
                   itemBuilder: (context, index) {
                     DocumentSnapshot rch = messages[index];
@@ -52,15 +52,17 @@ class _Moments extends State<Moments> {
                               backgroundColor: Colors.white,
 
                           child: Text(
-                            rch?.data()['year'],
+                            (rch?.data() as Map<String, dynamic>)?['year']?.toString() ?? '',  // Cast to Map and handle null
                             textAlign: TextAlign.center,
                             style: TextStyle(color: Colors.black),
-                           ),
-                          
+                          ),
+
+
+
                           maxRadius: 32,
                         ),
                         title: Text(
-                          rch?.data()['month'],
+                            (rch?.data() as Map<String, dynamic>)?['month']?.toString() ?? '',
                           style: TextStyle(fontSize: 17.5,color: Colors.white),
                         ),
                         children: [
@@ -74,7 +76,7 @@ class _Moments extends State<Moments> {
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 16.0, vertical: 10.0),
                                 child: Text(
-                                  rch?.data()['event'],
+                                    (rch?.data() as Map<String, dynamic>)?['event']?.toString() ?? '',
                                   style: TextStyle(fontSize: 18),
                                 ),
                               )),

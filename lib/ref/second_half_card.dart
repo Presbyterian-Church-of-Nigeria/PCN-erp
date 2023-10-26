@@ -8,8 +8,8 @@ class SecondCard extends StatelessWidget {
   final urlPage;
 
   SecondCard({
-    this.buttonImage,
-     this.buttonTitle,
+    required this.buttonImage,
+     required this.buttonTitle,
     this.urlPage,
     //Icon child,
   });

@@ -9,9 +9,9 @@ class MyEventCard extends StatelessWidget {
   final String imageDetails;
 
   MyEventCard({
-     this.eventDetails,
-     this.briefDetails,
-     this.imageDetails,
+     required this.eventDetails,
+     required this.briefDetails,
+     required this.imageDetails,
   });
 
   @override
