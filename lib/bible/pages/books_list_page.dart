@@ -17,7 +17,7 @@ class BooksListPage extends StatefulWidget {
 }
 
 class _BooksListPageState extends State<BooksListPage> {
-  String title;
+  late String title;
   BooksBloc _bloc = BooksBloc();
 
   @override
@@ -59,7 +59,7 @@ class _BooksListPageState extends State<BooksListPage> {
           if (!snapshot.hasData)
             return Center(child: CircularProgressIndicator());
 
-          List<Book> books = snapshot.data;
+          List<Book>? books = snapshot.data as List<Book>?;
 
           return Scrollbar(
             child: ListView.builder(

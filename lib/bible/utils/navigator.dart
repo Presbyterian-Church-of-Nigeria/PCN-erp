@@ -24,10 +24,10 @@ void goBooks(BuildContext context) {
 goChapter(context, verse) async {
   BooksBloc bloc = BooksBloc();
   try {
-    List<Book> books = await bloc.book(verse.bookID);
+    List<Book>? books = await bloc.book(verse.bookID);
     push(
       context,
-      ChapterPage(verse.chapter, 0, books, verse.verseTxt),
+      ChapterPage(verse.chapter, 0, books!, verse.verseTxt),
     );
   } catch (e) {
     return centerText("Error displaying chapter.");

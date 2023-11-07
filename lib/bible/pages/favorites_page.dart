@@ -21,7 +21,7 @@ class FavoritesPage extends StatefulWidget {
 class _FavoritesPageState extends State<FavoritesPage> {
   BooksBloc _booksBloc = BooksBloc();
   FavoritesBloc _favBloc = FavoritesBloc();
-  bool _isRemovable;
+  late bool _isRemovable;
 
   get type => widget.favoriteType;
 
@@ -29,7 +29,7 @@ class _FavoritesPageState extends State<FavoritesPage> {
   void initState() {
     super.initState();
     _isRemovable = (type == FavoriteType.MINE);
-    _favBloc.favorites(type.index);
+    _favBloc.favorites(type.index, order: '');
   }
 
   @override
@@ -105,7 +105,7 @@ class _FavoritesPageState extends State<FavoritesPage> {
   }
 
   _onRefreshIndicator() {
-    return _favBloc.favorites(type.index);
+    return _favBloc.favorites(type.index, order: '');
   }
 
   @override

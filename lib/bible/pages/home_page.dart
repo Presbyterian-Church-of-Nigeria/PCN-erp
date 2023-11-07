@@ -54,8 +54,8 @@ class BiblePage extends StatelessWidget {
           if(!snapshot.hasData)
           return Center(child: CircularProgressIndicator());
 
-          Verse verse = snapshot.data;
-          bannerMsg = dotAtEnd(verse.verseTxt);
+          Verse? verse = snapshot.data as Verse?;
+          bannerMsg = dotAtEnd(verse!.verseTxt);
 
           return InkWell(
             child: Container(

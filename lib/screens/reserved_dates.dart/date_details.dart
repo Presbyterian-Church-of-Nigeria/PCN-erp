@@ -40,7 +40,7 @@ class DateDetail extends StatelessWidget {
                     Container(
                       padding: EdgeInsets.only(top: 3.0, bottom: 1.0),
                       child: Text(
-                        this?.date ?? "",
+                        this.date ?? "",
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             color: Colors.black,
@@ -54,7 +54,7 @@ class DateDetail extends StatelessWidget {
                     Container(
                       padding: EdgeInsets.only(top: 3, bottom: 1),
                       child: Text(
-                        this?.activity ?? '',
+                        this.activity ?? '',
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             color: Colors.red,
@@ -69,7 +69,7 @@ class DateDetail extends StatelessWidget {
                     Container(
                       padding: EdgeInsets.only(top: 3, bottom: 1),
                       child: Text(
-                        this?.date1 ?? "",
+                        this.date1 ?? "",
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             color: Colors.black,
@@ -82,7 +82,7 @@ class DateDetail extends StatelessWidget {
                     Container(
                       padding: EdgeInsets.only(top: 3, bottom: 1),
                       child: Text(
-                        this?.activity1 ?? "",
+                        this.activity1 ?? "",
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             color: Colors.red,
@@ -97,7 +97,7 @@ class DateDetail extends StatelessWidget {
                     Container(
                       padding: EdgeInsets.only(top: 3, bottom: 1),
                       child: Text(
-                        this?.date2 ?? "",
+                        this.date2 ?? "",
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             color: Colors.black,
@@ -110,7 +110,7 @@ class DateDetail extends StatelessWidget {
                     Container(
                       padding: EdgeInsets.only(top: 3, bottom: 1),
                       child: Text(
-                        this?.activity2 ?? "",
+                        this.activity2 ?? "",
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             color: Colors.red,
@@ -125,7 +125,7 @@ class DateDetail extends StatelessWidget {
                     Container(
                       padding: EdgeInsets.only(top: 3, bottom: 1),
                       child: Text(
-                        this?.date3 ?? "",
+                        this.date3 ?? "",
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             color: Colors.black,
@@ -138,7 +138,7 @@ class DateDetail extends StatelessWidget {
                     Container(
                       padding: EdgeInsets.only(top: 3, bottom: 1),
                       child: Text(
-                        this?.activity3 ?? "",
+                        this.activity3 ?? "",
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             color: Colors.red,

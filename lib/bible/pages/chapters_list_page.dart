@@ -19,8 +19,8 @@ class ChaptersListPage extends StatefulWidget {
 }
 
 class _ChaptersListPageState extends State<ChaptersListPage> {
-  Book book;
-  List<int> chaptersList;
+  late Book book;
+ late  List<int> chaptersList;
 
   @override
   void initState() {
@@ -43,7 +43,7 @@ class _ChaptersListPageState extends State<ChaptersListPage> {
               color: background,
             ),
             onPressed: () {
-              push(context, SearchPage());
+              push(context, SearchPage(Testament.ALL));
             },
           ),
           IconButton(
@@ -83,7 +83,7 @@ class _ChaptersListPageState extends State<ChaptersListPage> {
   }
 
   _itemView(context, index) {
-    int chapter = (book == null) ? 0 : book.chaptersList[index];
+    int chapter = book.chaptersList[index];
 
     return InkWell(
       child: Container(

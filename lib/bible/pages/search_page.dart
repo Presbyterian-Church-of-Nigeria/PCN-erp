@@ -16,7 +16,9 @@ import 'package:pcn_erp/bible/utils/widgets.dart';
 class SearchPage extends StatefulWidget {
   final Testament testament;
 
-  SearchPage([this.testament]);
+  //SearchPage([ this.testament]);
+  SearchPage(this.testament);
+
 
   @override
   _SearchPageState createState() => new _SearchPageState();
@@ -105,7 +107,7 @@ class _SearchPageState extends State<SearchPage> {
   }
 
   _showVerses() {
-    List<Verse> verses;
+    List<Verse>? verses;
     return StreamBuilder(
         stream: _bloc.stream,
         builder: (context, snapshot) {
@@ -114,7 +116,7 @@ class _SearchPageState extends State<SearchPage> {
           if (!snapshot.hasData && _isSearching)
             return Center(child: CircularProgressIndicator());
 
-          verses = snapshot.data;
+          verses = snapshot.data as List<Verse>?;
 
           if (verses == null)
             return centerText(
@@ -122,7 +124,7 @@ class _SearchPageState extends State<SearchPage> {
               color: Colors.black,
             );
 
-          if (verses.length == 0) return centerText("Word not found!");
+          if (verses?.length == 0) return centerText("Word not found!");
 
           return _listView(verses);
         });
@@ -165,10 +167,10 @@ class _SearchPageState extends State<SearchPage> {
 
   _showChapter(Verse verse) async {
     try {
-      List<Book> books = await _booksBloc.book(verse.bookID);
+      List<Book>? books = await _booksBloc.book(verse.bookID);
       push(
         context,
-        ChapterPage(verse.chapter, 0, books, verse.verseTxt),
+        ChapterPage(verse.chapter, 0, books!, verse.verseTxt),
       );
     } catch (e) {
       return centerText("Error displaying chapter.");

@@ -26,7 +26,7 @@ MomentDetail(this.year, this.month, this.event);
                     Container(
                       padding: EdgeInsets.only(top:  10.0,bottom:  1.0),
                       child: Text(
-                        this?.month??"",
+                        this.month??"",
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold, wordSpacing: 3.0),
@@ -35,7 +35,7 @@ MomentDetail(this.year, this.month, this.event);
                     Container(
                       padding: EdgeInsets.only(top:  3,bottom:  1),
 
-                      child: Text(this?.event??'',
+                      child: Text(this.event??'',
                         textAlign: TextAlign.center,
 
                         style: new TextStyle(

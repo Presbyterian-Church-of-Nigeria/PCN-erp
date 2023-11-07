@@ -4,6 +4,8 @@ import 'package:pcn_erp/bible/models/dao/favorites_dao.dart';
 import 'package:pcn_erp/bible/models/favorite.dart';
 import 'package:pcn_erp/bible/utils/constants.dart';
 
+
+
 class BooksDao extends BaseDAO<Book> {
   @override
   String get tableName => "BooksList";

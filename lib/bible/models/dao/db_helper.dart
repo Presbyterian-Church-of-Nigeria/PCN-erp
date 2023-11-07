@@ -14,13 +14,11 @@ class DatabaseHelper {
 
   factory DatabaseHelper() => _instance;
 
-  static Database _db;
+  static late Database _db;
 
   Future<Database> get db async {
-    if (_db != null) {
-      return _db;
-    }
-    _db = await _initDb();
+    return _db;
+      _db = await _initDb();
 
     return _db;
   }

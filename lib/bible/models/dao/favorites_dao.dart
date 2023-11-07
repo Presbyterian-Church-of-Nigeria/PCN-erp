@@ -2,12 +2,13 @@ import 'package:pcn_erp/bible/models/favorite.dart';
 import 'package:pcn_erp/bible/models/verse.dart';
 import 'base_dao.dart';
 
+
+
+
 class FavoriteDao extends BaseDAO<Favorite> {
   @override
   String get tableName => "Favorites";
-
   String get bibleTable => "Bible";
-
   String get booksTable => "BooksList";
 
   @override
@@ -15,31 +16,32 @@ class FavoriteDao extends BaseDAO<Favorite> {
     return Favorite.fromMap(map);
   }
 
-  void include(Favorite favorite) async {
+  Future<void> include(Favorite favorite) async {
     try {
       await save(favorite);
-    } catch (_) {}
+    } catch (error) {
+      // Handle the error, e.g., log it or throw an exception
+      print("Error when including favorite: $error");
+    }
   }
 
-  void remove(Favorite favorite) async {
+  Future<void> remove(Favorite favorite) async {
     Verse verse = favorite.verse;
-    String sql = "delete from $tableName where "
-        "Type=? and Book=? and Chapter=? and Verse=?";
-    await query(
-        sql, [favorite.type, verse.bookID, verse.chapter, verse.verseID]);
+    String sql = "DELETE FROM $tableName WHERE "
+        "Type=? AND Book=? AND Chapter=? AND Verse=?";
+    await query(sql, [favorite.type, verse.bookID, verse.chapter, verse.verseID]);
   }
 
-  Future<Favorite> findOne(Favorite favorite) async {
+  Future<Favorite?> findOne(Favorite favorite) async {
     Verse verse = favorite.verse;
-    String sql = "select * from $tableName where "
-        "Type=? and Book=? and Chapter=? and Verse=?";
-    List<Favorite> list = await query(
-        sql, [favorite.type, verse.bookID, verse.chapter, verse.verseID]);
+    String sql = "SELECT * FROM $tableName WHERE "
+        "Type=? AND Book=? AND Chapter=? AND Verse=?";
+    List<Favorite> list = await query(sql, [favorite.type, verse.bookID, verse.chapter, verse.verseID]);
 
-    return list.length > 0 ? list.first : null;
+    return list.isNotEmpty ? list.first : null;
   }
 
-  Future<List<Favorite>> favorites(int type, order) async {
+  Future<List<Favorite>> favorites(int type, String order) async {
     String sql = "SELECT * FROM $booksTable as L "
         "INNER JOIN $tableName as F ON (F.Book = L.Book) "
         "INNER JOIN $bibleTable as B "
@@ -50,5 +52,4 @@ class FavoriteDao extends BaseDAO<Favorite> {
         "ORDER BY $order";
     return await query(sql, [type]);
   }
-
 }

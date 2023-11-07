@@ -12,12 +12,12 @@ import 'package:pcn_erp/bible/utils/widgets.dart';
 
 // ignore: must_be_immutable
 class ChapterPage extends StatefulWidget {
-  List<Book> books;
-  String verseText;
-  Book book;
-  int bookID;
-  int chapter;
-  int idxBook;
+  late List<Book> books;
+ late String verseText;
+  late Book book;
+ late int bookID;
+ late  int chapter;
+  late int idxBook;
 
   ChapterPage(this.chapter, this.idxBook, this.books, [this.verseText = ""]);
 
@@ -26,14 +26,14 @@ class ChapterPage extends StatefulWidget {
 }
 
 class _ChapterPageState extends State<ChapterPage> {
-  ScrollController controller;
+ late ScrollController controller;
   DateTime initRead = DateTime.now();
   DateTime endRead = DateTime.now();
   int qtdVerses = 0;
 
   VerseBloc _bloc = VerseBloc();
   FavoritesBloc _favBloc = FavoritesBloc();
-  Book book;
+  late Book book;
 
   _ChapterPageState();
 
@@ -162,10 +162,10 @@ class _ChapterPageState extends State<ChapterPage> {
   }
 
   _saveHistory(FavoritesBloc bloc) async {
-    Favorite hist = await bloc.history();
-    hist.verse.bookID = book.bookID;
-    hist.verse.chapter = widget.chapter;
-    bloc.include(hist);
+    Favorite? hist = await bloc.history();
+    hist?.verse.bookID = book.bookID;
+    hist?.verse.chapter = widget.chapter;
+    bloc.include(hist!);
   }
 
   @override

@@ -1,45 +1,54 @@
 import 'dart:convert';
-
 import 'package:pcn_erp/bible/models/verse.dart';
 import 'package:pcn_erp/bible/utils/constants.dart';
 
-Favorite favoritesFromJson(String str) => Favorite.fromMap(json.decode(str));
+import 'entity.dart';
 
-String favoritesToJson(Favorite data) => json.encode(data.toMap());
 
-class Favorite extends Verse {
+  Favorite favoritesFromJson(String str) => Favorite.fromMap(json.decode(str));
+
+  String favoritesToJson(Favorite data) => json.encode(data.toMap());
+
+
+
+class Favorite implements Entity {
+
+
+ // class Favorite {
   int type;
   Verse verse;
 
-  Favorite.of(Verse verse) {
-    this.type = FavoriteType.MINE.index;
-    this.verse = verse;
+  Favorite.of(Verse verse)
+      : type = FavoriteType.MINE.index,
+  verse = verse;
+
+  Favorite.marked({required int bookID, required int chapter})
+      : type = FavoriteType.MARKED.index,
+  verse = Verse(bookID: bookID, chapter: chapter, verseID: 1, testament: 1, verseTxt: '', bookName: '');
+
+  Favorite({
+  required this.type,
+  required this.verse,
+  });
+
+  factory Favorite.fromMap(Map<String, dynamic> json) {
+  return Favorite(
+  type: json["Type"],
+  verse: Verse.fromMap(json),
+  );
   }
 
-  Favorite.marked({bookID, chapter}) {
-    Verse verse = Verse(bookID: bookID, chapter: chapter);
-    verse.verseID = 1;
-    this.type = FavoriteType.MARKED.index;
-    this.verse = verse;
+  Map<String, dynamic> toMap() {
+  return {
+  "Type": type,
+  "Book": verse.bookID,
+  "Chapter": verse.chapter,
+  "Verse": verse.verseID,
+  };
   }
-
-  Favorite({this.type, this.verse});
-
-  factory Favorite.fromMap(Map<String, dynamic> json) => Favorite(
-        type: json["Type"],
-        verse: Verse.fromMap(json),
-      );
-
-  @override
-  Map<String, dynamic> toMap() => {
-        "Type": type,
-        "Book": verse.bookID,
-        "Chapter": verse.chapter,
-        "Verse": verse.verseID
-      };
 
   @override
   String toString() {
-    return 'Favorite{type: $type, ${verse.toString()}}';
+  return 'Favorite{type: $type, ${verse.toString()}}';
   }
-}
+  }

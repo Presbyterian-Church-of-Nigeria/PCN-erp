@@ -55,7 +55,7 @@ class _Almanc extends State<Almanc> {
                       child: ListTile(
                         leading: CircleAvatar(
                           backgroundColor: Colors.white,
-                          child: Text("Week" + (rch?.data() as Map<String, dynamic>)?['week'] ?? '',
+                          child: Text("Week" + (rch.data() as Map<String, dynamic>)['week'] ?? '',
                             style: TextStyle(color: Colors.black),),
                           maxRadius: 42,
                         ),
@@ -73,15 +73,15 @@ class _Almanc extends State<Almanc> {
                             context,
                             MaterialPageRoute(
                               builder: (BuildContext context) => DateDetail(
-                                  (rch.data() as Map<String, dynamic>)?['date']?.toString() ?? '',
-                                  (rch.data() as Map<String, dynamic>)?['activity']?.toString() ?? '',
-                                  (rch.data() as Map<String, dynamic>)?['date1']?.toString()?? '',
-                                  (rch.data() as Map<String, dynamic>)?['activity1']?.toString()?? '',
-                                  (rch.data() as Map<String, dynamic>)?['date2']?.toString()?? '',
-                                  (rch.data() as Map<String, dynamic>)?['activity2']?.toString() ?? '',
-                                  (rch.data() as Map<String, dynamic>)?['date3']?.toString() ?? '',
-                                  (rch.data() as Map<String, dynamic>)?['activity3']?.toString() ?? '',
-                                  (rch.data() as Map<String, dynamic>)?['week']?.toString()?? ''),
+                                  (rch.data() as Map<String, dynamic>)['date']?.toString() ?? '',
+                                  (rch.data() as Map<String, dynamic>)['activity']?.toString() ?? '',
+                                  (rch.data() as Map<String, dynamic>)['date1']?.toString()?? '',
+                                  (rch.data() as Map<String, dynamic>)['activity1']?.toString()?? '',
+                                  (rch.data() as Map<String, dynamic>)['date2']?.toString()?? '',
+                                  (rch.data() as Map<String, dynamic>)['activity2']?.toString() ?? '',
+                                  (rch.data() as Map<String, dynamic>)['date3']?.toString() ?? '',
+                                  (rch.data() as Map<String, dynamic>)['activity3']?.toString() ?? '',
+                                  (rch.data() as Map<String, dynamic>)['week']?.toString()?? ''),
                             ),
                           );
                         },

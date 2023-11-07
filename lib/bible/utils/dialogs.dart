@@ -122,6 +122,9 @@ bottomSheetCopyFavorite(context, Verse verse) {
   );
 }
 
+
+
+
 _shareButton(context, Verse verse) {
   return Builder(builder: (BuildContext context) {
     return IconButton(
@@ -134,10 +137,12 @@ _shareButton(context, Verse verse) {
       onPressed: () {
         Navigator.pop(context);
         final text = "${cleanVerse(verse.verseTxt)} \n${verse.reference()}";
-        final RenderObject? box = context.findRenderObject();
+        //final RenderObject? box = context.findRenderObject();
+        final RenderBox? box = context.findRenderObject() as RenderBox?;
+
         Share.share(
           text,
-          sharePositionOrigin: box?.localToGlobal(Offset.zero) & box.size,
+          sharePositionOrigin: box!.localToGlobal(Offset.zero) & box.size,
         );
       },
     );

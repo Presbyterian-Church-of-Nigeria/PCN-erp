@@ -52,7 +52,7 @@ class _Moments extends State<Moments> {
                               backgroundColor: Colors.white,
 
                           child: Text(
-                            (rch?.data() as Map<String, dynamic>)?['year']?.toString() ?? '',  // Cast to Map and handle null
+                            (rch.data() as Map<String, dynamic>)['year']?.toString() ?? '',  // Cast to Map and handle null
                             textAlign: TextAlign.center,
                             style: TextStyle(color: Colors.black),
                           ),
@@ -62,7 +62,7 @@ class _Moments extends State<Moments> {
                           maxRadius: 32,
                         ),
                         title: Text(
-                            (rch?.data() as Map<String, dynamic>)?['month']?.toString() ?? '',
+                            (rch.data() as Map<String, dynamic>)['month']?.toString() ?? '',
                           style: TextStyle(fontSize: 17.5,color: Colors.white),
                         ),
                         children: [
@@ -76,7 +76,7 @@ class _Moments extends State<Moments> {
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 16.0, vertical: 10.0),
                                 child: Text(
-                                    (rch?.data() as Map<String, dynamic>)?['event']?.toString() ?? '',
+                                    (rch.data() as Map<String, dynamic>)['event']?.toString() ?? '',
                                   style: TextStyle(fontSize: 18),
                                 ),
                               )),

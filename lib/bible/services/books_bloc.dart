@@ -8,7 +8,7 @@ class BooksBloc  extends BaseBloc<List<Book>>{
 
   BooksDao _dao = BooksDao();
 
-  Future<List<Book>> book(int bookID) async {
+  Future<List<Book>?> book(int bookID) async {
     try {
       List<Book> books = await _dao.bookById(bookID);
       add(books);
@@ -19,7 +19,7 @@ class BooksBloc  extends BaseBloc<List<Book>>{
     }
   }
 
-  Future<List<Book>> booksList(Testament testament) async {
+  Future<List<Book>?> booksList(Testament testament) async {
     try {
       List<Book> books = await _dao.booksList(testament);
       add(books);

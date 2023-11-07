@@ -8,7 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingScreen extends StatefulWidget {
-  const OnboardingScreen({Key key}) : super(key: key);
+  const OnboardingScreen({required Key key}) : super(key: key);
 
   @override
   State<OnboardingScreen> createState() => _OnboardingScreenState();
@@ -63,10 +63,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       bottomSheet: isLastPage
           ? TextButton(
               style: TextButton.styleFrom(
-                shape: RoundedRectangleBorder(
+                foregroundColor: Colors.white, shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5),
                 ),
-                primary: Colors.white,
                 backgroundColor: Colors.deepPurple,
                 minimumSize: Size.fromHeight(80),
               ),
@@ -76,7 +75,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 prefs.setBool('showHome', true);
 
                 Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => HomePage()),
+                  MaterialPageRoute(builder: (context) => HomePage(key: Key(''),)),
                 );
               },
               child: Text(

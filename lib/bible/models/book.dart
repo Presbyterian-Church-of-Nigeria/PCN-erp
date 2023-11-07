@@ -15,11 +15,11 @@ class Book extends Entity {
   List<int> markedList =[];
 
   Book({
-    this.testament,
-     this.bookID,
-    this.bookName,
-     this.chapters,
-     this.seq,
+    required this.testament,
+     required this.bookID,
+    required this.bookName,
+     required this.chapters,
+     required this.seq,
   });
 
   get chaptersList => _chaptersList();

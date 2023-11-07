@@ -16,12 +16,12 @@ class Verse extends Entity {
   String verseTxt;
 
   Verse({
-     this.testament,
-     this.bookID,
-     this.chapter,
-    this.verseID,
-    this.verseTxt,
-     this.bookName,
+     required this.testament,
+     required this.bookID,
+     required this.chapter,
+    required this.verseID,
+    required this.verseTxt,
+     required this.bookName,
   });
 
   factory Verse.fromMap(Map<String, dynamic> json) => Verse(

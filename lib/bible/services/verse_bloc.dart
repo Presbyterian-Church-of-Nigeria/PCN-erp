@@ -5,7 +5,7 @@ import 'package:pcn_erp/bible/services/base_bloc.dart';
 class VerseBloc extends BaseBloc<List<Verse>> {
   VerseDao _dao = VerseDao();
 
-  Future<List<Verse>> bookVerses(bookID, chapter) async {
+  Future<List<Verse>?> bookVerses(bookID, chapter) async {
     try {
       List<Verse> verses = await _dao.chapterVerses(bookID, chapter);
       add(verses);
@@ -16,12 +16,12 @@ class VerseBloc extends BaseBloc<List<Verse>> {
     }
   }
 
-  Future<List<Verse>> versesByWord(String searchText) async {
+  Future<List<Verse>?> versesByWord(String searchText) async {
     if (searchText.trim().isEmpty) return null;
 
     try {
-      List<Verse> verses = await _dao.versesByWords(searchText);
-      add(verses);
+      List<Verse>? verses = await _dao.versesByWords(searchText);
+      add(verses!);
       return verses;
     } catch (e) {
       addError(e);
