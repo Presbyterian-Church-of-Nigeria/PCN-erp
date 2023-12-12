@@ -1,5 +1,6 @@
 buildscript {
-    ext.kotlin_version = '1.4.32'
+    ext.kotlin_version = '1.9.10'
+
     repositories {
         // ...
         maven { url 'https://plugins.gradle.org/m2/' } // Gradle Plugin Portal
@@ -7,11 +8,11 @@ buildscript {
     dependencies {
         // ...
         // OneSignal-Gradle-Plugin
-        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.6, 0.99.99]'
+        //classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.6, 0.99.99]'
+       // classpath 'com.onesignal:OneSignal:[5.0.0, 5.99.99]'
     }
 }
 
-apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
 
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
@@ -48,6 +49,9 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 33
+    buildToolsVersion "33.0.1"
+
+
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -56,9 +60,13 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
-
+    buildFeatures {
+        compose = true
+        buildConfig = true
+    }
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        namespace "com.pcn_erp.main"
+
         applicationId "com.pcn_erp.main"
         minSdkVersion 21
         targetSdkVersion 33
@@ -96,5 +104,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.google.firebase:firebase-analytics:17.5.0'
     implementation 'com.android.support:multidex:1.0.3'
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+    implementation 'com.onesignal:OneSignal:[5.0.0, 5.99.99]'
     
 }

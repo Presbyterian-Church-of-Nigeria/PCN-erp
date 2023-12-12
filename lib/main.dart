@@ -22,7 +22,7 @@ void main() async {
 
   OneSignal.Debug.setLogLevel(OSLogLevel.verbose);
 
-  OneSignal.initialize("0091186d-fa82-4d43-a91d-229c8d27f8f3",);
+  OneSignal.initialize("0091186d-fa82-4d43-a91d-229c8d27f8f3");
   OneSignal.Notifications.requestPermission(true);
 
   runApp( MyApp( key: GlobalKey(), showHome: showHome));
